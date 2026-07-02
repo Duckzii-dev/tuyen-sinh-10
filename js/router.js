@@ -8,7 +8,21 @@ import { updateBreadcrumb, updateActiveNavItem, getSkeletonHtml, showToast } fro
 
 const pageInitializers = {};
 const templateCache = new Map();
+const BASE_PATH =
+    window.location.hostname.endsWith('github.io')
+        ? '/tuyen-sinh-10'
+        : '';
+function stripBasePath(path) {
+    if (BASE_PATH && path.startsWith(BASE_PATH)) {
+        path = path.slice(BASE_PATH.length);
+    }
 
+    return path || '/';
+}
+
+function withBasePath(path) {
+    return `${BASE_PATH}${path === '/' ? '/' : path}`;
+}
 const ROUTE_MAP = {
     '/': 'dashboard',
     '/students': 'students',
@@ -27,12 +41,18 @@ export function navigate(path) {
         handleRoute();
         return;
     }
-    window.history.pushState({ path: normalized }, '', normalized);
+    window.history.pushState(
+    { path: normalized },
+    '',
+    withBasePath(normalized)
+);
     handleRoute();
 }
 
 export function getCurrentPath() {
-    return normalizePath(window.location.pathname);
+    return normalizePath(
+        stripBasePath(window.location.pathname)
+    );
 }
 
 function normalizePath(path) {
@@ -50,7 +70,11 @@ function migrateLegacyHashRoute() {
     if (!hash || !hash.startsWith('#/')) return false;
 
     const legacyPath = hash.replace('#', '') || '/';
-    window.history.replaceState({ path: legacyPath }, '', legacyPath);
+   window.history.replaceState(
+    { path: legacyPath },
+    '',
+    withBasePath(legacyPath)
+);
     return true;
 }
 
@@ -110,10 +134,19 @@ async function loadTemplate(templatePath) {
     if (templateCache.has(templatePath)) {
         return templateCache.get(templatePath);
     }
-    const response = await fetch(templatePath);
-    if (!response.ok) throw new Error(`Failed to load template ${templatePath}`);
+
+    const response = await fetch(
+        `${BASE_PATH}${templatePath}`
+    );
+
+    if (!response.ok) {
+        throw new Error(`Failed to load template ${templatePath}`);
+    }
+
     const html = await response.text();
+
     templateCache.set(templatePath, html);
+
     return html;
 }
 
@@ -172,14 +205,22 @@ async function handleRoute() {
     const routeInfo = parseRoute(path);
 
     if (!routeInfo) {
-        window.history.replaceState({ path: '/' }, '', '/');
+        window.history.replaceState(
+            { path: '/' },
+            '',
+            withBasePath('/')
+        );
         await handleRoute();
         return;
     }
 
     // Canonicalize legacy /CODE URLs to /subjects/CODE
     if (routeInfo.route === 'subject-detail' && path !== routeInfo.path) {
-        window.history.replaceState({ path: routeInfo.path }, '', routeInfo.path);
+        window.history.replaceState(
+            { path: routeInfo.path },
+            '',
+            withBasePath(routeInfo.path)
+        );
     }
 
     setPageMeta(routeInfo);
