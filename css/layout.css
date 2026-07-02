@@ -411,7 +411,7 @@
 }
 
 .data-panel .section-title {
-    color: #f3f4f6;
+    color: var(--text-primary);
 }
 
 .data-panel .table {
