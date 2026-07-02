@@ -47,7 +47,7 @@ export async function fetchStudents() {
     }
 
     try {
-        const response = await fetch('/data/students.json');
+        const response = await fetch('data/students.json');
         if (!response.ok) {
             throw new Error(`Failed to fetch students data: ${response.statusText}`);
         }
