@@ -1,20 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<script src="/tuyen-sinh-10/js/loadcss.js"></script>
 <script>
-const segment = "/tuyen-sinh-10";
-
-const path =
-    location.pathname.replace(segment, "") +
-    location.search +
-    location.hash;
-
-sessionStorage.redirect = path;
-
-location.replace(segment + "/");
+  sessionStorage.redirect = location.href;
 </script>
-</head>
-<body></body>
-</html>
+<script>
+  location.replace("/tuyen-sinh-10/");
+</script>
