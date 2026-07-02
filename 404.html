@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<script>
+const segment = "/tuyen-sinh-10";
+
+const path =
+    location.pathname.replace(segment, "") +
+    location.search +
+    location.hash;
+
+sessionStorage.redirect = path;
+
+location.replace(segment + "/");
+</script>
+</head>
+<body></body>
+</html>
