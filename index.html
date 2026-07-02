@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Hệ thống thống kê tuyển sinh lớp 10 chuyên — tra cứu thí sinh, biểu đồ phân tích và tỷ lệ chọi.">
+    <meta name="description"
+        content="Hệ thống thống kê tuyển sinh lớp 10 chuyên — tra cứu thí sinh, biểu đồ phân tích và tỷ lệ chọi.">
     <title>Hệ thống Thống kê Tuyển sinh Chuyên</title>
 
     <!-- Google Font - Inter -->
@@ -22,7 +23,7 @@
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.5/css/dataTables.bootstrap5.min.css">
 
     <!-- Custom Style Modules -->
-  <link rel="stylesheet" href="/tuyen-sinh-10/css/variables.css">
+    <link rel="stylesheet" href="/tuyen-sinh-10/css/variables.css">
     <link rel="stylesheet" href="/tuyen-sinh-10/css/layout.css">
     <link rel="stylesheet" href="/tuyen-sinh-10/css/components.css">
     <link rel="stylesheet" href="/tuyen-sinh-10/css/charts.css">
@@ -37,37 +38,37 @@
         <aside class="sidebar" id="sidebar">
             <div class="sidebar-header">
                 <div class="sidebar-logo">💡</div>
-                <div class="sidebar-title">Exam Analytics</div>
-            </div>
+                <div class="sidebar-title">Tuyen Sinh 10<div>
+                    </div>
 
-            <nav class="sidebar-nav">
-                <a href="/" class="nav-item active">
-                    <i class="fas fa-chart-line"></i>
-                    <span>Tổng quan</span>
-                </a>
-                <a href="/students" class="nav-item">
-                    <i class="fas fa-users"></i>
-                    <span>Danh sách thí sinh</span>
-                </a>
-                <a href="/charts" class="nav-item">
-                    <i class="fas fa-chart-bar"></i>
-                    <span>Biểu đồ phân tích</span>
-                </a>
-                <a href="/competition" class="nav-item">
-                    <i class="fas fa-balance-scale"></i>
-                    <span>Tỷ lệ chọi</span>
-                </a>
-                <a href="/subjects" class="nav-item">
-                    <i class="fas fa-book"></i>
-                    <span>Danh sách môn</span>
-                </a>
-            </nav>
+                    <nav class="sidebar-nav">
+                        <a href="/" class="nav-item active">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Tổng quan</span>
+                        </a>
+                        <a href="/students" class="nav-item">
+                            <i class="fas fa-users"></i>
+                            <span>Danh sách thí sinh</span>
+                        </a>
+                        <a href="/charts" class="nav-item">
+                            <i class="fas fa-chart-bar"></i>
+                            <span>Biểu đồ phân tích</span>
+                        </a>
+                        <a href="/competition" class="nav-item">
+                            <i class="fas fa-balance-scale"></i>
+                            <span>Tỷ lệ chọi</span>
+                        </a>
+                        <a href="/subjects" class="nav-item">
+                            <i class="fas fa-book"></i>
+                            <span>Danh sách môn</span>
+                        </a>
+                    </nav>
 
-            <div class="sidebar-toggle">
-                <button class="sidebar-toggle-btn" id="sidebar-toggle-btn" title="Thu gọn sidebar">
-                    <i class="fas fa-angle-left"></i>
-                </button>
-            </div>
+                    <div class="sidebar-toggle">
+                        <button class="sidebar-toggle-btn" id="sidebar-toggle-btn" title="Thu gọn sidebar">
+                            <i class="fas fa-angle-left"></i>
+                        </button>
+                    </div>
         </aside>
 
         <!-- Main App Area -->
@@ -108,6 +109,34 @@
             <div class="content" id="content">
                 <!-- Skeletons loaded dynamically by JavaScript -->
             </div>
+            <footer style="
+                margin-top:auto;
+                padding:18px 24px;
+                display:flex;
+                justify-content:space-between;
+                align-items:center;
+                flex-wrap:wrap;
+                gap:12px;
+                border-top:1px solid rgba(255,255,255,.08);
+                background:var(--surface-color,#111827);
+                color:var(--text-secondary,#9ca3af);
+                font-size:.9rem;
+            ">
+                <div>
+                    © 2026 <strong style="color:var(--text-primary,#fff);">Duckzii-dev</strong>. All rights reserved.
+                </div>
+
+                <div style="
+                    display:flex;
+                    align-items:center;
+                    gap:10px;
+                    flex-wrap:wrap;
+                ">
+                    <span><i class="fas fa-code"></i> Designed &amp; Developed by Duckzii-dev</span>
+                    <span style="opacity:.5;">•</span>
+                    <span><i class="fas fa-chart-line"></i> Exam Analytics v1.0.0</span>
+                </div>
+            </footer>
         </main>
     </div>
 
@@ -123,16 +152,16 @@
     <!-- DataTables Core & Bootstrap 5 integration -->
     <script src="https://cdn.datatables.net/1.13.5/js/jquery.dataTables.min.js" defer></script>
     <script src="https://cdn.datatables.net/1.13.5/js/dataTables.bootstrap5.min.js" defer></script>
-<script>
-(() => {
-    const redirect = sessionStorage.getItem("redirect");
+    <script>
+        (() => {
+            const redirect = sessionStorage.getItem("redirect");
 
-    if (redirect) {
-        sessionStorage.removeItem("redirect");
-        history.replaceState(null, "", redirect);
-    }
-})();
-</script>
+            if (redirect) {
+                sessionStorage.removeItem("redirect");
+                history.replaceState(null, "", redirect);
+            }
+        })();
+    </script>
     <!-- Main Application Script -->
     <script type="module" src="js/app.js"></script>
 </body>
