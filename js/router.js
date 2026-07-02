@@ -236,10 +236,10 @@ async function handleRoute() {
         }
 
         let templatePath = '';
-        if (route === 'dashboard') templatePath = '/dashboard.html';
-        else if (route === 'charts') templatePath = '/charts.html';
-        else if (route === 'competition') templatePath = '/competition.html';
-        else if (route === 'subject-detail' || route === 'subjects') templatePath = '/subject.html';
+        if (route === 'dashboard') templatePath = '/dashboardd.html';
+        else if (route === 'charts') templatePath = '/chartss.html';
+        else if (route === 'competition') templatePath = '/competitionn.html';
+        else if (route === 'subject-detail' || route === 'subjects') templatePath = '/subjectt.html';
 
         if (templatePath) {
             const html = await loadTemplate(templatePath);
