@@ -110,7 +110,14 @@
             </div>
         </main>
     </div>
-
+    <script>
+    const redirect = sessionStorage.redirect;
+    
+    if (redirect) {
+        sessionStorage.removeItem("redirect");
+        history.replaceState(null, "", "/tuyen-sinh-10" + redirect);
+    }
+    </script>
     <!-- ────── Third-Party Scripts ────── -->
     <!-- jQuery (Needed for DataTables) -->
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" defer></script>
