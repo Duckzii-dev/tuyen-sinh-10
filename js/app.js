@@ -737,6 +737,8 @@ function printStudentsData(data) {
 }
 
 // ── Student Admission Ranking Page Initializer ──
+let rankingFilterFn = null;
+
 function initRankingPage() {
     destroyAllCharts();
     const students = getStudents();
@@ -779,6 +781,10 @@ function initRankingPage() {
             );
         };
 
+        // Làm tròn 2 chữ số thập phân để tránh sai số dấu phẩy động của JS
+        // (vd: 34.5 có thể bị lưu/tính thành 34.499999999999996)
+        const roundScore = (n) => Math.round((n ?? 0) * 100) / 100;
+
         // ── Bước 1: Lấy danh sách thí sinh đủ điều kiện (không điểm liệt) ──
         const qualifiedList = subjectStudents.filter(s => !checkDisqualified(s));
 
@@ -787,7 +793,7 @@ function initRankingPage() {
         let cutoffScore = null;
         if (qualifiedList.length > 0) {
             const cutoffIndex = Math.min(quota, qualifiedList.length) - 1;
-            cutoffScore = qualifiedList[cutoffIndex].tong ?? 0;
+            cutoffScore = roundScore(qualifiedList[cutoffIndex].tong);
         }
 
         // ── Bước 3: Gán hạng và trạng thái. Đậu nếu tổng điểm >= điểm chuẩn ──
@@ -807,7 +813,7 @@ function initRankingPage() {
                 disqualifiedCount++;
             } else {
                 rankText = qualifiedRank++;
-                const tong = s.tong ?? 0;
+                const tong = roundScore(s.tong);
                 if (cutoffScore !== null && tong >= cutoffScore) {
                     status = 'Đậu';
                     passedCount++;
@@ -843,7 +849,14 @@ function initRankingPage() {
         if (cutoffSubEl) cutoffSubEl.textContent = cutoffScore !== null ? `Điểm xét tuyển người thứ ${Math.min(quota, qualifiedList.length)} đậu` : 'Chưa có điểm chuẩn';
 
         // Custom filter for DataTable
-        $.fn.dataTable.ext.search.push((settings, data, dataIndex) => {
+        // Gỡ bỏ filter của lần gọi trước (môn trước đó) để tránh chồng chất nhiều
+        // filter cùng lúc trên cùng bảng 'ranking-table', gây ẩn nhầm dữ liệu.
+        if (rankingFilterFn) {
+            const oldIdx = $.fn.dataTable.ext.search.indexOf(rankingFilterFn);
+            if (oldIdx !== -1) $.fn.dataTable.ext.search.splice(oldIdx, 1);
+        }
+
+        rankingFilterFn = (settings, data, dataIndex) => {
             if (settings.nTable.id !== 'ranking-table') return true;
             const item = activeList[dataIndex];
             if (!item) return false;
@@ -853,7 +866,9 @@ function initRankingPage() {
             if (selectedStatusFilter === 'liet' && item.status !== 'Điểm liệt') return false;
 
             return true;
-        });
+        };
+
+        $.fn.dataTable.ext.search.push(rankingFilterFn);
 
         // Initialize or reload DataTable
         const tableEl = $('#ranking-table');
