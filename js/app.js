@@ -780,10 +780,17 @@ function initRankingPage() {
         };
 
         // Assign ranks and status
+        // Xác định điểm chuẩn trước
+        const qualifiedStudents = subjectStudents.filter(s => !checkDisqualified(s));
+        const cutoffScore =
+            qualifiedStudents.length >= quota
+                ? qualifiedStudents[quota - 1].tong
+                : null;
+
+        // Assign ranks and status
         let qualifiedRank = 1;
         let passedCount = 0;
         let disqualifiedCount = 0;
-        let cutoffScore = null;
 
         const processed = subjectStudents.map(s => {
             const isLiq = checkDisqualified(s);
@@ -795,17 +802,17 @@ function initRankingPage() {
                 disqualifiedCount++;
             } else {
                 rankText = qualifiedRank++;
-                if (rankText <= quota) {
+
+                if (cutoffScore !== null && s.tong >= cutoffScore) {
                     status = 'Đậu';
                     passedCount++;
-                    cutoffScore = s.tong; // last passing score became the cutoff
                 }
             }
 
             return {
                 ...s,
                 rank: rankText,
-                status: status
+                status
             };
         });
 
