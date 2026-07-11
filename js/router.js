@@ -29,6 +29,7 @@ const ROUTE_MAP = {
     '/charts': 'charts',
     '/competition': 'competition',
     '/subjects': 'subjects',
+    '/ranking': 'ranking',
 };
 
 export function registerPageInitializer(page, initFn) {
@@ -42,10 +43,10 @@ export function navigate(path) {
         return;
     }
     window.history.pushState(
-    { path: normalized },
-    '',
-    withBasePath(normalized)
-);
+        { path: normalized },
+        '',
+        withBasePath(normalized)
+    );
     handleRoute();
 }
 
@@ -70,11 +71,11 @@ function migrateLegacyHashRoute() {
     if (!hash || !hash.startsWith('#/')) return false;
 
     const legacyPath = hash.replace('#', '') || '/';
-   window.history.replaceState(
-    { path: legacyPath },
-    '',
-    withBasePath(legacyPath)
-);
+    window.history.replaceState(
+        { path: legacyPath },
+        '',
+        withBasePath(legacyPath)
+    );
     return true;
 }
 
@@ -121,6 +122,9 @@ function setPageMeta(routeInfo) {
     } else if (route === 'subjects') {
         updateBreadcrumb([{ label: 'Danh sách môn', link: '/subjects' }]);
         updateActiveNavItem('/subjects');
+    } else if (route === 'ranking') {
+        updateBreadcrumb([{ label: 'Xếp hạng tuyển sinh', link: '/ranking' }]);
+        updateActiveNavItem('/ranking');
     } else if (route === 'subject-detail') {
         updateBreadcrumb([
             { label: 'Danh sách môn', link: '/subjects' },
@@ -239,6 +243,7 @@ async function handleRoute() {
         if (route === 'dashboard') templatePath = '/dashboardd.html';
         else if (route === 'charts') templatePath = '/chartss.html';
         else if (route === 'competition') templatePath = '/competitionn.html';
+        else if (route === 'ranking') templatePath = '/rankingg.html';
         else if (route === 'subject-detail' || route === 'subjects') templatePath = '/subjectt.html';
 
         if (templatePath) {
@@ -308,6 +313,11 @@ function renderStudentsPage(container) {
                                 <th>Ngày sinh</th>
                                 <th>Trường</th>
                                 <th>Phòng</th>
+                                <th>Văn</th>
+                                <th>Toán</th>
+                                <th>Anh</th>
+                                <th>Chuyên</th>
+                                <th>Tổng</th>
                             </tr>
                         </thead>
                         <tbody></tbody>

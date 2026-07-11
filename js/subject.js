@@ -211,6 +211,11 @@ export function initSubjectDetailPage(code) {
                                 <th>Ngày sinh</th>
                                 <th>Trường</th>
                                 <th>Phòng</th>
+                                <th>Văn</th>
+                                <th>Toán</th>
+                                <th>Anh</th>
+                                <th>Chuyên</th>
+                                <th>Tổng</th>
                             </tr>
                         </thead>
                         <tbody></tbody>
@@ -245,7 +250,27 @@ export function initSubjectDetailPage(code) {
             { data: 'name' },
             { data: 'birthday' },
             { data: 'school' },
-            { data: 'room' }
+            { data: 'room' },
+            {
+                data: 'van',
+                render: (data) => data !== null && data !== undefined ? data : '—'
+            },
+            {
+                data: 'toan',
+                render: (data) => data !== null && data !== undefined ? data : '—'
+            },
+            {
+                data: 'anh',
+                render: (data) => data !== null && data !== undefined ? data : '—'
+            },
+            {
+                data: 'chuyen',
+                render: (data) => data !== null && data !== undefined ? data : '—'
+            },
+            {
+                data: 'tong',
+                render: (data) => data !== null && data !== undefined ? data : '—'
+            }
         ],
 
         lengthMenu: [
@@ -342,6 +367,27 @@ function openStudentModal(student) {
         <div class="modal-detail-row">
             <span class="modal-detail-label">Trường THCS</span>
             <span class="modal-detail-value">${student.school}</span>
+        </div>
+        <div class="modal-detail-divider" style="margin: 15px 0; border-top: 1px dashed rgba(255,255,255,.12);"></div>
+        <div class="modal-detail-row">
+            <span class="modal-detail-label">Điểm Ngữ Văn</span>
+            <span class="modal-detail-value">${student.van !== null && student.van !== undefined ? student.van : '—'}</span>
+        </div>
+        <div class="modal-detail-row">
+            <span class="modal-detail-label">Điểm Toán</span>
+            <span class="modal-detail-value">${student.toan !== null && student.toan !== undefined ? student.toan : '—'}</span>
+        </div>
+        <div class="modal-detail-row">
+            <span class="modal-detail-label">Điểm Anh Văn</span>
+            <span class="modal-detail-value">${student.anh !== null && student.anh !== undefined ? student.anh : '—'}</span>
+        </div>
+        <div class="modal-detail-row">
+            <span class="modal-detail-label">Điểm Chuyên (hệ số 2)</span>
+            <span class="modal-detail-value">${student.chuyen !== null && student.chuyen !== undefined ? student.chuyen : '—'}</span>
+        </div>
+        <div class="modal-detail-row highlight" style="background: rgba(255,255,255,0.05); padding: 8px; border-radius: 4px; font-weight: bold; margin-top: 8px;">
+            <span class="modal-detail-label">Tổng điểm xét tuyển</span>
+            <span class="modal-detail-value fs-5" style="color: var(--accent-primary);">${student.tong !== null && student.tong !== undefined ? student.tong : '—'}</span>
         </div>
     `;
     showModal('Thẻ thông tin thí sinh', html);

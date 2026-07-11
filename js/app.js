@@ -59,6 +59,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         registerPageInitializer('competition', initCompetitionPage);
         registerPageInitializer('subjects', (param) => initSubjectListPage());
         registerPageInitializer('subject-detail', (code) => initSubjectDetailPage(code));
+        registerPageInitializer('ranking', initRankingPage);
 
         // Start Router
         await initRouter();
@@ -244,6 +245,26 @@ function initStudentsPage() {
                 { data: 'birthday' },
                 { data: 'school' },
                 { data: 'room' },
+                {
+                    data: 'van',
+                    render: (data) => data !== null && data !== undefined ? data : '—'
+                },
+                {
+                    data: 'toan',
+                    render: (data) => data !== null && data !== undefined ? data : '—'
+                },
+                {
+                    data: 'anh',
+                    render: (data) => data !== null && data !== undefined ? data : '—'
+                },
+                {
+                    data: 'chuyen',
+                    render: (data) => data !== null && data !== undefined ? data : '—'
+                },
+                {
+                    data: 'tong',
+                    render: (data) => data !== null && data !== undefined ? data : '—'
+                },
             ],
             lengthMenu: [
                 [25, 50, 100, 250, -1],
@@ -560,6 +581,27 @@ function openStudentDetailsModal(student) {
             <span class="modal-detail-label">Trường THCS</span>
             <span class="modal-detail-value">${student.school}</span>
         </div>
+        <div class="modal-detail-divider" style="margin: 15px 0; border-top: 1px dashed rgba(255,255,255,.12);"></div>
+        <div class="modal-detail-row">
+            <span class="modal-detail-label">Điểm Ngữ Văn</span>
+            <span class="modal-detail-value">${student.van !== null && student.van !== undefined ? student.van : '—'}</span>
+        </div>
+        <div class="modal-detail-row">
+            <span class="modal-detail-label">Điểm Toán</span>
+            <span class="modal-detail-value">${student.toan !== null && student.toan !== undefined ? student.toan : '—'}</span>
+        </div>
+        <div class="modal-detail-row">
+            <span class="modal-detail-label">Điểm Anh Văn</span>
+            <span class="modal-detail-value">${student.anh !== null && student.anh !== undefined ? student.anh : '—'}</span>
+        </div>
+        <div class="modal-detail-row">
+            <span class="modal-detail-label">Điểm Chuyên (hệ số 2)</span>
+            <span class="modal-detail-value">${student.chuyen !== null && student.chuyen !== undefined ? student.chuyen : '—'}</span>
+        </div>
+        <div class="modal-detail-row highlight" style="background: rgba(255,255,255,0.05); padding: 8px; border-radius: 4px; font-weight: bold; margin-top: 8px;">
+            <span class="modal-detail-label">Tổng điểm xét tuyển</span>
+            <span class="modal-detail-value fs-5" style="color: var(--accent-primary);">${student.tong !== null && student.tong !== undefined ? student.tong : '—'}</span>
+        </div>
     `;
     showModal('Thẻ thông tin thí sinh', html);
 }
@@ -568,9 +610,22 @@ function openStudentDetailsModal(student) {
 function exportStudentsData(data, type) {
     if (type === 'csv') {
         let csvContent = "data:text/csv;charset=utf-8,\uFEFF";
-        csvContent += "STT,Môn,SBD,Họ tên,Ngày sinh,Trường,Phòng\n";
+        csvContent += "STT,Môn,SBD,Họ tên,Ngày sinh,Trường,Phòng,Văn,Toán,Anh,Chuyên,Tổng\n";
         data.forEach(s => {
-            const row = [s.stt, getSubjectName(s.subject), s.sbd, s.name, s.birthday, s.school, s.room];
+            const row = [
+                s.stt,
+                getSubjectName(s.subject),
+                s.sbd,
+                s.name,
+                s.birthday,
+                s.school,
+                s.room,
+                s.van !== null && s.van !== undefined ? s.van : '—',
+                s.toan !== null && s.toan !== undefined ? s.toan : '—',
+                s.anh !== null && s.anh !== undefined ? s.anh : '—',
+                s.chuyen !== null && s.chuyen !== undefined ? s.chuyen : '—',
+                s.tong !== null && s.tong !== undefined ? s.tong : '—'
+            ];
             csvContent += row.map(val => `"${val}"`).join(",") + "\n";
         });
         const encodedUri = encodeURI(csvContent);
@@ -588,13 +643,24 @@ function exportStudentsData(data, type) {
             <body>
             <table>
                 <tr>
-                    <th>STT</th><th>Môn thi</th><th>SBD</th><th>Họ tên</th><th>Ngày sinh</th><th>Trường</th><th>Phòng</th>
+                    <th>STT</th><th>Môn thi</th><th>SBD</th><th>Họ tên</th><th>Ngày sinh</th><th>Trường</th><th>Phòng</th><th>Văn</th><th>Toán</th><th>Anh</th><th>Chuyên</th><th>Tổng</th>
                 </tr>
         `;
         data.forEach(s => {
             excelContent += `
                 <tr>
-                    <td>${s.stt}</td><td>${getSubjectName(s.subject)}</td><td>${s.sbd}</td><td>${s.name}</td><td>${s.birthday}</td><td>${s.school}</td><td>${s.room}</td>
+                    <td>${s.stt}</td>
+                    <td>${getSubjectName(s.subject)}</td>
+                    <td>${s.sbd}</td>
+                    <td>${s.name}</td>
+                    <td>${s.birthday}</td>
+                    <td>${s.school}</td>
+                    <td>${s.room}</td>
+                    <td>${s.van !== null && s.van !== undefined ? s.van : '—'}</td>
+                    <td>${s.toan !== null && s.toan !== undefined ? s.toan : '—'}</td>
+                    <td>${s.anh !== null && s.anh !== undefined ? s.anh : '—'}</td>
+                    <td>${s.chuyen !== null && s.chuyen !== undefined ? s.chuyen : '—'}</td>
+                    <td>${s.tong !== null && s.tong !== undefined ? s.tong : '—'}</td>
                 </tr>
             `;
         });
@@ -638,6 +704,11 @@ function printStudentsData(data) {
                         <th>Ngày sinh</th>
                         <th>Trường</th>
                         <th>Phòng</th>
+                        <th>Văn</th>
+                        <th>Toán</th>
+                        <th>Anh</th>
+                        <th>Chuyên</th>
+                        <th>Tổng</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -650,6 +721,11 @@ function printStudentsData(data) {
                             <td>${s.birthday}</td>
                             <td>${s.school}</td>
                             <td>${s.room}</td>
+                            <td>${s.van !== null && s.van !== undefined ? s.van : '—'}</td>
+                            <td>${s.toan !== null && s.toan !== undefined ? s.toan : '—'}</td>
+                            <td>${s.anh !== null && s.anh !== undefined ? s.anh : '—'}</td>
+                            <td>${s.chuyen !== null && s.chuyen !== undefined ? s.chuyen : '—'}</td>
+                            <td>${s.tong !== null && s.tong !== undefined ? s.tong : '—'}</td>
                         </tr>
                     `).join('')}
                 </tbody>
@@ -658,4 +734,379 @@ function printStudentsData(data) {
         </html>
     `);
     printWindow.document.close();
+}
+
+// ── Student Admission Ranking Page Initializer ──
+function initRankingPage() {
+    destroyAllCharts();
+    const students = getStudents();
+    const subjects = getSubjects();
+
+    const selectEl = document.getElementById('rank-subject-select');
+    if (!selectEl) return;
+
+    // Populate select
+    selectEl.innerHTML = subjects.map(s => `<option value="${s}">${getSubjectName(s)} (${s})</option>`).join('');
+
+    let dt = null;
+    let selectedStatusFilter = 'all';
+
+    const updateRanking = () => {
+        const subjectCode = selectEl.value;
+        const quota = getSubjectQuota(subjectCode);
+
+        // Filter and sort students
+        const subjectStudents = students.filter(s => s.subject === subjectCode);
+        subjectStudents.sort((a, b) => {
+            const tongA = a.tong || 0;
+            const tongB = b.tong || 0;
+            if (tongB !== tongA) return tongB - tongA;
+            const chuyenA = a.chuyen || 0;
+            const chuyenB = b.chuyen || 0;
+            if (chuyenB !== chuyenA) return chuyenB - chuyenA;
+            return a.sbd.localeCompare(b.sbd);
+        });
+
+        // Check disqualified (điểm liệt < 2.0 or missing)
+        const checkDisqualified = (s) => {
+            return (
+                s.van === null || s.van === undefined || s.van < 2.0 ||
+                s.toan === null || s.toan === undefined || s.toan < 2.0 ||
+                s.anh === null || s.anh === undefined || s.anh < 2.0 ||
+                s.chuyen === null || s.chuyen === undefined || s.chuyen < 2.0
+            );
+        };
+
+        // Assign ranks and status
+        let qualifiedRank = 1;
+        let passedCount = 0;
+        let disqualifiedCount = 0;
+        let cutoffScore = null;
+
+        const processed = subjectStudents.map(s => {
+            const isLiq = checkDisqualified(s);
+            let status = 'Rớt';
+            let rankText = '—';
+
+            if (isLiq) {
+                status = 'Điểm liệt';
+                disqualifiedCount++;
+            } else {
+                rankText = qualifiedRank++;
+                if (rankText <= quota) {
+                    status = 'Đậu';
+                    passedCount++;
+                    cutoffScore = s.tong; // last passing score became the cutoff
+                }
+            }
+
+            return {
+                ...s,
+                rank: rankText,
+                status: status
+            };
+        });
+
+        const activeList = processed;
+
+        // Update stats cards
+        const quotaEl = document.getElementById('rank-stat-quota');
+        const passedEl = document.getElementById('rank-stat-passed');
+        const passedSubEl = document.getElementById('rank-stat-passed-sub');
+        const disqualifiedEl = document.getElementById('rank-stat-disqualified');
+        const cutoffEl = document.getElementById('rank-stat-cutoff');
+        const cutoffSubEl = document.getElementById('rank-stat-cutoff-sub');
+
+        if (quotaEl) quotaEl.textContent = quota.toLocaleString('vi-VN');
+        if (passedEl) passedEl.textContent = `${passedCount} / ${quota}`;
+        if (passedSubEl) passedSubEl.textContent = `Hạng 1 đến hạng ${passedCount}`;
+        if (disqualifiedEl) disqualifiedEl.textContent = disqualifiedCount.toLocaleString('vi-VN');
+        if (cutoffEl) cutoffEl.textContent = cutoffScore !== null ? cutoffScore.toFixed(2) : '—';
+        if (cutoffSubEl) cutoffSubEl.textContent = cutoffScore !== null ? `Điểm xét tuyển người thứ ${passedCount} đậu` : 'Chưa có điểm chuẩn';
+
+        // Custom filter for DataTable
+        $.fn.dataTable.ext.search.push((settings, data, dataIndex) => {
+            if (settings.nTable.id !== 'ranking-table') return true;
+            const item = activeList[dataIndex];
+            if (!item) return false;
+
+            if (selectedStatusFilter === 'dau' && item.status !== 'Đậu') return false;
+            if (selectedStatusFilter === 'rot' && item.status !== 'Rớt') return false;
+            if (selectedStatusFilter === 'liet' && item.status !== 'Điểm liệt') return false;
+
+            return true;
+        });
+
+        // Initialize or reload DataTable
+        const tableEl = $('#ranking-table');
+        if (dt) {
+            dt.destroy();
+        }
+
+        dt = tableEl.DataTable({
+            data: activeList,
+            columns: [
+                {
+                    data: 'rank',
+                    render: (data) => data !== '—' ? `<strong>${data}</strong>` : '<span class="text-muted">—</span>'
+                },
+                { data: 'sbd' },
+                { data: 'name' },
+                { data: 'birthday' },
+                { data: 'school' },
+                { data: 'room' },
+                {
+                    data: 'van',
+                    render: (data) => data !== null && data !== undefined ? data : '—'
+                },
+                {
+                    data: 'toan',
+                    render: (data) => data !== null && data !== undefined ? data : '—'
+                },
+                {
+                    data: 'anh',
+                    render: (data) => data !== null && data !== undefined ? data : '—'
+                },
+                {
+                    data: 'chuyen',
+                    render: (data) => data !== null && data !== undefined ? data : '—'
+                },
+                {
+                    data: 'tong',
+                    render: (data) => data !== null && data !== undefined ? `<strong>${data}</strong>` : '—'
+                },
+                {
+                    data: 'status',
+                    render: (data) => {
+                        if (data === 'Đậu') return '<span class="badge badge-success">Đậu</span>';
+                        if (data === 'Rớt') return '<span class="badge badge-danger">Rớt</span>';
+                        return '<span class="badge badge-warning">Điểm liệt</span>';
+                    }
+                }
+            ],
+            lengthMenu: [
+                [25, 50, 100, 250, -1],
+                [25, 50, 100, 250, 'Tất cả'],
+            ],
+            pageLength: -1,
+            language: {
+                search: 'Tìm nhanh:',
+                lengthMenu: 'Hiển thị _MENU_ bản ghi',
+                info: 'Hiển thị từ _START_ đến _END_ trong tổng số _TOTAL_ thí sinh',
+                infoFiltered: '(lọc từ _MAX_ thí sinh)',
+                zeroRecords: 'Không tìm thấy thí sinh phù hợp',
+                paginate: {
+                    first: 'Đầu',
+                    last: 'Cuối',
+                    next: 'Sau',
+                    previous: 'Trước',
+                },
+            },
+            responsive: true,
+            order: [], // keep our rank ordering
+            dom: 'lfrtip',
+            deferRender: true,
+            fnRowCallback(nRow, aData) {
+                $(nRow).on('click', () => {
+                    openStudentDetailsModal(aData);
+                });
+            },
+        });
+
+        // Update counts
+        const updateCounts = () => {
+            const countEl = document.getElementById('rank-table-count');
+            if (countEl) {
+                const total = activeList.length;
+                const filtered = dt.rows({ search: 'applied' }).count();
+                countEl.textContent = filtered === total
+                    ? `${total} thí sinh`
+                    : `${filtered} / ${total} thí sinh`;
+            }
+        };
+
+        const searchInput = document.querySelector('#ranking-table_wrapper .dataTables_filter input');
+        if (searchInput) {
+            $(searchInput).unbind();
+            searchInput.oninput = debounce((e) => {
+                dt.search(e.target.value.trim()).draw();
+                updateCounts();
+            }, 150);
+        }
+
+        updateCounts();
+    };
+
+    // Setup select change handler
+    selectEl.onchange = () => {
+        updateRanking();
+    };
+
+    // Setup status buttons
+    const filterButtons = document.querySelectorAll('#rank-status-filters button');
+    filterButtons.forEach(btn => {
+        btn.onclick = (e) => {
+            filterButtons.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            selectedStatusFilter = btn.getAttribute('data-status');
+            dt.draw();
+            // Trigger count update
+            const total = dt.rows().count();
+            const filtered = dt.rows({ search: 'applied' }).count();
+            const countEl = document.getElementById('rank-table-count');
+            if (countEl) {
+                countEl.textContent = filtered === total
+                    ? `${total} thí sinh`
+                    : `${filtered} / ${total} thí sinh`;
+            }
+        };
+    });
+
+    // Setup initial ranking
+    updateRanking();
+
+    // Setup exporting
+    const btnCSV = document.getElementById('rank-export-csv');
+    const btnExcel = document.getElementById('rank-export-excel');
+    const btnPrint = document.getElementById('rank-export-print');
+
+    if (btnCSV) {
+        btnCSV.onclick = () => {
+            const subjectCode = selectEl.value;
+            const currentData = dt.rows({ search: 'applied' }).data().toArray();
+            let csvContent = "data:text/csv;charset=utf-8,\uFEFF";
+            csvContent += "Hạng,SBD,Họ tên,Ngày sinh,Trường,Phòng,Văn,Toán,Anh,Chuyên,Tổng,Kết quả\n";
+            currentData.forEach(s => {
+                const row = [
+                    s.rank,
+                    s.sbd,
+                    s.name,
+                    s.birthday,
+                    s.school,
+                    s.room,
+                    s.van !== null && s.van !== undefined ? s.van : '—',
+                    s.toan !== null && s.toan !== undefined ? s.toan : '—',
+                    s.anh !== null && s.anh !== undefined ? s.anh : '—',
+                    s.chuyen !== null && s.chuyen !== undefined ? s.chuyen : '—',
+                    s.tong !== null && s.tong !== undefined ? s.tong : '—',
+                    s.status
+                ];
+                csvContent += row.map(val => `"${val}"`).join(",") + "\n";
+            });
+            const encodedUri = encodeURI(csvContent);
+            const link = document.createElement("a");
+            link.setAttribute("href", encodedUri);
+            link.setAttribute("download", `xep_hang_${subjectCode}.csv`);
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            showToast('Xuất tệp CSV thành công!', 'success');
+        };
+    }
+
+    if (btnExcel) {
+        btnExcel.onclick = () => {
+            const subjectCode = selectEl.value;
+            const currentData = dt.rows({ search: 'applied' }).data().toArray();
+            let excelContent = `
+                <html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40">
+                <head><meta charset="utf-8"/></head>
+                <body>
+                <h2>BẢNG XẾP HẠNG TUYỂN SINH MÔN CHUYÊN: ${getSubjectName(subjectCode).toUpperCase()}</h2>
+                <table>
+                    <tr>
+                        <th>Hạng</th><th>SBD</th><th>Họ tên</th><th>Ngày sinh</th><th>Trường</th><th>Phòng</th><th>Văn</th><th>Toán</th><th>Anh</th><th>Chuyên</th><th>Tổng</th><th>Kết quả</th>
+                    </tr>
+            `;
+            currentData.forEach(s => {
+                excelContent += `
+                    <tr>
+                        <td>${s.rank}</td><td>${s.sbd}</td><td>${s.name}</td><td>${s.birthday}</td><td>${s.school}</td><td>${s.room}</td><td>${s.van !== null && s.van !== undefined ? s.van : '—'}</td><td>${s.toan !== null && s.toan !== undefined ? s.toan : '—'}</td><td>${s.anh !== null && s.anh !== undefined ? s.anh : '—'}</td><td>${s.chuyen !== null && s.chuyen !== undefined ? s.chuyen : '—'}</td><td>${s.tong !== null && s.tong !== undefined ? s.tong : '—'}</td><td>${s.status}</td>
+                    </tr>
+                `;
+            });
+            excelContent += `</table></body></html>`;
+
+            const blob = new Blob([excelContent], { type: 'application/vnd.ms-excel' });
+            const url = URL.createObjectURL(blob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = `xep_hang_${subjectCode}.xls`;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            showToast('Xuất tệp Excel thành công!', 'success');
+        };
+    }
+
+    if (btnPrint) {
+        btnPrint.onclick = () => {
+            const subjectCode = selectEl.value;
+            const currentData = dt.rows({ search: 'applied' }).data().toArray();
+            const printWindow = window.open('', '_blank');
+            printWindow.document.write(`
+                <html>
+                <head>
+                    <title>In Xếp Hạng Tuyển Sinh ${getSubjectName(subjectCode)}</title>
+                    <style>
+                        body { font-family: Arial, sans-serif; padding: 20px; }
+                        h1 { text-align: center; margin-bottom: 5px; }
+                        h3 { text-align: center; margin-top: 0; color: #555; }
+                        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+                        th, td { border: 1px solid #000; padding: 8px; text-align: left; }
+                        th { background-color: #f2f2f2; }
+                        .badge-success { color: green; font-weight: bold; }
+                        .badge-danger { color: red; }
+                        .badge-warning { color: orange; font-style: italic; }
+                    </style>
+                </head>
+                <body onload="window.print();window.close();">
+                    <h1>DANH SÁCH XẾP HẠNG TUYỂN SINH MÔN CHUYÊN</h1>
+                    <h3>Môn: ${getSubjectName(subjectCode)} (${subjectCode})</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Hạng</th>
+                                <th>SBD</th>
+                                <th>Họ tên</th>
+                                <th>Ngày sinh</th>
+                                <th>Trường</th>
+                                <th>Phòng</th>
+                                <th>Văn</th>
+                                <th>Toán</th>
+                                <th>Anh</th>
+                                <th>Chuyên</th>
+                                <th>Tổng</th>
+                                <th>Kết quả</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${currentData.map(s => `
+                                <tr>
+                                    <td>${s.rank}</td>
+                                    <td>${s.sbd}</td>
+                                    <td>${s.name}</td>
+                                    <td>${s.birthday}</td>
+                                    <td>${s.school}</td>
+                                    <td>${s.room}</td>
+                                    <td>${s.van !== null && s.van !== undefined ? s.van : '—'}</td>
+                                    <td>${s.toan !== null && s.toan !== undefined ? s.toan : '—'}</td>
+                                    <td>${s.anh !== null && s.anh !== undefined ? s.anh : '—'}</td>
+                                    <td>${s.chuyen !== null && s.chuyen !== undefined ? s.chuyen : '—'}</td>
+                                    <td>${s.tong !== null && s.tong !== undefined ? s.tong : '—'}</td>
+                                    <td>
+                                        <span class="${s.status === 'Đậu' ? 'badge-success' : s.status === 'Rớt' ? 'badge-danger' : 'badge-warning'}">
+                                            ${s.status}
+                                        </span>
+                                    </td>
+                                </tr>
+                            `).join('')}
+                        </tbody>
+                    </table>
+                </body>
+                </html>
+            `);
+            printWindow.document.close();
+        };
+    }
 }

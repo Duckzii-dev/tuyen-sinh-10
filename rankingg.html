@@ -1,0 +1,116 @@
+<script src="/tuyen-sinh-10/js/loadcss.js"></script>
+<div class="fade-in">
+    <div class="page-header-row">
+        <div>
+            <h1 class="page-title">Xếp hạng & Đậu rớt Tuyển sinh</h1>
+            <p class="page-subtitle">Xếp hạng điểm xét tuyển của thí sinh theo từng môn chuyên và xét tuyển theo chỉ
+                tiêu.</p>
+        </div>
+    </div>
+
+    <!-- Subject Selection and Stats Overview -->
+    <div class="data-panel mb-4">
+        <div class="row align-items-center g-3">
+            <div class="col-md-4">
+                <label for="rank-subject-select" class="form-label fw-semibold text-secondary">Chọn môn chuyên xếp
+                    hạng:</label>
+                <select id="rank-subject-select" class="filter-select w-100" style="height: 42px;">
+                    <!-- Dynamically populated options -->
+                </select>
+            </div>
+            <div class="col-md-8">
+                <div class="alert alert-info border-0 rounded-3 mb-0"
+                    style="background: var(--bg-secondary); color: var(--text-primary); border: 1px solid var(--border-primary) !important; font-size: 13px;">
+                    <i class="fas fa-info-circle text-primary me-2"></i><strong>Quy tắc xét tuyển:</strong> Điểm xét
+                    tuyển = Văn + Toán + Anh + Chuyên * 2. Thí sinh phải đạt từ <strong>2.0 điểm trở lên</strong> ở mọi
+                    môn thi (không bị điểm liệt). Lấy kết quả từ cao xuống thấp theo chỉ tiêu tuyển sinh của từng môn.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Stats Summary Cards Grid -->
+    <div class="stats-grid mb-4">
+        <div class="stat-card" style="--card-accent: var(--accent-primary);">
+            <div class="stat-card-icon" style="background: var(--accent-muted); color: var(--accent-primary);">
+                <i class="fas fa-bullseye"></i>
+            </div>
+            <div class="stat-card-label">Chỉ tiêu môn chuyên</div>
+            <div id="rank-stat-quota" class="stat-card-value">—</div>
+            <div class="stat-card-change">Số thí sinh tuyển sinh tối đa</div>
+        </div>
+        <div class="stat-card" style="--card-accent: var(--success);">
+            <div class="stat-card-icon" style="background: var(--success-muted); color: var(--success);">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <div class="stat-card-label">Thí sinh trúng tuyển (Đậu)</div>
+            <div id="rank-stat-passed" class="stat-card-value">—</div>
+            <div class="stat-card-change" id="rank-stat-passed-sub">Hạng 1 đến hạng N</div>
+        </div>
+        <div class="stat-card" style="--card-accent: var(--danger);">
+            <div class="stat-card-icon" style="background: var(--danger-muted); color: var(--danger);">
+                <i class="fas fa-times-circle"></i>
+            </div>
+            <div class="stat-card-label">Bị điểm liệt (< 2.0)</div>
+                    <div id="rank-stat-disqualified" class="stat-card-value">—</div>
+                    <div class="stat-card-change">Bị loại trực tiếp do môn dưới 2.0</div>
+            </div>
+            <div class="stat-card" style="--card-accent: var(--warning);">
+                <div class="stat-card-icon" style="background: var(--warning-muted); color: var(--warning);">
+                    <i class="fas fa-award"></i>
+                </div>
+                <div class="stat-card-label">Điểm chuẩn (Ước lượng)</div>
+                <div id="rank-stat-cutoff" class="stat-card-value">—</div>
+                <div class="stat-card-change" id="rank-stat-cutoff-sub">Điểm xét tuyển người cuối cùng đậu</div>
+            </div>
+        </div>
+
+        <!-- Candidate List Panel -->
+        <div class="data-panel">
+            <div class="d-flex justify-content-between align-items-center flex-wrap gap-3 mb-3 pb-3"
+                style="border-bottom: 1px solid rgba(255,255,255,.08);">
+                <div class="d-flex align-items-center gap-2">
+                    <h3 class="section-title mb-0">Bảng kết quả xếp hạng</h3>
+                    <span class="badge badge-info" id="rank-table-count">... thi sinh</span>
+                </div>
+                <!-- Custom Filters for Admission status -->
+                <div class="d-flex align-items-center gap-2 flex-wrap" id="rank-status-filters">
+                    <button class="btn btn-sm btn-outline-secondary active" data-status="all">Tất cả</button>
+                    <button class="btn btn-sm btn-outline-success" data-status="dau">Đậu</button>
+                    <button class="btn btn-sm btn-outline-danger" data-status="rot">Rớt</button>
+                    <button class="btn btn-sm btn-outline-warning" data-status="liet">Bị điểm liệt</button>
+                </div>
+            </div>
+
+            <div class="export-bar mb-3">
+                <button id="rank-export-csv" class="btn-secondary"><i class="fas fa-file-csv text-success"></i> Xuất
+                    CSV</button>
+                <button id="rank-export-excel" class="btn-secondary"><i class="fas fa-file-excel text-success"></i> Xuất
+                    Excel</button>
+                <button id="rank-export-print" class="btn-secondary"><i class="fas fa-print text-primary"></i> In bảng
+                    hạng</button>
+            </div>
+
+            <div class="table-responsive">
+                <table id="ranking-table" class="table table-striped table-hover mt-3" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>Hạng</th>
+                            <th>SBD</th>
+                            <th>Họ tên</th>
+                            <th>Ngày sinh</th>
+                            <th>Trường</th>
+                            <th>Phòng</th>
+                            <th>Văn</th>
+                            <th>Toán</th>
+                            <th>Anh</th>
+                            <th>Chuyên</th>
+                            <th>Tổng</th>
+                            <th>Kết quả</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
