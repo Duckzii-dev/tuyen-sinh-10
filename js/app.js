@@ -767,12 +767,14 @@ function initRankingPage() {
             return a.sbd.localeCompare(b.sbd);
         });
 
-        // Check disqualified (điểm liệt < 2.0 or missing)
+        // Check disqualified:
+        // - Môn thường (Văn, Toán, Anh): liệt khi điểm <= 1.0
+        // - Môn chuyên: liệt khi điểm < 2.0
         const checkDisqualified = (s) => {
             return (
-                s.van === null || s.van === undefined || s.van < 2.0 ||
-                s.toan === null || s.toan === undefined || s.toan < 2.0 ||
-                s.anh === null || s.anh === undefined || s.anh < 2.0 ||
+                s.van === null || s.van === undefined || s.van <= 1.0 ||
+                s.toan === null || s.toan === undefined || s.toan <= 1.0 ||
+                s.anh === null || s.anh === undefined || s.anh <= 1.0 ||
                 s.chuyen === null || s.chuyen === undefined || s.chuyen < 2.0
             );
         };
