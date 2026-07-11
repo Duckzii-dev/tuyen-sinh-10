@@ -769,13 +769,13 @@ function initRankingPage() {
 
         // Check disqualified:
         // - Môn thường (Văn, Toán, Anh): liệt khi điểm <= 1.0
-        // - Môn chuyên: liệt khi điểm < 2.0
+        // - Môn chuyên: liệt khi điểm <= 2.0
         const checkDisqualified = (s) => {
             return (
                 s.van === null || s.van === undefined || s.van <= 1.0 ||
                 s.toan === null || s.toan === undefined || s.toan <= 1.0 ||
                 s.anh === null || s.anh === undefined || s.anh <= 1.0 ||
-                s.chuyen === null || s.chuyen === undefined || s.chuyen < 2.0
+                s.chuyen === null || s.chuyen === undefined || s.chuyen <= 2.0
             );
         };
 
@@ -787,7 +787,7 @@ function initRankingPage() {
 
         const processed = subjectStudents.map(s => {
             const isLiq = checkDisqualified(s);
-            let status = 'Rớt';
+            let status = 'Hỏng';
             let rankText = '—';
 
             if (isLiq) {
@@ -833,7 +833,7 @@ function initRankingPage() {
             if (!item) return false;
 
             if (selectedStatusFilter === 'dau' && item.status !== 'Đậu') return false;
-            if (selectedStatusFilter === 'rot' && item.status !== 'Rớt') return false;
+            if (selectedStatusFilter === 'rot' && item.status !== 'Hỏng') return false;
             if (selectedStatusFilter === 'liet' && item.status !== 'Điểm liệt') return false;
 
             return true;
@@ -881,7 +881,7 @@ function initRankingPage() {
                     data: 'status',
                     render: (data) => {
                         if (data === 'Đậu') return '<span class="badge badge-success">Đậu</span>';
-                        if (data === 'Rớt') return '<span class="badge badge-danger">Rớt</span>';
+                        if (data === 'Hỏng') return '<span class="badge badge-danger">Hỏng</span>';
                         return '<span class="badge badge-warning">Điểm liệt</span>';
                     }
                 }
@@ -1097,7 +1097,7 @@ function initRankingPage() {
                                     <td>${s.chuyen !== null && s.chuyen !== undefined ? s.chuyen : '—'}</td>
                                     <td>${s.tong !== null && s.tong !== undefined ? s.tong : '—'}</td>
                                     <td>
-                                        <span class="${s.status === 'Đậu' ? 'badge-success' : s.status === 'Rớt' ? 'badge-danger' : 'badge-warning'}">
+                                        <span class="${s.status === 'Đậu' ? 'badge-success' : s.status === 'Hỏng' ? 'badge-danger' : 'badge-warning'}">
                                             ${s.status}
                                         </span>
                                     </td>
