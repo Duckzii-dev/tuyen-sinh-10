@@ -779,11 +779,23 @@ function initRankingPage() {
             );
         };
 
-        // Assign ranks and status
+        // ── Bước 1: Lấy danh sách thí sinh đủ điều kiện (không điểm liệt) ──
+        const qualifiedList = subjectStudents.filter(s => !checkDisqualified(s));
+
+        // ── Bước 2: Xác định điểm chuẩn = điểm của thí sinh cuối cùng trong chỉ tiêu ──
+        // (nếu số thí sinh đủ điều kiện ít hơn chỉ tiêu, điểm chuẩn = điểm thấp nhất trong danh sách đủ điều kiện)
+        let cutoffScore = null;
+        if (qualifiedList.length > 0) {
+            const cutoffIndex = Math.min(quota, qualifiedList.length) - 1;
+            cutoffScore = qualifiedList[cutoffIndex].tong ?? 0;
+        }
+
+        // ── Bước 3: Gán hạng và trạng thái. Đậu nếu tổng điểm >= điểm chuẩn ──
+        // (bao gồm cả những thí sinh đồng điểm với người cuối cùng trong chỉ tiêu,
+        // dù thứ hạng của họ có thể vượt số chỉ tiêu ban đầu)
         let qualifiedRank = 1;
         let passedCount = 0;
         let disqualifiedCount = 0;
-        let cutoffScore = null;
 
         const processed = subjectStudents.map(s => {
             const isLiq = checkDisqualified(s);
@@ -795,10 +807,10 @@ function initRankingPage() {
                 disqualifiedCount++;
             } else {
                 rankText = qualifiedRank++;
-                if (rankText <= quota) {
+                const tong = s.tong ?? 0;
+                if (cutoffScore !== null && tong >= cutoffScore) {
                     status = 'Đậu';
                     passedCount++;
-                    cutoffScore = s.tong; // last passing score became the cutoff
                 }
             }
 
@@ -821,10 +833,14 @@ function initRankingPage() {
 
         if (quotaEl) quotaEl.textContent = quota.toLocaleString('vi-VN');
         if (passedEl) passedEl.textContent = `${passedCount} / ${quota}`;
-        if (passedSubEl) passedSubEl.textContent = `Hạng 1 đến hạng ${passedCount}`;
+        if (passedSubEl) {
+            passedSubEl.textContent = passedCount > quota
+                ? `Hạng 1 đến hạng ${passedCount} (vượt chỉ tiêu do đồng điểm xét tuyển)`
+                : `Hạng 1 đến hạng ${passedCount}`;
+        }
         if (disqualifiedEl) disqualifiedEl.textContent = disqualifiedCount.toLocaleString('vi-VN');
         if (cutoffEl) cutoffEl.textContent = cutoffScore !== null ? cutoffScore.toFixed(2) : '—';
-        if (cutoffSubEl) cutoffSubEl.textContent = cutoffScore !== null ? `Điểm xét tuyển người thứ ${passedCount} đậu` : 'Chưa có điểm chuẩn';
+        if (cutoffSubEl) cutoffSubEl.textContent = cutoffScore !== null ? `Điểm xét tuyển người thứ ${Math.min(quota, qualifiedList.length)} đậu` : 'Chưa có điểm chuẩn';
 
         // Custom filter for DataTable
         $.fn.dataTable.ext.search.push((settings, data, dataIndex) => {
