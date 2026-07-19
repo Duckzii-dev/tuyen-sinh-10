@@ -248,7 +248,7 @@ async function handleRoute() {
         else if (route === 'charts') templatePath = '/chartss.html';
         else if (route === 'competition') templatePath = '/competitionn.html';
         else if (route === 'ranking') templatePath = '/rankingg.html';
-        else if (route === 'k36') templatePath = '/k36.html';
+        else if (route === 'k36') templatePath = '/k366.html';
         else if (route === 'subject-detail' || route === 'subjects') templatePath = '/subjectt.html';
 
         if (templatePath) {
