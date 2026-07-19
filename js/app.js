@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             <div style="background: rgba(128,128,128,0.1); padding: 15px; border-radius: 8px; border: 1px solid rgba(128,128,128,0.2);">
                 <p style="margin: 0; font-size: 0.95rem;">
                     được thực hiện bởi:<br>
-                    <strong style="color: #3b82f6; font-size: 1.15rem; display: inline-block; margin-top: 8px;">Duy - tin K35</strong>
+                    <span style="font-size: 1rem; color: #a1a1a1; display: inline-block; margin-top: 8px; font-weight: 500;">Duy - tin K35</span>
                 </p>
             </div>
             <button onclick="document.getElementById('modal-close-btn').click()" style="margin-top: 25px; background: #3b82f6; color: white; border: none; padding: 10px 30px; border-radius: 6px; font-weight: 600; cursor: pointer; transition: 0.2s;">Đã hiểu</button>
