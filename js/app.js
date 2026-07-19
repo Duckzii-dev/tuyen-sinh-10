@@ -30,12 +30,35 @@ import {
     renderHorizontalBarChart,
     renderPieChart,
     setupChartDownload,
+    renderGroupedBarChart,
     destroyAllCharts
 } from './charts.js';
 import { initSubjectListPage, initSubjectDetailPage } from './subject.js';
 
 // ── Application Initialization ──
 document.addEventListener('DOMContentLoaded', async () => {
+    const alertHtml = `
+        <div style="text-align: center; padding: 10px 0;">
+            <i class="fas fa-info-circle" style="font-size: 3rem; color: #3b82f6; margin-bottom: 20px;"></i>
+            <p style="font-size: 1.05rem; line-height: 1.6; margin-bottom: 20px;">
+                Trang này chỉ mang mục đích tham khảo<br>
+                không phải trang chính thống
+            </p>
+            <div style="background: rgba(128,128,128,0.1); padding: 15px; border-radius: 8px; border: 1px solid rgba(128,128,128,0.2);">
+                <p style="margin: 0; font-size: 0.95rem;">
+                    được thực hiện bởi:<br>
+                    <strong style="color: #3b82f6; font-size: 1.15rem; display: inline-block; margin-top: 8px;">Duy - tin K35</strong>
+                </p>
+            </div>
+            <button onclick="document.getElementById('modal-close-btn').click()" style="margin-top: 25px; background: #3b82f6; color: white; border: none; padding: 10px 30px; border-radius: 6px; font-weight: 600; cursor: pointer; transition: 0.2s;">Đã hiểu</button>
+        </div>
+    `;
+    
+    if (!sessionStorage.getItem('notified_disclaimer')) {
+        showModal('Thông báo', alertHtml);
+        sessionStorage.setItem('notified_disclaimer', 'true');
+    }
+
     initTheme();
 
     // Wire theme toggle
@@ -242,7 +265,9 @@ function initStudentsPage() {
                 },
                 { data: 'sbd' },
                 { data: 'name' },
+                { data: 'gender' },
                 { data: 'birthday' },
+                { data: 'district' },
                 { data: 'school' },
                 { data: 'room' },
                 {
@@ -376,11 +401,23 @@ function initChartsPage() {
     renderHorizontalBarChart('chart-schools-bar', schoolLabels, schoolCounts, 'Số thí sinh');
     setupChartDownload('chart-schools-bar', 'dl-c3', 'top_15_truong_dong_hoc_sinh.png');
 
-    // Chart 4: Top Rooms (Bar)
-    const roomLabels = topData.topRooms.map(r => `P.${r.name}`);
-    const roomCounts = topData.topRooms.map(r => r.count);
-    renderBarChart('chart-rooms-bar', roomLabels, roomCounts, 'Số học sinh');
-    setupChartDownload('chart-rooms-bar', 'dl-c4', 'top_phong_thi_dong_nhat.png');
+    // Chart 4: District distribution (Pie)
+    const distData = getDistrictDistribution(students);
+    const distLabels = distData.map(d => d.name);
+    const distCounts = distData.map(d => d.count);
+    renderPieChart('chart-districts-pie', distLabels, distCounts);
+    setupChartDownload('chart-districts-pie', 'dl-c4', 'phan_bo_huyen.png');
+
+    // Chart 6: Gender per Subject
+    const genderStats = getGenderSubjectStats(students);
+    const gsLabels = Object.keys(genderStats);
+    const maleData = gsLabels.map(l => genderStats[l]['Nam']);
+    const femaleData = gsLabels.map(l => genderStats[l]['Nữ']);
+    renderGroupedBarChart('chart-gender-subject-bar', gsLabels, [
+        { label: 'Nam', data: maleData },
+        { label: 'Nữ', data: femaleData }
+    ]);
+    setupChartDownload('chart-gender-subject-bar', 'dl-c6', 'gioi_tinh_theo_mon.png');
 
     // Chart 5: Birth year distribution (Bar)
     const birthData = getBirthYearDistribution(students);
@@ -388,6 +425,30 @@ function initChartsPage() {
     const birthCounts = birthData.map(b => b.count);
     renderBarChart('chart-birth-bar', birthLabels, birthCounts, 'Số thí sinh');
     setupChartDownload('chart-birth-bar', 'dl-c5', 'phan_bo_nam_sinh.png');
+}
+
+
+function getDistrictDistribution(students) {
+    const map = {};
+    students.forEach(s => {
+        if (!s.district) return;
+        map[s.district] = (map[s.district] || 0) + 1;
+    });
+    return Object.entries(map)
+        .map(([name, count]) => ({ name, count }))
+        .sort((a, b) => b.count - a.count);
+}
+
+function getGenderSubjectStats(students) {
+    const stats = {};
+    students.forEach(s => {
+        const sub = getSubjectName(s.subject);
+        if (!stats[sub]) stats[sub] = { Nam: 0, Nữ: 0 };
+        if (s.gender === 'Nam' || s.gender === 'Nữ') {
+            stats[sub][s.gender]++;
+        }
+    });
+    return stats;
 }
 
 // ── Competition Page Initializer ──
@@ -578,8 +639,16 @@ function openStudentDetailsModal(student) {
             <span class="modal-detail-value">${student.room}</span>
         </div>
         <div class="modal-detail-row">
+            <span class="modal-detail-label">Giới tính</span>
+            <span class="modal-detail-value">${student.gender}</span>
+        </div>
+        <div class="modal-detail-row">
             <span class="modal-detail-label">Trường THCS</span>
             <span class="modal-detail-value">${student.school}</span>
+        </div>
+        <div class="modal-detail-row">
+            <span class="modal-detail-label">Huyện/Thành phố</span>
+            <span class="modal-detail-value">${student.district}</span>
         </div>
         <div class="modal-detail-divider" style="margin: 15px 0; border-top: 1px dashed rgba(255,255,255,.12);"></div>
         <div class="modal-detail-row">
@@ -610,14 +679,16 @@ function openStudentDetailsModal(student) {
 function exportStudentsData(data, type) {
     if (type === 'csv') {
         let csvContent = "data:text/csv;charset=utf-8,\uFEFF";
-        csvContent += "STT,Môn,SBD,Họ tên,Ngày sinh,Trường,Phòng,Văn,Toán,Anh,Chuyên,Tổng\n";
+        csvContent += "STT,Môn,SBD,Họ tên,Giới tính,Ngày sinh,Trường,Huyện/TP,Phòng,Văn,Toán,Anh,Chuyên,Tổng\n";
         data.forEach(s => {
             const row = [
                 s.stt,
                 getSubjectName(s.subject),
                 s.sbd,
                 s.name,
+                s.gender,
                 s.birthday,
+                s.district,
                 s.school,
                 s.room,
                 s.van !== null && s.van !== undefined ? s.van : '—',
@@ -643,7 +714,7 @@ function exportStudentsData(data, type) {
             <body>
             <table>
                 <tr>
-                    <th>STT</th><th>Môn thi</th><th>SBD</th><th>Họ tên</th><th>Ngày sinh</th><th>Trường</th><th>Phòng</th><th>Văn</th><th>Toán</th><th>Anh</th><th>Chuyên</th><th>Tổng</th>
+                    <th>STT</th><th>Môn thi</th><th>SBD</th><th>Họ tên</th><th>Giới tính</th><th>Ngày sinh</th><th>Trường</th><th>Huyện/TP</th><th>Phòng</th><th>Văn</th><th>Toán</th><th>Anh</th><th>Chuyên</th><th>Tổng</th>
                 </tr>
         `;
         data.forEach(s => {
@@ -652,8 +723,8 @@ function exportStudentsData(data, type) {
                     <td>${s.stt}</td>
                     <td>${getSubjectName(s.subject)}</td>
                     <td>${s.sbd}</td>
-                    <td>${s.name}</td>
-                    <td>${s.birthday}</td>
+                    <td>${s.name}</td><td>${s.gender}</td>
+                    <td>${s.birthday}</td><td>${s.district}</td>
                     <td>${s.school}</td>
                     <td>${s.room}</td>
                     <td>${s.van !== null && s.van !== undefined ? s.van : '—'}</td>
@@ -701,7 +772,9 @@ function printStudentsData(data) {
                         <th>Môn</th>
                         <th>SBD</th>
                         <th>Họ tên</th>
-                        <th>Ngày sinh</th>
+                                <th>Giới tính</th>
+                                <th>Ngày sinh</th>
+                                <th>Huyện/TP</th>
                         <th>Trường</th>
                         <th>Phòng</th>
                         <th>Văn</th>
@@ -717,8 +790,8 @@ function printStudentsData(data) {
                             <td>${s.stt}</td>
                             <td>${getSubjectName(s.subject)} (${s.subject})</td>
                             <td>${s.sbd}</td>
-                            <td>${s.name}</td>
-                            <td>${s.birthday}</td>
+                            <td>${s.name}</td><td>${s.gender}</td>
+                            <td>${s.birthday}</td><td>${s.district}</td>
                             <td>${s.school}</td>
                             <td>${s.room}</td>
                             <td>${s.van !== null && s.van !== undefined ? s.van : '—'}</td>
@@ -885,7 +958,9 @@ function initRankingPage() {
                 },
                 { data: 'sbd' },
                 { data: 'name' },
+                { data: 'gender' },
                 { data: 'birthday' },
+                { data: 'district' },
                 { data: 'school' },
                 { data: 'room' },
                 {
@@ -1008,13 +1083,15 @@ function initRankingPage() {
             const subjectCode = selectEl.value;
             const currentData = dt.rows({ search: 'applied' }).data().toArray();
             let csvContent = "data:text/csv;charset=utf-8,\uFEFF";
-            csvContent += "Hạng,SBD,Họ tên,Ngày sinh,Trường,Phòng,Văn,Toán,Anh,Chuyên,Tổng,Kết quả\n";
+            csvContent += "Hạng,SBD,Họ tên,Giới tính,Ngày sinh,Trường,Huyện/TP,Phòng,Văn,Toán,Anh,Chuyên,Tổng,Kết quả\n";
             currentData.forEach(s => {
                 const row = [
                     s.rank,
                     s.sbd,
                     s.name,
+                    s.gender,
                     s.birthday,
+                    s.district,
                     s.school,
                     s.room,
                     s.van !== null && s.van !== undefined ? s.van : '—',
@@ -1048,13 +1125,13 @@ function initRankingPage() {
                 <h2>BẢNG XẾP HẠNG TUYỂN SINH MÔN CHUYÊN: ${getSubjectName(subjectCode).toUpperCase()}</h2>
                 <table>
                     <tr>
-                        <th>Hạng</th><th>SBD</th><th>Họ tên</th><th>Ngày sinh</th><th>Trường</th><th>Phòng</th><th>Văn</th><th>Toán</th><th>Anh</th><th>Chuyên</th><th>Tổng</th><th>Kết quả</th>
+                        <th>Hạng</th><th>SBD</th><th>Họ tên</th><th>Giới tính</th><th>Ngày sinh</th><th>Trường</th><th>Huyện/TP</th><th>Phòng</th><th>Văn</th><th>Toán</th><th>Anh</th><th>Chuyên</th><th>Tổng</th><th>Kết quả</th>
                     </tr>
             `;
             currentData.forEach(s => {
                 excelContent += `
                     <tr>
-                        <td>${s.rank}</td><td>${s.sbd}</td><td>${s.name}</td><td>${s.birthday}</td><td>${s.school}</td><td>${s.room}</td><td>${s.van !== null && s.van !== undefined ? s.van : '—'}</td><td>${s.toan !== null && s.toan !== undefined ? s.toan : '—'}</td><td>${s.anh !== null && s.anh !== undefined ? s.anh : '—'}</td><td>${s.chuyen !== null && s.chuyen !== undefined ? s.chuyen : '—'}</td><td>${s.tong !== null && s.tong !== undefined ? s.tong : '—'}</td><td>${s.status}</td>
+                        <td>${s.rank}</td><td>${s.sbd}</td><td>${s.name}</td><td>${s.gender}</td><td>${s.birthday}</td><td>${s.district}</td><td>${s.school}</td><td>${s.room}</td><td>${s.van !== null && s.van !== undefined ? s.van : '—'}</td><td>${s.toan !== null && s.toan !== undefined ? s.toan : '—'}</td><td>${s.anh !== null && s.anh !== undefined ? s.anh : '—'}</td><td>${s.chuyen !== null && s.chuyen !== undefined ? s.chuyen : '—'}</td><td>${s.tong !== null && s.tong !== undefined ? s.tong : '—'}</td><td>${s.status}</td>
                     </tr>
                 `;
             });
@@ -1102,7 +1179,9 @@ function initRankingPage() {
                                 <th>Hạng</th>
                                 <th>SBD</th>
                                 <th>Họ tên</th>
+                                <th>Giới tính</th>
                                 <th>Ngày sinh</th>
+                                <th>Huyện/TP</th>
                                 <th>Trường</th>
                                 <th>Phòng</th>
                                 <th>Văn</th>
@@ -1118,8 +1197,8 @@ function initRankingPage() {
                                 <tr>
                                     <td>${s.rank}</td>
                                     <td>${s.sbd}</td>
-                                    <td>${s.name}</td>
-                                    <td>${s.birthday}</td>
+                                    <td>${s.name}</td><td>${s.gender}</td>
+                                    <td>${s.birthday}</td><td>${s.district}</td>
                                     <td>${s.school}</td>
                                     <td>${s.room}</td>
                                     <td>${s.van !== null && s.van !== undefined ? s.van : '—'}</td>

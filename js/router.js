@@ -310,7 +310,9 @@ function renderStudentsPage(container) {
                                 <th>Môn</th>
                                 <th>SBD</th>
                                 <th>Họ tên</th>
+                                <th>Giới tính</th>
                                 <th>Ngày sinh</th>
+                                <th>Huyện/TP</th>
                                 <th>Trường</th>
                                 <th>Phòng</th>
                                 <th>Văn</th>

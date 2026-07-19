@@ -11,7 +11,9 @@
         "toan": 6,
         "anh": 9.5,
         "chuyen": 6.4,
-        "tong": 34.8
+        "tong": 34.8,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 2,
@@ -25,7 +27,9 @@
         "toan": 5.5,
         "anh": 7,
         "chuyen": 1.8,
-        "tong": 22.6
+        "tong": 22.6,
+        "district": "Bình Đại",
+        "gender": "Nữ"
     },
     {
         "stt": 3,
@@ -39,7 +43,9 @@
         "toan": 1.75,
         "anh": 7.25,
         "chuyen": 1.8,
-        "tong": 18.35
+        "tong": 18.35,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 4,
@@ -53,7 +59,9 @@
         "toan": 4,
         "anh": 8.75,
         "chuyen": 6.4,
-        "tong": 30.3
+        "tong": 30.3,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 5,
@@ -67,7 +75,9 @@
         "toan": 7.5,
         "anh": 9.5,
         "chuyen": 7.1,
-        "tong": 37.45
+        "tong": 37.45,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 6,
@@ -81,7 +91,9 @@
         "toan": 5.5,
         "anh": 7.25,
         "chuyen": 3,
-        "tong": 24
+        "tong": 24,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 7,
@@ -95,7 +107,9 @@
         "toan": 3.75,
         "anh": 9.25,
         "chuyen": 2.7,
-        "tong": 23.65
+        "tong": 23.65,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 8,
@@ -109,7 +123,9 @@
         "toan": 2.75,
         "anh": 6.25,
         "chuyen": 1.9,
-        "tong": 17.55
+        "tong": 17.55,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 9,
@@ -123,7 +139,9 @@
         "toan": 4,
         "anh": 8.75,
         "chuyen": 2.5,
-        "tong": 22
+        "tong": 22,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 10,
@@ -137,7 +155,9 @@
         "toan": null,
         "anh": null,
         "chuyen": null,
-        "tong": null
+        "tong": null,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 11,
@@ -151,7 +171,9 @@
         "toan": 4.5,
         "anh": 9.75,
         "chuyen": 7.7,
-        "tong": 35.65
+        "tong": 35.65,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 12,
@@ -165,7 +187,9 @@
         "toan": 3.75,
         "anh": 9.75,
         "chuyen": 6,
-        "tong": 30.25
+        "tong": 30.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 13,
@@ -179,7 +203,9 @@
         "toan": 5.25,
         "anh": 8.5,
         "chuyen": 1.8,
-        "tong": 23.85
+        "tong": 23.85,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 14,
@@ -193,7 +219,9 @@
         "toan": 7,
         "anh": 9.75,
         "chuyen": 6.3,
-        "tong": 34.85
+        "tong": 34.85,
+        "district": "Châu Thành",
+        "gender": "Nam"
     },
     {
         "stt": 15,
@@ -207,7 +235,9 @@
         "toan": 3.75,
         "anh": 9.25,
         "chuyen": 3.43,
-        "tong": 25.61
+        "tong": 25.61,
+        "district": "Châu Thành",
+        "gender": "Nam"
     },
     {
         "stt": 16,
@@ -221,7 +251,9 @@
         "toan": 2.25,
         "anh": 7.25,
         "chuyen": 3,
-        "tong": 21.25
+        "tong": 21.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 17,
@@ -235,7 +267,9 @@
         "toan": 4.75,
         "anh": 9.5,
         "chuyen": 7.4,
-        "tong": 33.8
+        "tong": 33.8,
+        "district": "Giồng Trôm",
+        "gender": "Nam"
     },
     {
         "stt": 18,
@@ -249,7 +283,9 @@
         "toan": 7.25,
         "anh": 9.5,
         "chuyen": 6.9,
-        "tong": 36.55
+        "tong": 36.55,
+        "district": "Châu Thành",
+        "gender": "Nam"
     },
     {
         "stt": 19,
@@ -263,7 +299,9 @@
         "toan": 6.5,
         "anh": 9.5,
         "chuyen": 7,
-        "tong": 35.25
+        "tong": 35.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 20,
@@ -277,7 +315,9 @@
         "toan": 7.25,
         "anh": 9.5,
         "chuyen": 6.2,
-        "tong": 35.15
+        "tong": 35.15,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 21,
@@ -291,7 +331,9 @@
         "toan": 4.75,
         "anh": 9.25,
         "chuyen": 5.2,
-        "tong": 29.9
+        "tong": 29.9,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 22,
@@ -305,7 +347,9 @@
         "toan": 6,
         "anh": 9.5,
         "chuyen": 6.7,
-        "tong": 32.9
+        "tong": 32.9,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 23,
@@ -319,7 +363,9 @@
         "toan": null,
         "anh": null,
         "chuyen": null,
-        "tong": null
+        "tong": null,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 24,
@@ -333,7 +379,9 @@
         "toan": 6.25,
         "anh": 9.5,
         "chuyen": 3,
-        "tong": 27.75
+        "tong": 27.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 25,
@@ -347,7 +395,9 @@
         "toan": 3,
         "anh": 8.75,
         "chuyen": 4,
-        "tong": 24.25
+        "tong": 24.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 26,
@@ -361,7 +411,9 @@
         "toan": 7.5,
         "anh": 9.5,
         "chuyen": 6.1,
-        "tong": 36.95
+        "tong": 36.95,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 27,
@@ -375,7 +427,9 @@
         "toan": 5.5,
         "anh": 7.5,
         "chuyen": 2.8,
-        "tong": 24.02
+        "tong": 24.02,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 28,
@@ -389,7 +443,9 @@
         "toan": 5,
         "anh": 7.75,
         "chuyen": 1.7,
-        "tong": 20.15
+        "tong": 20.15,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 29,
@@ -403,7 +459,9 @@
         "toan": 3.25,
         "anh": 6.5,
         "chuyen": 3.2,
-        "tong": 20.32
+        "tong": 20.32,
+        "district": "Châu Thành",
+        "gender": "Nam"
     },
     {
         "stt": 30,
@@ -417,7 +475,9 @@
         "toan": 4.5,
         "anh": 8.25,
         "chuyen": 4.1,
-        "tong": 25.95
+        "tong": 25.95,
+        "district": "Châu Thành",
+        "gender": "Nam"
     },
     {
         "stt": 31,
@@ -431,7 +491,9 @@
         "toan": 7.5,
         "anh": 9.5,
         "chuyen": 7.4,
-        "tong": 36.8
+        "tong": 36.8,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 32,
@@ -445,7 +507,9 @@
         "toan": 3.75,
         "anh": 9.5,
         "chuyen": 3.9,
-        "tong": 24.8
+        "tong": 24.8,
+        "district": "Giồng Trôm",
+        "gender": "Nam"
     },
     {
         "stt": 33,
@@ -459,7 +523,9 @@
         "toan": 4.75,
         "anh": 9,
         "chuyen": 4.9,
-        "tong": 30.05
+        "tong": 30.05,
+        "district": "Giồng Trôm",
+        "gender": "Nữ"
     },
     {
         "stt": 34,
@@ -473,7 +539,9 @@
         "toan": 5,
         "anh": 8.5,
         "chuyen": 2.7,
-        "tong": 25.15
+        "tong": 25.15,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 35,
@@ -487,7 +555,9 @@
         "toan": 8,
         "anh": 9.75,
         "chuyen": 6.5,
-        "tong": 37.5
+        "tong": 37.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 36,
@@ -501,7 +571,9 @@
         "toan": 4,
         "anh": 8.5,
         "chuyen": 3.4,
-        "tong": 25.05
+        "tong": 25.05,
+        "district": "Châu Thành",
+        "gender": "Nam"
     },
     {
         "stt": 37,
@@ -515,7 +587,9 @@
         "toan": 5,
         "anh": 9,
         "chuyen": 3.7,
-        "tong": 26.4
+        "tong": 26.4,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 38,
@@ -529,7 +603,9 @@
         "toan": null,
         "anh": null,
         "chuyen": null,
-        "tong": null
+        "tong": null,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 39,
@@ -543,7 +619,9 @@
         "toan": 4.75,
         "anh": 9.75,
         "chuyen": 6.2,
-        "tong": 33.9
+        "tong": 33.9,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 40,
@@ -557,7 +635,9 @@
         "toan": 6.75,
         "anh": 9.25,
         "chuyen": 4.1,
-        "tong": 31.2
+        "tong": 31.2,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 41,
@@ -571,7 +651,9 @@
         "toan": 7,
         "anh": 9.25,
         "chuyen": 6,
-        "tong": 34.5
+        "tong": 34.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 42,
@@ -585,7 +667,9 @@
         "toan": 5.5,
         "anh": 8,
         "chuyen": 5.4,
-        "tong": 30.8
+        "tong": 30.8,
+        "district": "Giồng Trôm",
+        "gender": "Nữ"
     },
     {
         "stt": 43,
@@ -599,7 +683,9 @@
         "toan": 5,
         "anh": 9.25,
         "chuyen": 5.4,
-        "tong": 31.3
+        "tong": 31.3,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 44,
@@ -613,7 +699,9 @@
         "toan": 6.5,
         "anh": 9.25,
         "chuyen": 7.6,
-        "tong": 37.45
+        "tong": 37.45,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 45,
@@ -627,7 +715,9 @@
         "toan": 6.5,
         "anh": 9.75,
         "chuyen": 4.6,
-        "tong": 31.45
+        "tong": 31.45,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 46,
@@ -641,7 +731,9 @@
         "toan": 6.5,
         "anh": 9,
         "chuyen": 4,
-        "tong": 29.75
+        "tong": 29.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 47,
@@ -655,7 +747,9 @@
         "toan": 5.75,
         "anh": 9.75,
         "chuyen": 7.1,
-        "tong": 35.95
+        "tong": 35.95,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 48,
@@ -669,7 +763,9 @@
         "toan": 7,
         "anh": 9.75,
         "chuyen": 8.4,
-        "tong": 40.3
+        "tong": 40.3,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 49,
@@ -683,7 +779,9 @@
         "toan": 7,
         "anh": 9.5,
         "chuyen": 7.6,
-        "tong": 37.7
+        "tong": 37.7,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 50,
@@ -697,7 +795,9 @@
         "toan": 5.25,
         "anh": 9.25,
         "chuyen": 2.9,
-        "tong": 25.55
+        "tong": 25.55,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 51,
@@ -711,7 +811,9 @@
         "toan": 4.5,
         "anh": 9.25,
         "chuyen": 3.1,
-        "tong": 25.2
+        "tong": 25.2,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 52,
@@ -725,7 +827,9 @@
         "toan": 2.25,
         "anh": 4.5,
         "chuyen": 2.1,
-        "tong": 14.95
+        "tong": 14.95,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 53,
@@ -739,7 +843,9 @@
         "toan": 7,
         "anh": 9.5,
         "chuyen": 7.6,
-        "tong": 37.7
+        "tong": 37.7,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 54,
@@ -753,7 +859,9 @@
         "toan": 3.75,
         "anh": 6,
         "chuyen": 2.7,
-        "tong": 21.65
+        "tong": 21.65,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 55,
@@ -767,7 +875,9 @@
         "toan": 5.75,
         "anh": 9.5,
         "chuyen": 5.8,
-        "tong": 32.85
+        "tong": 32.85,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 56,
@@ -781,7 +891,9 @@
         "toan": 7.5,
         "anh": 8.75,
         "chuyen": 9,
-        "tong": 39
+        "tong": 39,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 57,
@@ -795,7 +907,9 @@
         "toan": 5,
         "anh": 9,
         "chuyen": 3.9,
-        "tong": 27.3
+        "tong": 27.3,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 58,
@@ -809,7 +923,9 @@
         "toan": 4.75,
         "anh": 9.5,
         "chuyen": 6.3,
-        "tong": 33.35
+        "tong": 33.35,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 59,
@@ -823,7 +939,9 @@
         "toan": 6,
         "anh": 9.75,
         "chuyen": 6.5,
-        "tong": 35.25
+        "tong": 35.25,
+        "district": "Mỏ Cày Nam",
+        "gender": "Nữ"
     },
     {
         "stt": 60,
@@ -837,7 +955,9 @@
         "toan": 5.75,
         "anh": 8.5,
         "chuyen": 3.7,
-        "tong": 28.65
+        "tong": 28.65,
+        "district": "Giồng Trôm",
+        "gender": "Nữ"
     },
     {
         "stt": 61,
@@ -851,7 +971,9 @@
         "toan": 7,
         "anh": 9.25,
         "chuyen": 6.5,
-        "tong": 36
+        "tong": 36,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 62,
@@ -865,7 +987,9 @@
         "toan": 3.25,
         "anh": 9.5,
         "chuyen": 6.2,
-        "tong": 30.65
+        "tong": 30.65,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 63,
@@ -879,7 +1003,9 @@
         "toan": 6,
         "anh": 7.75,
         "chuyen": 4.3,
-        "tong": 27.85
+        "tong": 27.85,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 64,
@@ -893,7 +1019,9 @@
         "toan": 4,
         "anh": 9.5,
         "chuyen": 8,
-        "tong": 35.5
+        "tong": 35.5,
+        "district": "Châu Thành",
+        "gender": "Nam"
     },
     {
         "stt": 65,
@@ -907,7 +1035,9 @@
         "toan": null,
         "anh": null,
         "chuyen": null,
-        "tong": null
+        "tong": null,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 66,
@@ -921,7 +1051,9 @@
         "toan": 7,
         "anh": 8.25,
         "chuyen": 3.5,
-        "tong": 27.75
+        "tong": 27.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 67,
@@ -935,7 +1067,9 @@
         "toan": 7.5,
         "anh": 10,
         "chuyen": 5.9,
-        "tong": 35.3
+        "tong": 35.3,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 68,
@@ -949,7 +1083,9 @@
         "toan": 6,
         "anh": 10,
         "chuyen": 7.6,
-        "tong": 37.7
+        "tong": 37.7,
+        "district": "Bình Đại",
+        "gender": "Nữ"
     },
     {
         "stt": 69,
@@ -963,7 +1099,9 @@
         "toan": 6,
         "anh": 9.25,
         "chuyen": 6.7,
-        "tong": 36.65
+        "tong": 36.65,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 70,
@@ -977,7 +1115,9 @@
         "toan": 5.75,
         "anh": 7.25,
         "chuyen": 3.2,
-        "tong": 23.4
+        "tong": 23.4,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 71,
@@ -991,7 +1131,9 @@
         "toan": 3.5,
         "anh": 9.25,
         "chuyen": 5.4,
-        "tong": 30.05
+        "tong": 30.05,
+        "district": "Bình Đại",
+        "gender": "Nam"
     },
     {
         "stt": 72,
@@ -1005,7 +1147,9 @@
         "toan": 5.5,
         "anh": 8.75,
         "chuyen": 3.2,
-        "tong": 26.65
+        "tong": 26.65,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 73,
@@ -1019,7 +1163,9 @@
         "toan": 6,
         "anh": 9.25,
         "chuyen": 5.2,
-        "tong": 32.15
+        "tong": 32.15,
+        "district": "Mỏ Cày Nam",
+        "gender": "Nam"
     },
     {
         "stt": 74,
@@ -1033,7 +1179,9 @@
         "toan": 4.5,
         "anh": 8.75,
         "chuyen": 2.9,
-        "tong": 24.05
+        "tong": 24.05,
+        "district": "Giồng Trôm",
+        "gender": "Nam"
     },
     {
         "stt": 75,
@@ -1047,7 +1195,9 @@
         "toan": null,
         "anh": null,
         "chuyen": null,
-        "tong": null
+        "tong": null,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 76,
@@ -1061,7 +1211,9 @@
         "toan": 5.5,
         "anh": 9.5,
         "chuyen": 5.4,
-        "tong": 32.8
+        "tong": 32.8,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 77,
@@ -1075,7 +1227,9 @@
         "toan": 4,
         "anh": 6,
         "chuyen": 1,
-        "tong": 16.5
+        "tong": 16.5,
+        "district": "Mỏ Cày Nam",
+        "gender": "Nữ"
     },
     {
         "stt": 78,
@@ -1089,7 +1243,9 @@
         "toan": 6,
         "anh": 9.5,
         "chuyen": 5.1,
-        "tong": 30.45
+        "tong": 30.45,
+        "district": "Bình Đại",
+        "gender": "Nữ"
     },
     {
         "stt": 79,
@@ -1103,7 +1259,9 @@
         "toan": 2.25,
         "anh": 8.75,
         "chuyen": 4,
-        "tong": 24.25
+        "tong": 24.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 80,
@@ -1117,7 +1275,9 @@
         "toan": 2.75,
         "anh": 8.25,
         "chuyen": 3,
-        "tong": 20.5
+        "tong": 20.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 81,
@@ -1131,7 +1291,9 @@
         "toan": 6,
         "anh": 9.75,
         "chuyen": 6.9,
-        "tong": 34.55
+        "tong": 34.55,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 82,
@@ -1145,7 +1307,9 @@
         "toan": 7.25,
         "anh": 9.5,
         "chuyen": 4.1,
-        "tong": 32.2
+        "tong": 32.2,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 83,
@@ -1159,7 +1323,9 @@
         "toan": 4,
         "anh": 8,
         "chuyen": 3.6,
-        "tong": 25.2
+        "tong": 25.2,
+        "district": "Bình Đại",
+        "gender": "Nữ"
     },
     {
         "stt": 84,
@@ -1173,7 +1339,9 @@
         "toan": 4.25,
         "anh": 7.25,
         "chuyen": 2.7,
-        "tong": 23.65
+        "tong": 23.65,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 85,
@@ -1187,7 +1355,9 @@
         "toan": 7.75,
         "anh": 9.75,
         "chuyen": 3.5,
-        "tong": 32.5
+        "tong": 32.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 86,
@@ -1201,7 +1371,9 @@
         "toan": 5.75,
         "anh": 8,
         "chuyen": 2.1,
-        "tong": 24.7
+        "tong": 24.7,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 87,
@@ -1215,7 +1387,9 @@
         "toan": 5,
         "anh": 8.25,
         "chuyen": 1.6,
-        "tong": 21.95
+        "tong": 21.95,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 88,
@@ -1229,7 +1403,9 @@
         "toan": 6,
         "anh": 8.5,
         "chuyen": 3.57,
-        "tong": 29.14
+        "tong": 29.14,
+        "district": "Ba Tri",
+        "gender": "Nữ"
     },
     {
         "stt": 89,
@@ -1243,7 +1419,9 @@
         "toan": 7.75,
         "anh": 8.5,
         "chuyen": 4.1,
-        "tong": 30.95
+        "tong": 30.95,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 90,
@@ -1257,7 +1435,9 @@
         "toan": 2.75,
         "anh": 7,
         "chuyen": 2.1,
-        "tong": 18.45
+        "tong": 18.45,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 91,
@@ -1271,7 +1451,9 @@
         "toan": 5.5,
         "anh": 7,
         "chuyen": 3.4,
-        "tong": 26.05
+        "tong": 26.05,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 92,
@@ -1285,7 +1467,9 @@
         "toan": 5.5,
         "anh": 9.75,
         "chuyen": 7.2,
-        "tong": 35.4
+        "tong": 35.4,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 93,
@@ -1299,7 +1483,9 @@
         "toan": 5.75,
         "anh": 8.25,
         "chuyen": 4.5,
-        "tong": 28
+        "tong": 28,
+        "district": "Ba Tri",
+        "gender": "Nam"
     },
     {
         "stt": 94,
@@ -1313,7 +1499,9 @@
         "toan": 3.75,
         "anh": 6.75,
         "chuyen": 3.3,
-        "tong": 23.35
+        "tong": 23.35,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 95,
@@ -1327,7 +1515,9 @@
         "toan": 6.75,
         "anh": 8.75,
         "chuyen": 3.5,
-        "tong": 28.5
+        "tong": 28.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 96,
@@ -1341,7 +1531,9 @@
         "toan": 5.25,
         "anh": 7.75,
         "chuyen": 3,
-        "tong": 26
+        "tong": 26,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 97,
@@ -1355,7 +1547,9 @@
         "toan": 5.5,
         "anh": 8.75,
         "chuyen": 4.3,
-        "tong": 28.6
+        "tong": 28.6,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 98,
@@ -1369,7 +1563,9 @@
         "toan": 7,
         "anh": 9.5,
         "chuyen": 2.6,
-        "tong": 27.2
+        "tong": 27.2,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 99,
@@ -1383,7 +1579,9 @@
         "toan": 6.5,
         "anh": 9.5,
         "chuyen": 6.5,
-        "tong": 36
+        "tong": 36,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 100,
@@ -1397,7 +1595,9 @@
         "toan": 6,
         "anh": 9.75,
         "chuyen": 3,
-        "tong": 26.75
+        "tong": 26.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 101,
@@ -1411,7 +1611,9 @@
         "toan": 5.25,
         "anh": 8.75,
         "chuyen": 4.3,
-        "tong": 27.6
+        "tong": 27.6,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 102,
@@ -1425,7 +1627,9 @@
         "toan": 7.75,
         "anh": 9.75,
         "chuyen": 7.6,
-        "tong": 39.45
+        "tong": 39.45,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 103,
@@ -1439,7 +1643,9 @@
         "toan": 5.25,
         "anh": 9.25,
         "chuyen": 4,
-        "tong": 28
+        "tong": 28,
+        "district": "Giồng Trôm",
+        "gender": "Nam"
     },
     {
         "stt": 104,
@@ -1453,7 +1659,9 @@
         "toan": 0.75,
         "anh": 6.75,
         "chuyen": 2,
-        "tong": 14.5
+        "tong": 14.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 105,
@@ -1467,7 +1675,9 @@
         "toan": 1.75,
         "anh": 9.25,
         "chuyen": 6.9,
-        "tong": 28.05
+        "tong": 28.05,
+        "district": "Bình Đại",
+        "gender": "Nam"
     },
     {
         "stt": 106,
@@ -1481,7 +1691,9 @@
         "toan": 3.75,
         "anh": 9.75,
         "chuyen": 3.8,
-        "tong": 23.85
+        "tong": 23.85,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 107,
@@ -1495,7 +1707,9 @@
         "toan": 8.25,
         "anh": 9.5,
         "chuyen": 8.1,
-        "tong": 39.95
+        "tong": 39.95,
+        "district": "Giồng Trôm",
+        "gender": "Nữ"
     },
     {
         "stt": 108,
@@ -1509,7 +1723,9 @@
         "toan": 5.25,
         "anh": 10,
         "chuyen": 7,
-        "tong": 35.75
+        "tong": 35.75,
+        "district": "Mỏ Cày Nam",
+        "gender": "Nam"
     },
     {
         "stt": 109,
@@ -1523,7 +1739,9 @@
         "toan": 4.75,
         "anh": 8.25,
         "chuyen": 2.8,
-        "tong": 25.85
+        "tong": 25.85,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 110,
@@ -1537,7 +1755,9 @@
         "toan": 5,
         "anh": 9.5,
         "chuyen": 5.2,
-        "tong": 31.15
+        "tong": 31.15,
+        "district": "Mỏ Cày Nam",
+        "gender": "Nữ"
     },
     {
         "stt": 111,
@@ -1551,7 +1771,9 @@
         "toan": 6.25,
         "anh": 9.25,
         "chuyen": 4.6,
-        "tong": 31.45
+        "tong": 31.45,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 112,
@@ -1565,7 +1787,9 @@
         "toan": 5.5,
         "anh": 9,
         "chuyen": 5.6,
-        "tong": 30.45
+        "tong": 30.45,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 113,
@@ -1579,7 +1803,9 @@
         "toan": 3.5,
         "anh": 6.25,
         "chuyen": 2,
-        "tong": 19.5
+        "tong": 19.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 114,
@@ -1593,7 +1819,9 @@
         "toan": 4.75,
         "anh": 9.75,
         "chuyen": 5.2,
-        "tong": 32.65
+        "tong": 32.65,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 115,
@@ -1607,7 +1835,9 @@
         "toan": 6.75,
         "anh": 9.25,
         "chuyen": 3.1,
-        "tong": 28.2
+        "tong": 28.2,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 116,
@@ -1621,7 +1851,9 @@
         "toan": 3.75,
         "anh": 5.5,
         "chuyen": 2.7,
-        "tong": 20.65
+        "tong": 20.65,
+        "district": "Giồng Trôm",
+        "gender": "Nữ"
     },
     {
         "stt": 117,
@@ -1635,7 +1867,9 @@
         "toan": 8.75,
         "anh": 9.75,
         "chuyen": 5,
-        "tong": 34.25
+        "tong": 34.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 118,
@@ -1649,7 +1883,9 @@
         "toan": 2.5,
         "anh": 8.25,
         "chuyen": 3,
-        "tong": 22.5
+        "tong": 22.5,
+        "district": "Giồng Trôm",
+        "gender": "Nam"
     },
     {
         "stt": 119,
@@ -1663,7 +1899,9 @@
         "toan": 6.25,
         "anh": 9.75,
         "chuyen": 7.83,
-        "tong": 38.16
+        "tong": 38.16,
+        "district": "Châu Thành",
+        "gender": "Nam"
     },
     {
         "stt": 120,
@@ -1677,7 +1915,9 @@
         "toan": 4,
         "anh": 8.75,
         "chuyen": 3.4,
-        "tong": 25.3
+        "tong": 25.3,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 121,
@@ -1691,7 +1931,9 @@
         "toan": 4,
         "anh": 6.25,
         "chuyen": 2.3,
-        "tong": 19.85
+        "tong": 19.85,
+        "district": "Chợ Lách",
+        "gender": "Nữ"
     },
     {
         "stt": 122,
@@ -1705,7 +1947,9 @@
         "toan": 5.5,
         "anh": 6,
         "chuyen": 1.8,
-        "tong": 20.1
+        "tong": 20.1,
+        "district": "Ba Tri",
+        "gender": "Nữ"
     },
     {
         "stt": 123,
@@ -1719,7 +1963,9 @@
         "toan": 3.25,
         "anh": 7,
         "chuyen": 2.3,
-        "tong": 19.85
+        "tong": 19.85,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 124,
@@ -1733,7 +1979,9 @@
         "toan": 4.25,
         "anh": 7.5,
         "chuyen": 2.3,
-        "tong": 21.85
+        "tong": 21.85,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 125,
@@ -1747,7 +1995,9 @@
         "toan": 3.25,
         "anh": 7.25,
         "chuyen": 4.5,
-        "tong": 22.75
+        "tong": 22.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 126,
@@ -1761,7 +2011,9 @@
         "toan": 5.5,
         "anh": 9.5,
         "chuyen": 4.7,
-        "tong": 32.15
+        "tong": 32.15,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 127,
@@ -1775,7 +2027,9 @@
         "toan": 5.75,
         "anh": 8.25,
         "chuyen": 2.2,
-        "tong": 24.15
+        "tong": 24.15,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 128,
@@ -1789,7 +2043,9 @@
         "toan": 7.5,
         "anh": 9.5,
         "chuyen": 4.3,
-        "tong": 33.1
+        "tong": 33.1,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 129,
@@ -1803,7 +2059,9 @@
         "toan": 7,
         "anh": 10,
         "chuyen": 8.4,
-        "tong": 41.3
+        "tong": 41.3,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 130,
@@ -1817,7 +2075,9 @@
         "toan": 2.5,
         "anh": 6.75,
         "chuyen": 2.7,
-        "tong": 20.4
+        "tong": 20.4,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 131,
@@ -1831,7 +2091,9 @@
         "toan": 6.75,
         "anh": 9.75,
         "chuyen": 6.8,
-        "tong": 37.1
+        "tong": 37.1,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 132,
@@ -1845,7 +2107,9 @@
         "toan": 4.5,
         "anh": 9.5,
         "chuyen": 3.2,
-        "tong": 26.15
+        "tong": 26.15,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 133,
@@ -1859,7 +2123,9 @@
         "toan": 4,
         "anh": 9.25,
         "chuyen": 5.1,
-        "tong": 29.2
+        "tong": 29.2,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 134,
@@ -1873,7 +2139,9 @@
         "toan": 5.5,
         "anh": 7.75,
         "chuyen": 3.6,
-        "tong": 25.95
+        "tong": 25.95,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 135,
@@ -1887,7 +2155,9 @@
         "toan": 3.5,
         "anh": 8.5,
         "chuyen": 4.7,
-        "tong": 27.65
+        "tong": 27.65,
+        "district": "Giồng Trôm",
+        "gender": "Nữ"
     },
     {
         "stt": 136,
@@ -1901,7 +2171,9 @@
         "toan": 7.25,
         "anh": 10,
         "chuyen": 7.4,
-        "tong": 39.55
+        "tong": 39.55,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 137,
@@ -1915,7 +2187,9 @@
         "toan": 8.5,
         "anh": 10,
         "chuyen": 6.4,
-        "tong": 38.05
+        "tong": 38.05,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 138,
@@ -1929,7 +2203,9 @@
         "toan": 6,
         "anh": 9.75,
         "chuyen": 5.8,
-        "tong": 34.1
+        "tong": 34.1,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 139,
@@ -1943,7 +2219,9 @@
         "toan": 4,
         "anh": 8.25,
         "chuyen": 3.8,
-        "tong": 25.1
+        "tong": 25.1,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 140,
@@ -1957,7 +2235,9 @@
         "toan": 6,
         "anh": 9.75,
         "chuyen": 5.7,
-        "tong": 34.15
+        "tong": 34.15,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 141,
@@ -1971,7 +2251,9 @@
         "toan": 2.75,
         "anh": 8.5,
         "chuyen": 2.6,
-        "tong": 21.95
+        "tong": 21.95,
+        "district": "Thạnh Phú",
+        "gender": "Nữ"
     },
     {
         "stt": 142,
@@ -1985,7 +2267,9 @@
         "toan": 4.75,
         "anh": 8,
         "chuyen": 3.1,
-        "tong": 23.2
+        "tong": 23.2,
+        "district": "Ba Tri",
+        "gender": "Nữ"
     },
     {
         "stt": 143,
@@ -1999,7 +2283,9 @@
         "toan": 7,
         "anh": 9.5,
         "chuyen": 7.1,
-        "tong": 36.95
+        "tong": 36.95,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 144,
@@ -2013,7 +2299,9 @@
         "toan": 6,
         "anh": 8.25,
         "chuyen": 2.9,
-        "tong": 24.8
+        "tong": 24.8,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 145,
@@ -2027,7 +2315,9 @@
         "toan": 5,
         "anh": 9.25,
         "chuyen": 6.7,
-        "tong": 34.65
+        "tong": 34.65,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 146,
@@ -2041,7 +2331,9 @@
         "toan": 5.25,
         "anh": 8,
         "chuyen": 2.5,
-        "tong": 25
+        "tong": 25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 147,
@@ -2055,7 +2347,9 @@
         "toan": 6,
         "anh": 9.75,
         "chuyen": 3.8,
-        "tong": 29.85
+        "tong": 29.85,
+        "district": "Ba Tri",
+        "gender": "Nữ"
     },
     {
         "stt": 148,
@@ -2069,7 +2363,9 @@
         "toan": 6,
         "anh": 6,
         "chuyen": 4.5,
-        "tong": 26.25
+        "tong": 26.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 149,
@@ -2083,7 +2379,9 @@
         "toan": 1.5,
         "anh": 4,
         "chuyen": 2.5,
-        "tong": 15.5
+        "tong": 15.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 150,
@@ -2097,7 +2395,9 @@
         "toan": 5,
         "anh": 7,
         "chuyen": 7.25,
-        "tong": 32.75
+        "tong": 32.75,
+        "district": "Bình Đại",
+        "gender": "Nam"
     },
     {
         "stt": 151,
@@ -2111,7 +2411,9 @@
         "toan": 2.5,
         "anh": 5.75,
         "chuyen": 2,
-        "tong": 16.5
+        "tong": 16.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 152,
@@ -2125,7 +2427,9 @@
         "toan": 2.25,
         "anh": 4.5,
         "chuyen": 4.75,
-        "tong": 20.5
+        "tong": 20.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 153,
@@ -2139,7 +2443,9 @@
         "toan": 4.75,
         "anh": 7.75,
         "chuyen": 5.25,
-        "tong": 29.5
+        "tong": 29.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 154,
@@ -2153,7 +2459,9 @@
         "toan": 3.75,
         "anh": 8.5,
         "chuyen": 5.75,
-        "tong": 30.5
+        "tong": 30.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 155,
@@ -2167,7 +2475,9 @@
         "toan": 5,
         "anh": 5,
         "chuyen": 4.75,
-        "tong": 24
+        "tong": 24,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 156,
@@ -2181,7 +2491,9 @@
         "toan": 2.75,
         "anh": 4.75,
         "chuyen": 4.75,
-        "tong": 21.92
+        "tong": 21.92,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 157,
@@ -2195,7 +2507,9 @@
         "toan": 5.5,
         "anh": 5.25,
         "chuyen": 4.5,
-        "tong": 25.25
+        "tong": 25.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 158,
@@ -2209,7 +2523,9 @@
         "toan": 3,
         "anh": 5.75,
         "chuyen": 5.75,
-        "tong": 25.75
+        "tong": 25.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 159,
@@ -2223,7 +2539,9 @@
         "toan": 6.25,
         "anh": 4.75,
         "chuyen": 2.25,
-        "tong": 21.75
+        "tong": 21.75,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 160,
@@ -2237,7 +2555,9 @@
         "toan": 4,
         "anh": 6.75,
         "chuyen": 7.5,
-        "tong": 32
+        "tong": 32,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 161,
@@ -2251,7 +2571,9 @@
         "toan": 3.5,
         "anh": 5,
         "chuyen": 4,
-        "tong": 23.5
+        "tong": 23.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 162,
@@ -2265,7 +2587,9 @@
         "toan": 4.75,
         "anh": 6,
         "chuyen": 4.5,
-        "tong": 25.5
+        "tong": 25.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 163,
@@ -2279,7 +2603,9 @@
         "toan": 3.75,
         "anh": 6.25,
         "chuyen": 4.5,
-        "tong": 24.25
+        "tong": 24.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 164,
@@ -2293,7 +2619,9 @@
         "toan": 3.25,
         "anh": 7.75,
         "chuyen": 5.25,
-        "tong": 27.5
+        "tong": 27.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 165,
@@ -2307,7 +2635,9 @@
         "toan": 5.5,
         "anh": 5.25,
         "chuyen": 6.75,
-        "tong": 29.5
+        "tong": 29.5,
+        "district": "Giồng Trôm",
+        "gender": "Nữ"
     },
     {
         "stt": 166,
@@ -2321,7 +2651,9 @@
         "toan": 4.5,
         "anh": 6.25,
         "chuyen": 5.25,
-        "tong": 26
+        "tong": 26,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 167,
@@ -2335,7 +2667,9 @@
         "toan": 4.25,
         "anh": 4.75,
         "chuyen": 6.25,
-        "tong": 27.5
+        "tong": 27.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 168,
@@ -2349,7 +2683,9 @@
         "toan": 2.75,
         "anh": 7.75,
         "chuyen": 3.25,
-        "tong": 21.25
+        "tong": 21.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 169,
@@ -2363,7 +2699,9 @@
         "toan": 6,
         "anh": 7.25,
         "chuyen": 5.25,
-        "tong": 29
+        "tong": 29,
+        "district": "Giồng Trôm",
+        "gender": "Nữ"
     },
     {
         "stt": 170,
@@ -2377,7 +2715,9 @@
         "toan": 4.5,
         "anh": 8.75,
         "chuyen": 5.5,
-        "tong": 30.25
+        "tong": 30.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 171,
@@ -2391,7 +2731,9 @@
         "toan": 3.75,
         "anh": 6,
         "chuyen": 4,
-        "tong": 23.5
+        "tong": 23.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 172,
@@ -2405,7 +2747,9 @@
         "toan": 3.25,
         "anh": 4.25,
         "chuyen": 2,
-        "tong": 16.5
+        "tong": 16.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 173,
@@ -2419,7 +2763,9 @@
         "toan": 3.5,
         "anh": 4.75,
         "chuyen": 4.5,
-        "tong": 22.75
+        "tong": 22.75,
+        "district": "Giồng Trôm",
+        "gender": "Nam"
     },
     {
         "stt": 174,
@@ -2433,7 +2779,9 @@
         "toan": 4,
         "anh": 4.75,
         "chuyen": 1.25,
-        "tong": 15.5
+        "tong": 15.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 175,
@@ -2447,7 +2795,9 @@
         "toan": 4.75,
         "anh": 7.25,
         "chuyen": 2,
-        "tong": 21.5
+        "tong": 21.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 176,
@@ -2461,7 +2811,9 @@
         "toan": 6,
         "anh": 8,
         "chuyen": 5.5,
-        "tong": 31.25
+        "tong": 31.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 177,
@@ -2475,7 +2827,9 @@
         "toan": 5.25,
         "anh": 7,
         "chuyen": 6.5,
-        "tong": 31.5
+        "tong": 31.5,
+        "district": "Mỏ Cày Nam",
+        "gender": "Nam"
     },
     {
         "stt": 178,
@@ -2489,7 +2843,9 @@
         "toan": 4.75,
         "anh": 6.25,
         "chuyen": 5.75,
-        "tong": 29
+        "tong": 29,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 179,
@@ -2503,7 +2859,9 @@
         "toan": 4,
         "anh": 8,
         "chuyen": 4.25,
-        "tong": 26.5
+        "tong": 26.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 180,
@@ -2517,7 +2875,9 @@
         "toan": 4.25,
         "anh": 7,
         "chuyen": 6.5,
-        "tong": 28.75
+        "tong": 28.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 181,
@@ -2531,7 +2891,9 @@
         "toan": 3.5,
         "anh": 8.5,
         "chuyen": 2.75,
-        "tong": 22.25
+        "tong": 22.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 182,
@@ -2545,7 +2907,9 @@
         "toan": 4.5,
         "anh": 7,
         "chuyen": 2.75,
-        "tong": 21
+        "tong": 21,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 183,
@@ -2559,7 +2923,9 @@
         "toan": 4,
         "anh": 4.25,
         "chuyen": 3,
-        "tong": 20.75
+        "tong": 20.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 184,
@@ -2573,7 +2939,9 @@
         "toan": 2.75,
         "anh": 3.75,
         "chuyen": 4.25,
-        "tong": 19.5
+        "tong": 19.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 185,
@@ -2587,7 +2955,9 @@
         "toan": 5.5,
         "anh": 8.75,
         "chuyen": 4,
-        "tong": 29
+        "tong": 29,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 186,
@@ -2601,7 +2971,9 @@
         "toan": 6.75,
         "anh": 9.5,
         "chuyen": 5.75,
-        "tong": 32.25
+        "tong": 32.25,
+        "district": "Mỏ Cày Bắc",
+        "gender": "Nam"
     },
     {
         "stt": 187,
@@ -2615,7 +2987,9 @@
         "toan": 7,
         "anh": 7.75,
         "chuyen": 7.5,
-        "tong": 35.5
+        "tong": 35.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 188,
@@ -2629,7 +3003,9 @@
         "toan": 5.75,
         "anh": 8.5,
         "chuyen": 7.25,
-        "tong": 34.5
+        "tong": 34.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 189,
@@ -2643,7 +3019,9 @@
         "toan": 4.75,
         "anh": 5.5,
         "chuyen": 6.25,
-        "tong": 27.75
+        "tong": 27.75,
+        "district": "Chợ Lách",
+        "gender": "Nữ"
     },
     {
         "stt": 190,
@@ -2657,7 +3035,9 @@
         "toan": 6.75,
         "anh": 7.25,
         "chuyen": 6.25,
-        "tong": 32.75
+        "tong": 32.75,
+        "district": "Giồng Trôm",
+        "gender": "Nữ"
     },
     {
         "stt": 191,
@@ -2671,7 +3051,9 @@
         "toan": 3.25,
         "anh": 2.75,
         "chuyen": 4.75,
-        "tong": 21.25
+        "tong": 21.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 192,
@@ -2685,7 +3067,9 @@
         "toan": 3,
         "anh": 5.5,
         "chuyen": 6,
-        "tong": 25.25
+        "tong": 25.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 193,
@@ -2699,7 +3083,9 @@
         "toan": 8.75,
         "anh": 9.5,
         "chuyen": 7.5,
-        "tong": 40.5
+        "tong": 40.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 194,
@@ -2713,7 +3099,9 @@
         "toan": 5.25,
         "anh": 8,
         "chuyen": 5.25,
-        "tong": 28.25
+        "tong": 28.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 195,
@@ -2727,7 +3115,9 @@
         "toan": 3,
         "anh": 3.75,
         "chuyen": 6.25,
-        "tong": 24.75
+        "tong": 24.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 196,
@@ -2741,7 +3131,9 @@
         "toan": 4.75,
         "anh": 7.25,
         "chuyen": 6.75,
-        "tong": 32.25
+        "tong": 32.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 197,
@@ -2755,7 +3147,9 @@
         "toan": 6.25,
         "anh": 7.75,
         "chuyen": 6.75,
-        "tong": 33.5
+        "tong": 33.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 198,
@@ -2769,7 +3163,9 @@
         "toan": 4.75,
         "anh": 9.25,
         "chuyen": 6.5,
-        "tong": 33.75
+        "tong": 33.75,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 199,
@@ -2783,7 +3179,9 @@
         "toan": 4,
         "anh": 7.5,
         "chuyen": 6.25,
-        "tong": 29.25
+        "tong": 29.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 200,
@@ -2797,7 +3195,9 @@
         "toan": 3.75,
         "anh": 6.25,
         "chuyen": 7.5,
-        "tong": 31.25
+        "tong": 31.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 201,
@@ -2811,7 +3211,9 @@
         "toan": 2.5,
         "anh": 6.75,
         "chuyen": 6.5,
-        "tong": 27.25
+        "tong": 27.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 202,
@@ -2825,7 +3227,9 @@
         "toan": 4.5,
         "anh": 5.25,
         "chuyen": 6,
-        "tong": 28
+        "tong": 28,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 203,
@@ -2839,7 +3243,9 @@
         "toan": 4.25,
         "anh": 8.25,
         "chuyen": 6.75,
-        "tong": 32.75
+        "tong": 32.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 204,
@@ -2853,7 +3259,9 @@
         "toan": 5.75,
         "anh": 7,
         "chuyen": 5.75,
-        "tong": 31
+        "tong": 31,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 205,
@@ -2867,7 +3275,9 @@
         "toan": 6,
         "anh": 7.25,
         "chuyen": 6.5,
-        "tong": 32.75
+        "tong": 32.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 206,
@@ -2881,7 +3291,9 @@
         "toan": 4.75,
         "anh": 7.25,
         "chuyen": 5.75,
-        "tong": 28.25
+        "tong": 28.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 207,
@@ -2895,7 +3307,9 @@
         "toan": 8,
         "anh": 9,
         "chuyen": 7,
-        "tong": 38.25
+        "tong": 38.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 208,
@@ -2909,7 +3323,9 @@
         "toan": 4,
         "anh": 6.25,
         "chuyen": 5,
-        "tong": 26.5
+        "tong": 26.5,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 209,
@@ -2923,7 +3339,9 @@
         "toan": 3.25,
         "anh": 6.5,
         "chuyen": 4.25,
-        "tong": 21.75
+        "tong": 21.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 210,
@@ -2937,7 +3355,9 @@
         "toan": 6.25,
         "anh": 7,
         "chuyen": 6,
-        "tong": 32.25
+        "tong": 32.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 211,
@@ -2951,7 +3371,9 @@
         "toan": 5.25,
         "anh": 6.25,
         "chuyen": 5.25,
-        "tong": 27.5
+        "tong": 27.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 212,
@@ -2965,7 +3387,9 @@
         "toan": 5.75,
         "anh": 7.5,
         "chuyen": 5.25,
-        "tong": 29.5
+        "tong": 29.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 213,
@@ -2979,7 +3403,9 @@
         "toan": 3,
         "anh": 5,
         "chuyen": 7.25,
-        "tong": 28.75
+        "tong": 28.75,
+        "district": "Giồng Trôm",
+        "gender": "Nữ"
     },
     {
         "stt": 214,
@@ -2993,7 +3419,9 @@
         "toan": 6.75,
         "anh": 6.5,
         "chuyen": 7.75,
-        "tong": 36.25
+        "tong": 36.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 215,
@@ -3007,7 +3435,9 @@
         "toan": 4.25,
         "anh": 6.75,
         "chuyen": 5,
-        "tong": 26.25
+        "tong": 26.25,
+        "district": "Bình Đại",
+        "gender": "Nữ"
     },
     {
         "stt": 216,
@@ -3021,7 +3451,9 @@
         "toan": 3.25,
         "anh": 5.75,
         "chuyen": 5,
-        "tong": 24.25
+        "tong": 24.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 217,
@@ -3035,7 +3467,9 @@
         "toan": 7,
         "anh": 8.25,
         "chuyen": 8,
-        "tong": 38.25
+        "tong": 38.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 218,
@@ -3049,7 +3483,9 @@
         "toan": 4.75,
         "anh": 6.5,
         "chuyen": 5,
-        "tong": 26.75
+        "tong": 26.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 219,
@@ -3063,7 +3499,9 @@
         "toan": 6.5,
         "anh": 7.25,
         "chuyen": 5.5,
-        "tong": 30.75
+        "tong": 30.75,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 220,
@@ -3077,7 +3515,9 @@
         "toan": 3.75,
         "anh": 7.25,
         "chuyen": 6.5,
-        "tong": 29.5
+        "tong": 29.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 221,
@@ -3091,7 +3531,9 @@
         "toan": 6.25,
         "anh": 7,
         "chuyen": 7,
-        "tong": 33.25
+        "tong": 33.25,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 222,
@@ -3105,7 +3547,9 @@
         "toan": 7,
         "anh": 6.25,
         "chuyen": 7.5,
-        "tong": 34.5
+        "tong": 34.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 223,
@@ -3119,7 +3563,9 @@
         "toan": 3.25,
         "anh": 6,
         "chuyen": 5.25,
-        "tong": 24.75
+        "tong": 24.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 224,
@@ -3133,7 +3579,9 @@
         "toan": 2.75,
         "anh": 3.5,
         "chuyen": 4.25,
-        "tong": 19
+        "tong": 19,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 225,
@@ -3147,7 +3595,9 @@
         "toan": 6.5,
         "anh": 9.25,
         "chuyen": 6.5,
-        "tong": 35.5
+        "tong": 35.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 226,
@@ -3161,7 +3611,9 @@
         "toan": 6,
         "anh": 7.5,
         "chuyen": 5.75,
-        "tong": 31.75
+        "tong": 31.75,
+        "district": "Giồng Trôm",
+        "gender": "Nữ"
     },
     {
         "stt": 227,
@@ -3175,7 +3627,9 @@
         "toan": 4.5,
         "anh": 7.5,
         "chuyen": 6.5,
-        "tong": 31.5
+        "tong": 31.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 228,
@@ -3189,7 +3643,9 @@
         "toan": 5.25,
         "anh": 6.25,
         "chuyen": 6.5,
-        "tong": 30.5
+        "tong": 30.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 229,
@@ -3203,7 +3659,9 @@
         "toan": 5,
         "anh": 6.75,
         "chuyen": 6.25,
-        "tong": 28.5
+        "tong": 28.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 230,
@@ -3217,7 +3675,9 @@
         "toan": 7.25,
         "anh": 9.25,
         "chuyen": 7.25,
-        "tong": 37.5
+        "tong": 37.5,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 231,
@@ -3231,7 +3691,9 @@
         "toan": 3.75,
         "anh": 3.75,
         "chuyen": 6,
-        "tong": 24.75
+        "tong": 24.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 232,
@@ -3245,7 +3707,9 @@
         "toan": 5,
         "anh": 7,
         "chuyen": 5.5,
-        "tong": 29.25
+        "tong": 29.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 233,
@@ -3259,7 +3723,9 @@
         "toan": 4.25,
         "anh": 6.5,
         "chuyen": 6.5,
-        "tong": 30
+        "tong": 30,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 234,
@@ -3273,7 +3739,9 @@
         "toan": 3,
         "anh": 6,
         "chuyen": 7,
-        "tong": 28.25
+        "tong": 28.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 235,
@@ -3287,7 +3755,9 @@
         "toan": 6,
         "anh": 5.75,
         "chuyen": 6.5,
-        "tong": 30
+        "tong": 30,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 236,
@@ -3301,7 +3771,9 @@
         "toan": 5.75,
         "anh": 9.25,
         "chuyen": 6.5,
-        "tong": 34
+        "tong": 34,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 237,
@@ -3315,7 +3787,9 @@
         "toan": 5.25,
         "anh": 4.75,
         "chuyen": 6.25,
-        "tong": 27
+        "tong": 27,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 238,
@@ -3329,7 +3803,9 @@
         "toan": 6.5,
         "anh": 5.25,
         "chuyen": 7.5,
-        "tong": 32.25
+        "tong": 32.25,
+        "district": "Mỏ Cày Bắc",
+        "gender": "Nữ"
     },
     {
         "stt": 239,
@@ -3343,7 +3819,9 @@
         "toan": 4.75,
         "anh": 7.25,
         "chuyen": 7.75,
-        "tong": 33.25
+        "tong": 33.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 240,
@@ -3357,7 +3835,9 @@
         "toan": 4.75,
         "anh": 8,
         "chuyen": 7.25,
-        "tong": 33.5
+        "tong": 33.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 241,
@@ -3371,7 +3851,9 @@
         "toan": 6.25,
         "anh": 7,
         "chuyen": 5.75,
-        "tong": 31.25
+        "tong": 31.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 242,
@@ -3385,7 +3867,9 @@
         "toan": 2.75,
         "anh": 9.25,
         "chuyen": 7.25,
-        "tong": 32.75
+        "tong": 32.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 243,
@@ -3399,7 +3883,9 @@
         "toan": 5.75,
         "anh": 6.25,
         "chuyen": 5,
-        "tong": 27.5
+        "tong": 27.5,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 244,
@@ -3413,7 +3899,9 @@
         "toan": 3.75,
         "anh": 7.5,
         "chuyen": 6.25,
-        "tong": 29.25
+        "tong": 29.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 245,
@@ -3427,7 +3915,9 @@
         "toan": 6,
         "anh": 8.5,
         "chuyen": 5,
-        "tong": 31
+        "tong": 31,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 246,
@@ -3441,7 +3931,9 @@
         "toan": 5.75,
         "anh": 7.25,
         "chuyen": 8,
-        "tong": 35.5
+        "tong": 35.5,
+        "district": "Bình Đại",
+        "gender": "Nữ"
     },
     {
         "stt": 247,
@@ -3455,7 +3947,9 @@
         "toan": 5.25,
         "anh": 6.75,
         "chuyen": 5.75,
-        "tong": 28.5
+        "tong": 28.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 248,
@@ -3469,7 +3963,9 @@
         "toan": 5,
         "anh": 6.75,
         "chuyen": 6.25,
-        "tong": 30.5
+        "tong": 30.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 249,
@@ -3483,7 +3979,9 @@
         "toan": 7,
         "anh": 7.75,
         "chuyen": 5.75,
-        "tong": 32.75
+        "tong": 32.75,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 250,
@@ -3497,7 +3995,9 @@
         "toan": 4.75,
         "anh": 6.75,
         "chuyen": 4.5,
-        "tong": 26.5
+        "tong": 26.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 251,
@@ -3511,7 +4011,9 @@
         "toan": 7.75,
         "anh": 7.25,
         "chuyen": 6.25,
-        "tong": 33
+        "tong": 33,
+        "district": "Giồng Trôm",
+        "gender": "Nữ"
     },
     {
         "stt": 252,
@@ -3525,7 +4027,9 @@
         "toan": 4,
         "anh": 7,
         "chuyen": 6.25,
-        "tong": 29.25
+        "tong": 29.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 253,
@@ -3539,7 +4043,9 @@
         "toan": 5.25,
         "anh": 7.25,
         "chuyen": 6.75,
-        "tong": 35.25
+        "tong": 35.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 254,
@@ -3553,7 +4059,9 @@
         "toan": 4.25,
         "anh": 7,
         "chuyen": 6.25,
-        "tong": 31.75
+        "tong": 31.75,
+        "district": "Giồng Trôm",
+        "gender": "Nữ"
     },
     {
         "stt": 255,
@@ -3567,7 +4075,9 @@
         "toan": 3,
         "anh": 6,
         "chuyen": 6.25,
-        "tong": 27.5
+        "tong": 27.5,
+        "district": "Ba Tri",
+        "gender": "Nữ"
     },
     {
         "stt": 256,
@@ -3581,7 +4091,9 @@
         "toan": 5,
         "anh": 8,
         "chuyen": 7,
-        "tong": 35
+        "tong": 35,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 257,
@@ -3595,7 +4107,9 @@
         "toan": 4.5,
         "anh": 7,
         "chuyen": 5.5,
-        "tong": 28
+        "tong": 28,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 258,
@@ -3609,7 +4123,9 @@
         "toan": 5.75,
         "anh": 8.25,
         "chuyen": 7.75,
-        "tong": 36.5
+        "tong": 36.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 259,
@@ -3623,7 +4139,9 @@
         "toan": 5.75,
         "anh": 6.5,
         "chuyen": 5,
-        "tong": 28
+        "tong": 28,
+        "district": "Bình Đại",
+        "gender": "Nam"
     },
     {
         "stt": 260,
@@ -3637,7 +4155,9 @@
         "toan": 5.5,
         "anh": 8.75,
         "chuyen": 6.75,
-        "tong": 35.5
+        "tong": 35.5,
+        "district": "Mỏ Cày Nam",
+        "gender": "Nữ"
     },
     {
         "stt": 261,
@@ -3651,7 +4171,9 @@
         "toan": 3,
         "anh": 4,
         "chuyen": 6,
-        "tong": 23.5
+        "tong": 23.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 262,
@@ -3665,7 +4187,9 @@
         "toan": 2.75,
         "anh": 6.75,
         "chuyen": 5,
-        "tong": 25.25
+        "tong": 25.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 263,
@@ -3679,7 +4203,9 @@
         "toan": 4,
         "anh": 7.25,
         "chuyen": 5.25,
-        "tong": 27.5
+        "tong": 27.5,
+        "district": "Giồng Trôm",
+        "gender": "Nữ"
     },
     {
         "stt": 264,
@@ -3693,7 +4219,9 @@
         "toan": 5.75,
         "anh": 7.5,
         "chuyen": 7.25,
-        "tong": 34.75
+        "tong": 34.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 265,
@@ -3707,7 +4235,9 @@
         "toan": 4,
         "anh": 6,
         "chuyen": 7.5,
-        "tong": 31
+        "tong": 31,
+        "district": "Giồng Trôm",
+        "gender": "Nữ"
     },
     {
         "stt": 266,
@@ -3721,7 +4251,9 @@
         "toan": 6.25,
         "anh": 7,
         "chuyen": 7,
-        "tong": 33.5
+        "tong": 33.5,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 267,
@@ -3735,7 +4267,9 @@
         "toan": 4.5,
         "anh": 6,
         "chuyen": 6.25,
-        "tong": 29
+        "tong": 29,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 268,
@@ -3749,7 +4283,9 @@
         "toan": 3.25,
         "anh": 3.5,
         "chuyen": 6.75,
-        "tong": 26.5
+        "tong": 26.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 269,
@@ -3763,7 +4299,9 @@
         "toan": 5,
         "anh": 6,
         "chuyen": 7.5,
-        "tong": 31.5
+        "tong": 31.5,
+        "district": "Giồng Trôm",
+        "gender": "Nữ"
     },
     {
         "stt": 270,
@@ -3777,7 +4315,9 @@
         "toan": 7.5,
         "anh": 9.25,
         "chuyen": 10,
-        "tong": 44.75
+        "tong": 44.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 271,
@@ -3791,7 +4331,9 @@
         "toan": 6,
         "anh": 8.5,
         "chuyen": 8,
-        "tong": 37
+        "tong": 37,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 272,
@@ -3805,7 +4347,9 @@
         "toan": 3.5,
         "anh": 5.5,
         "chuyen": 4.5,
-        "tong": 23.75
+        "tong": 23.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 273,
@@ -3819,7 +4363,9 @@
         "toan": 5,
         "anh": 7.5,
         "chuyen": 6.75,
-        "tong": 31.75
+        "tong": 31.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 274,
@@ -3833,7 +4379,9 @@
         "toan": 3,
         "anh": 5.5,
         "chuyen": 4.25,
-        "tong": 22.75
+        "tong": 22.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 275,
@@ -3847,7 +4395,9 @@
         "toan": 3.25,
         "anh": 9,
         "chuyen": 4.75,
-        "tong": 27.5
+        "tong": 27.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 276,
@@ -3861,7 +4411,9 @@
         "toan": 3.5,
         "anh": 6.75,
         "chuyen": 5.5,
-        "tong": 25.5
+        "tong": 25.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 277,
@@ -3875,7 +4427,9 @@
         "toan": 2.75,
         "anh": 4.25,
         "chuyen": 2.25,
-        "tong": 16.5
+        "tong": 16.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 278,
@@ -3889,7 +4443,9 @@
         "toan": 8.5,
         "anh": 9.25,
         "chuyen": 9.25,
-        "tong": 42
+        "tong": 42,
+        "district": "Giồng Trôm",
+        "gender": "Nữ"
     },
     {
         "stt": 279,
@@ -3903,7 +4459,9 @@
         "toan": 3.25,
         "anh": 6.75,
         "chuyen": 2,
-        "tong": 17.75
+        "tong": 17.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 280,
@@ -3917,7 +4475,9 @@
         "toan": 3,
         "anh": 7.25,
         "chuyen": 3.75,
-        "tong": 23.25
+        "tong": 23.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 281,
@@ -3931,7 +4491,9 @@
         "toan": 6,
         "anh": 7.25,
         "chuyen": 7,
-        "tong": 34.5
+        "tong": 34.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 282,
@@ -3945,7 +4507,9 @@
         "toan": 5,
         "anh": 6.25,
         "chuyen": 4.25,
-        "tong": 26
+        "tong": 26,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 283,
@@ -3959,7 +4523,9 @@
         "toan": 4.5,
         "anh": 6,
         "chuyen": 5,
-        "tong": 27.25
+        "tong": 27.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 284,
@@ -3973,7 +4539,9 @@
         "toan": 3.25,
         "anh": 6,
         "chuyen": 5.25,
-        "tong": 25
+        "tong": 25,
+        "district": "Bình Đại",
+        "gender": "Nữ"
     },
     {
         "stt": 285,
@@ -3987,7 +4555,9 @@
         "toan": 4.5,
         "anh": 5.25,
         "chuyen": 5.5,
-        "tong": 25.5
+        "tong": 25.5,
+        "district": "Mỏ Cày Nam",
+        "gender": "Nam"
     },
     {
         "stt": 286,
@@ -4001,7 +4571,9 @@
         "toan": 6,
         "anh": 7,
         "chuyen": 8.75,
-        "tong": 35.75
+        "tong": 35.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 287,
@@ -4015,7 +4587,9 @@
         "toan": 4,
         "anh": 4.5,
         "chuyen": 7.25,
-        "tong": 29.25
+        "tong": 29.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 288,
@@ -4029,7 +4603,9 @@
         "toan": 2.75,
         "anh": 2.75,
         "chuyen": 2,
-        "tong": 13.75
+        "tong": 13.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 289,
@@ -4043,7 +4619,9 @@
         "toan": 4.75,
         "anh": 8,
         "chuyen": 5.25,
-        "tong": 29.75
+        "tong": 29.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 290,
@@ -4057,7 +4635,9 @@
         "toan": 5.25,
         "anh": 6.25,
         "chuyen": 5.75,
-        "tong": 29.5
+        "tong": 29.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 291,
@@ -4071,7 +4651,9 @@
         "toan": 4.25,
         "anh": 6.25,
         "chuyen": 3.5,
-        "tong": 23.25
+        "tong": 23.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 292,
@@ -4085,7 +4667,9 @@
         "toan": 4,
         "anh": 5.75,
         "chuyen": 3.5,
-        "tong": 23.25
+        "tong": 23.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 293,
@@ -4099,7 +4683,9 @@
         "toan": 2.25,
         "anh": 4,
         "chuyen": 2.25,
-        "tong": 15.5
+        "tong": 15.5,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 294,
@@ -4113,7 +4699,9 @@
         "toan": 5,
         "anh": 8.25,
         "chuyen": 3.5,
-        "tong": 26.25
+        "tong": 26.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 295,
@@ -4127,7 +4715,9 @@
         "toan": 5.5,
         "anh": 4.25,
         "chuyen": 5.75,
-        "tong": 26.5
+        "tong": 26.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 296,
@@ -4141,7 +4731,9 @@
         "toan": 4.5,
         "anh": 9.25,
         "chuyen": 7,
-        "tong": 33.75
+        "tong": 33.75,
+        "district": "Giồng Trôm",
+        "gender": "Nữ"
     },
     {
         "stt": 297,
@@ -4155,7 +4747,9 @@
         "toan": 5.5,
         "anh": 7,
         "chuyen": 7.5,
-        "tong": 34.5
+        "tong": 34.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 298,
@@ -4169,7 +4763,9 @@
         "toan": 8.25,
         "anh": 8.25,
         "chuyen": 8.25,
-        "tong": 39.25
+        "tong": 39.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 299,
@@ -4183,7 +4779,9 @@
         "toan": 3.5,
         "anh": 8,
         "chuyen": 7.5,
-        "tong": 32
+        "tong": 32,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 300,
@@ -4197,7 +4795,9 @@
         "toan": 7.25,
         "anh": 9,
         "chuyen": 9.25,
-        "tong": 42
+        "tong": 42,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 301,
@@ -4211,7 +4811,9 @@
         "toan": 8,
         "anh": 9.75,
         "chuyen": 9,
-        "tong": 43.5
+        "tong": 43.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 302,
@@ -4225,7 +4827,9 @@
         "toan": 7.25,
         "anh": 6.25,
         "chuyen": 7.5,
-        "tong": 34.5
+        "tong": 34.5,
+        "district": "Giồng Trôm",
+        "gender": "Nữ"
     },
     {
         "stt": 303,
@@ -4239,7 +4843,9 @@
         "toan": 6.25,
         "anh": 3.75,
         "chuyen": 4.75,
-        "tong": 24.25
+        "tong": 24.25,
+        "district": "Mỏ Cày Nam",
+        "gender": "Nam"
     },
     {
         "stt": 304,
@@ -4253,7 +4859,9 @@
         "toan": 3.5,
         "anh": 4.75,
         "chuyen": 1.75,
-        "tong": 16.75
+        "tong": 16.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 305,
@@ -4267,7 +4875,9 @@
         "toan": 4.75,
         "anh": 7.25,
         "chuyen": 7,
-        "tong": 32.25
+        "tong": 32.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 306,
@@ -4281,7 +4891,9 @@
         "toan": 8.75,
         "anh": 8.25,
         "chuyen": 10,
-        "tong": 43.75
+        "tong": 43.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 307,
@@ -4295,7 +4907,9 @@
         "toan": 6,
         "anh": 7.5,
         "chuyen": 8,
-        "tong": 36.5
+        "tong": 36.5,
+        "district": "Ba Tri",
+        "gender": "Nam"
     },
     {
         "stt": 308,
@@ -4309,7 +4923,9 @@
         "toan": 3.25,
         "anh": 7.5,
         "chuyen": 6.5,
-        "tong": 30.75
+        "tong": 30.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 309,
@@ -4323,7 +4939,9 @@
         "toan": 5.75,
         "anh": 5,
         "chuyen": 4.5,
-        "tong": 24
+        "tong": 24,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 310,
@@ -4337,7 +4955,9 @@
         "toan": 6.75,
         "anh": 8,
         "chuyen": 6.5,
-        "tong": 33
+        "tong": 33,
+        "district": "Châu Thành",
+        "gender": "Nam"
     },
     {
         "stt": 311,
@@ -4351,7 +4971,9 @@
         "toan": 6.75,
         "anh": 7.25,
         "chuyen": 9.75,
-        "tong": 40
+        "tong": 40,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 312,
@@ -4365,7 +4987,9 @@
         "toan": 3.25,
         "anh": 4.75,
         "chuyen": 5.5,
-        "tong": 24
+        "tong": 24,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 313,
@@ -4379,7 +5003,9 @@
         "toan": 2.75,
         "anh": 7,
         "chuyen": 7.5,
-        "tong": 29.75
+        "tong": 29.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 314,
@@ -4393,7 +5019,9 @@
         "toan": 4,
         "anh": 8,
         "chuyen": 6.25,
-        "tong": 29.25
+        "tong": 29.25,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 315,
@@ -4407,7 +5035,9 @@
         "toan": 3.75,
         "anh": 4,
         "chuyen": 1.75,
-        "tong": 15.75
+        "tong": 15.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 316,
@@ -4421,7 +5051,9 @@
         "toan": 3,
         "anh": 6.75,
         "chuyen": 6.25,
-        "tong": 26.25
+        "tong": 26.25,
+        "district": "Bình Đại",
+        "gender": "Nữ"
     },
     {
         "stt": 317,
@@ -4435,7 +5067,9 @@
         "toan": 7,
         "anh": 7.75,
         "chuyen": 9.15,
-        "tong": 36.8
+        "tong": 36.8,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 318,
@@ -4449,7 +5083,9 @@
         "toan": 3.5,
         "anh": 8.75,
         "chuyen": 2.2,
-        "tong": 20.9
+        "tong": 20.9,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 319,
@@ -4463,7 +5099,9 @@
         "toan": 7,
         "anh": 7.75,
         "chuyen": 8.25,
-        "tong": 37.25
+        "tong": 37.25,
+        "district": "Mỏ Cày Nam",
+        "gender": "Nam"
     },
     {
         "stt": 320,
@@ -4477,7 +5115,9 @@
         "toan": 4.5,
         "anh": 4.25,
         "chuyen": 2.3,
-        "tong": 18.35
+        "tong": 18.35,
+        "district": "Mỏ Cày Nam",
+        "gender": "Nữ"
     },
     {
         "stt": 321,
@@ -4491,7 +5131,9 @@
         "toan": 4,
         "anh": 8,
         "chuyen": 7.25,
-        "tong": 33.25
+        "tong": 33.25,
+        "district": "Giồng Trôm",
+        "gender": "Nam"
     },
     {
         "stt": 322,
@@ -4505,7 +5147,9 @@
         "toan": 8.75,
         "anh": 9.25,
         "chuyen": 9.55,
-        "tong": 42.35
+        "tong": 42.35,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 323,
@@ -4519,7 +5163,9 @@
         "toan": 5,
         "anh": 8.25,
         "chuyen": 9.25,
-        "tong": 37.17
+        "tong": 37.17,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 324,
@@ -4533,7 +5179,9 @@
         "toan": 5.75,
         "anh": 8,
         "chuyen": 8.1,
-        "tong": 35.7
+        "tong": 35.7,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 325,
@@ -4547,7 +5195,9 @@
         "toan": 5.5,
         "anh": 8.75,
         "chuyen": 7,
-        "tong": 34.75
+        "tong": 34.75,
+        "district": "Giồng Trôm",
+        "gender": "Nam"
     },
     {
         "stt": 326,
@@ -4561,7 +5211,9 @@
         "toan": 6,
         "anh": 6.5,
         "chuyen": 1.7,
-        "tong": 21.65
+        "tong": 21.65,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 327,
@@ -4575,7 +5227,9 @@
         "toan": 5.5,
         "anh": 6,
         "chuyen": 8.25,
-        "tong": 34.25
+        "tong": 34.25,
+        "district": "Thạnh Phú",
+        "gender": "Nam"
     },
     {
         "stt": 328,
@@ -4589,7 +5243,9 @@
         "toan": 2.5,
         "anh": 5.75,
         "chuyen": 2.75,
-        "tong": 18.25
+        "tong": 18.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 329,
@@ -4603,7 +5259,9 @@
         "toan": 5.5,
         "anh": 9,
         "chuyen": 8.75,
-        "tong": 37.25
+        "tong": 37.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 330,
@@ -4617,7 +5275,9 @@
         "toan": 3.25,
         "anh": 8.25,
         "chuyen": 3.8,
-        "tong": 24.6
+        "tong": 24.6,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 331,
@@ -4631,7 +5291,9 @@
         "toan": 7.25,
         "anh": 9.5,
         "chuyen": 8,
-        "tong": 40.25
+        "tong": 40.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 332,
@@ -4645,7 +5307,9 @@
         "toan": 5.25,
         "anh": 9.25,
         "chuyen": 4.95,
-        "tong": 28.4
+        "tong": 28.4,
+        "district": "Ba Tri",
+        "gender": "Nam"
     },
     {
         "stt": 333,
@@ -4659,7 +5323,9 @@
         "toan": 4.75,
         "anh": 7,
         "chuyen": 2.9,
-        "tong": 20.55
+        "tong": 20.55,
+        "district": "Châu Thành",
+        "gender": "Nam"
     },
     {
         "stt": 334,
@@ -4673,7 +5339,9 @@
         "toan": 4.5,
         "anh": 8,
         "chuyen": 4.4,
-        "tong": 26.38
+        "tong": 26.38,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 335,
@@ -4687,7 +5355,9 @@
         "toan": null,
         "anh": null,
         "chuyen": null,
-        "tong": null
+        "tong": null,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 336,
@@ -4701,7 +5371,9 @@
         "toan": 5.75,
         "anh": 4.5,
         "chuyen": 1.9,
-        "tong": 19.05
+        "tong": 19.05,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 337,
@@ -4715,7 +5387,9 @@
         "toan": 5.25,
         "anh": 6.5,
         "chuyen": 7.6,
-        "tong": 30.95
+        "tong": 30.95,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 338,
@@ -4729,7 +5403,9 @@
         "toan": 5.5,
         "anh": 7.5,
         "chuyen": 7,
-        "tong": 32.08
+        "tong": 32.08,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 339,
@@ -4743,7 +5419,9 @@
         "toan": 5,
         "anh": 4.25,
         "chuyen": 0.6,
-        "tong": 15.2
+        "tong": 15.2,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 340,
@@ -4757,7 +5435,9 @@
         "toan": 4,
         "anh": 6.25,
         "chuyen": 8.5,
-        "tong": 31.25
+        "tong": 31.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 341,
@@ -4771,7 +5451,9 @@
         "toan": 3.5,
         "anh": 7.25,
         "chuyen": 4.1,
-        "tong": 25.2
+        "tong": 25.2,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 342,
@@ -4785,7 +5467,9 @@
         "toan": 6.25,
         "anh": 7.5,
         "chuyen": 0.4,
-        "tong": 18.3
+        "tong": 18.3,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 343,
@@ -4799,7 +5483,9 @@
         "toan": 4.75,
         "anh": 8.75,
         "chuyen": 2.5,
-        "tong": 23.75
+        "tong": 23.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 344,
@@ -4813,7 +5499,9 @@
         "toan": 5.75,
         "anh": 6.25,
         "chuyen": 3.4,
-        "tong": 23.55
+        "tong": 23.55,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 345,
@@ -4827,7 +5515,9 @@
         "toan": 3.75,
         "anh": 6,
         "chuyen": 7,
-        "tong": 28.25
+        "tong": 28.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 346,
@@ -4841,7 +5531,9 @@
         "toan": 8,
         "anh": 9,
         "chuyen": 8.75,
-        "tong": 41.25
+        "tong": 41.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 347,
@@ -4855,7 +5547,9 @@
         "toan": 6.5,
         "anh": 5,
         "chuyen": 3,
-        "tong": 22.75
+        "tong": 22.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 348,
@@ -4869,7 +5563,9 @@
         "toan": 9.25,
         "anh": 9.25,
         "chuyen": 5,
-        "tong": 33.75
+        "tong": 33.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 349,
@@ -4883,7 +5579,9 @@
         "toan": 7.25,
         "anh": 9.5,
         "chuyen": 9.75,
-        "tong": 41.75
+        "tong": 41.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 350,
@@ -4897,7 +5595,9 @@
         "toan": 8,
         "anh": 9.25,
         "chuyen": 9.45,
-        "tong": 41.65
+        "tong": 41.65,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 351,
@@ -4911,7 +5611,9 @@
         "toan": 3.75,
         "anh": 3.75,
         "chuyen": 6.2,
-        "tong": 24.15
+        "tong": 24.15,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 352,
@@ -4925,7 +5627,9 @@
         "toan": 5.75,
         "anh": 7.5,
         "chuyen": 4.65,
-        "tong": 28.3
+        "tong": 28.3,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 353,
@@ -4939,7 +5643,9 @@
         "toan": 3.25,
         "anh": 3.25,
         "chuyen": 0.5,
-        "tong": 12.75
+        "tong": 12.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 354,
@@ -4953,7 +5659,9 @@
         "toan": 7.75,
         "anh": 7.5,
         "chuyen": 6.15,
-        "tong": 32.55
+        "tong": 32.55,
+        "district": "Giồng Trôm",
+        "gender": "Nam"
     },
     {
         "stt": 355,
@@ -4967,7 +5675,9 @@
         "toan": 7.5,
         "anh": 6.75,
         "chuyen": 4.75,
-        "tong": 28
+        "tong": 28,
+        "district": "Mỏ Cày Nam",
+        "gender": "Nữ"
     },
     {
         "stt": 356,
@@ -4981,7 +5691,9 @@
         "toan": 6.25,
         "anh": 8,
         "chuyen": 6.5,
-        "tong": 33
+        "tong": 33,
+        "district": "Mỏ Cày Bắc",
+        "gender": "Nữ"
     },
     {
         "stt": 357,
@@ -4995,7 +5707,9 @@
         "toan": 3.25,
         "anh": 5,
         "chuyen": 1.5,
-        "tong": 17.25
+        "tong": 17.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 358,
@@ -5009,7 +5723,9 @@
         "toan": 5.25,
         "anh": 9.5,
         "chuyen": 3.75,
-        "tong": 28.75
+        "tong": 28.75,
+        "district": "Chợ Lách",
+        "gender": "Nữ"
     },
     {
         "stt": 359,
@@ -5023,7 +5739,9 @@
         "toan": 4.75,
         "anh": 8.75,
         "chuyen": 7.25,
-        "tong": 34
+        "tong": 34,
+        "district": "Giồng Trôm",
+        "gender": "Nữ"
     },
     {
         "stt": 360,
@@ -5037,7 +5755,9 @@
         "toan": 5.25,
         "anh": 6.75,
         "chuyen": 7.75,
-        "tong": 32
+        "tong": 32,
+        "district": "Giồng Trôm",
+        "gender": "Nam"
     },
     {
         "stt": 361,
@@ -5051,7 +5771,9 @@
         "toan": 5,
         "anh": 5.25,
         "chuyen": 1.5,
-        "tong": 19.5
+        "tong": 19.5,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 362,
@@ -5065,7 +5787,9 @@
         "toan": 5.75,
         "anh": 8.5,
         "chuyen": 8.5,
-        "tong": 37.25
+        "tong": 37.25,
+        "district": "Giồng Trôm",
+        "gender": "Nữ"
     },
     {
         "stt": 363,
@@ -5079,7 +5803,9 @@
         "toan": 8.25,
         "anh": 8.25,
         "chuyen": 8,
-        "tong": 38.5
+        "tong": 38.5,
+        "district": "Giồng Trôm",
+        "gender": "Nam"
     },
     {
         "stt": 364,
@@ -5093,7 +5819,9 @@
         "toan": 8.25,
         "anh": 9.5,
         "chuyen": 7.5,
-        "tong": 39
+        "tong": 39,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 365,
@@ -5107,7 +5835,9 @@
         "toan": 7.25,
         "anh": 9.75,
         "chuyen": 8.75,
-        "tong": 42
+        "tong": 42,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 366,
@@ -5121,7 +5851,9 @@
         "toan": 6.75,
         "anh": 9,
         "chuyen": 8.5,
-        "tong": 36.25
+        "tong": 36.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 367,
@@ -5135,7 +5867,9 @@
         "toan": 5.25,
         "anh": 6.75,
         "chuyen": 2.5,
-        "tong": 22
+        "tong": 22,
+        "district": "Giồng Trôm",
+        "gender": "Nam"
     },
     {
         "stt": 368,
@@ -5149,7 +5883,9 @@
         "toan": 6.25,
         "anh": 8.75,
         "chuyen": 8.5,
-        "tong": 37.25
+        "tong": 37.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 369,
@@ -5163,7 +5899,9 @@
         "toan": 6.5,
         "anh": 8.25,
         "chuyen": 8.25,
-        "tong": 36.25
+        "tong": 36.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 370,
@@ -5177,7 +5915,9 @@
         "toan": 8.25,
         "anh": 9,
         "chuyen": 8.5,
-        "tong": 40.75
+        "tong": 40.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 371,
@@ -5191,7 +5931,9 @@
         "toan": 6.25,
         "anh": 6.5,
         "chuyen": 7.25,
-        "tong": 33
+        "tong": 33,
+        "district": "Giồng Trôm",
+        "gender": "Nam"
     },
     {
         "stt": 372,
@@ -5205,7 +5947,9 @@
         "toan": 9.5,
         "anh": 8.5,
         "chuyen": 9,
-        "tong": 42.5
+        "tong": 42.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 373,
@@ -5219,7 +5963,9 @@
         "toan": 7.25,
         "anh": 8.25,
         "chuyen": 7.25,
-        "tong": 36.25
+        "tong": 36.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 374,
@@ -5233,7 +5979,9 @@
         "toan": 4.5,
         "anh": 4.75,
         "chuyen": 0.75,
-        "tong": 13
+        "tong": 13,
+        "district": "Bình Đại",
+        "gender": "Nam"
     },
     {
         "stt": 375,
@@ -5247,7 +5995,9 @@
         "toan": 7.75,
         "anh": 9.5,
         "chuyen": 7.25,
-        "tong": 37.25
+        "tong": 37.25,
+        "district": "Chợ Lách",
+        "gender": "Nam"
     },
     {
         "stt": 376,
@@ -5261,7 +6011,9 @@
         "toan": 3.5,
         "anh": 7,
         "chuyen": 5,
-        "tong": 26
+        "tong": 26,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 377,
@@ -5275,7 +6027,9 @@
         "toan": 7.75,
         "anh": 8.75,
         "chuyen": 7.75,
-        "tong": 38.25
+        "tong": 38.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 378,
@@ -5289,7 +6043,9 @@
         "toan": 7.5,
         "anh": 8.5,
         "chuyen": 4.5,
-        "tong": 29.75
+        "tong": 29.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 379,
@@ -5303,7 +6059,9 @@
         "toan": 4.25,
         "anh": 5.25,
         "chuyen": 6.25,
-        "tong": 26.5
+        "tong": 26.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 380,
@@ -5317,7 +6075,9 @@
         "toan": 8,
         "anh": 8.75,
         "chuyen": 8,
-        "tong": 37.25
+        "tong": 37.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 381,
@@ -5331,7 +6091,9 @@
         "toan": 8,
         "anh": 9,
         "chuyen": 9.25,
-        "tong": 40.75
+        "tong": 40.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 382,
@@ -5345,7 +6107,9 @@
         "toan": 8.5,
         "anh": 9,
         "chuyen": 9,
-        "tong": 42
+        "tong": 42,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 383,
@@ -5359,7 +6123,9 @@
         "toan": 6,
         "anh": 8.25,
         "chuyen": 3.5,
-        "tong": 27.5
+        "tong": 27.5,
+        "district": "Ba Tri",
+        "gender": "Nữ"
     },
     {
         "stt": 384,
@@ -5373,7 +6139,9 @@
         "toan": 3.5,
         "anh": 7,
         "chuyen": 1.75,
-        "tong": 18.25
+        "tong": 18.25,
+        "district": "Giồng Trôm",
+        "gender": "Nữ"
     },
     {
         "stt": 385,
@@ -5387,7 +6155,9 @@
         "toan": 4.75,
         "anh": 6.5,
         "chuyen": 5.5,
-        "tong": 27.5
+        "tong": 27.5,
+        "district": "Mỏ Cày Nam",
+        "gender": "Nam"
     },
     {
         "stt": 386,
@@ -5401,7 +6171,9 @@
         "toan": 4.25,
         "anh": 7.25,
         "chuyen": 3,
-        "tong": 23.25
+        "tong": 23.25,
+        "district": "Châu Thành",
+        "gender": "Nam"
     },
     {
         "stt": 387,
@@ -5415,7 +6187,9 @@
         "toan": 7,
         "anh": 7.25,
         "chuyen": 5.75,
-        "tong": 32
+        "tong": 32,
+        "district": "Bình Đại",
+        "gender": "Nam"
     },
     {
         "stt": 388,
@@ -5429,7 +6203,9 @@
         "toan": 5,
         "anh": 4.25,
         "chuyen": 1.5,
-        "tong": 16
+        "tong": 16,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 389,
@@ -5443,7 +6219,9 @@
         "toan": 4.75,
         "anh": 5,
         "chuyen": 5.25,
-        "tong": 24.75
+        "tong": 24.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 390,
@@ -5457,7 +6235,9 @@
         "toan": 6,
         "anh": 7.25,
         "chuyen": 4.5,
-        "tong": 28
+        "tong": 28,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 391,
@@ -5471,7 +6251,9 @@
         "toan": 4.75,
         "anh": 6,
         "chuyen": 4.75,
-        "tong": 25
+        "tong": 25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 392,
@@ -5485,7 +6267,9 @@
         "toan": 6.25,
         "anh": 7.75,
         "chuyen": 7.5,
-        "tong": 34.5
+        "tong": 34.5,
+        "district": "Giồng Trôm",
+        "gender": "Nam"
     },
     {
         "stt": 393,
@@ -5499,7 +6283,9 @@
         "toan": 3.25,
         "anh": 6.25,
         "chuyen": 3.25,
-        "tong": 20.75
+        "tong": 20.75,
+        "district": "Ba Tri",
+        "gender": "Nam"
     },
     {
         "stt": 394,
@@ -5513,7 +6299,9 @@
         "toan": 4.5,
         "anh": 8.75,
         "chuyen": 4.25,
-        "tong": 25.25
+        "tong": 25.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 395,
@@ -5527,7 +6315,9 @@
         "toan": 7.25,
         "anh": 7.75,
         "chuyen": 8,
-        "tong": 36
+        "tong": 36,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 396,
@@ -5541,7 +6331,9 @@
         "toan": 5,
         "anh": 9,
         "chuyen": 4.5,
-        "tong": 30.25
+        "tong": 30.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 397,
@@ -5555,7 +6347,9 @@
         "toan": 3,
         "anh": 5.75,
         "chuyen": 7.75,
-        "tong": 28.5
+        "tong": 28.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 398,
@@ -5569,7 +6363,9 @@
         "toan": 8.25,
         "anh": 9,
         "chuyen": 8.75,
-        "tong": 41.75
+        "tong": 41.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 399,
@@ -5583,7 +6379,9 @@
         "toan": 8,
         "anh": 7.75,
         "chuyen": 8,
-        "tong": 38
+        "tong": 38,
+        "district": "Mỏ Cày Bắc",
+        "gender": "Nữ"
     },
     {
         "stt": 400,
@@ -5597,7 +6395,9 @@
         "toan": 8,
         "anh": 8.5,
         "chuyen": 6.5,
-        "tong": 35.25
+        "tong": 35.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 401,
@@ -5611,7 +6411,9 @@
         "toan": 6.75,
         "anh": 8.75,
         "chuyen": 6.5,
-        "tong": 33
+        "tong": 33,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 402,
@@ -5625,7 +6427,9 @@
         "toan": 7.25,
         "anh": 7.75,
         "chuyen": 7.5,
-        "tong": 36.25
+        "tong": 36.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 403,
@@ -5639,7 +6443,9 @@
         "toan": 4.5,
         "anh": 8.75,
         "chuyen": 6.5,
-        "tong": 33
+        "tong": 33,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 404,
@@ -5653,7 +6459,9 @@
         "toan": 5.25,
         "anh": 6.75,
         "chuyen": 7,
-        "tong": 32.25
+        "tong": 32.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 405,
@@ -5667,7 +6475,9 @@
         "toan": 6.5,
         "anh": 8.5,
         "chuyen": 5.5,
-        "tong": 31
+        "tong": 31,
+        "district": "Thạnh Phú",
+        "gender": "Nữ"
     },
     {
         "stt": 406,
@@ -5681,7 +6491,9 @@
         "toan": 5.75,
         "anh": 7.75,
         "chuyen": 8.25,
-        "tong": 35.5
+        "tong": 35.5,
+        "district": "Giồng Trôm",
+        "gender": "Nam"
     },
     {
         "stt": 407,
@@ -5695,7 +6507,9 @@
         "toan": 5.75,
         "anh": 7.75,
         "chuyen": 4,
-        "tong": 26.25
+        "tong": 26.25,
+        "district": "Mỏ Cày Nam",
+        "gender": "Nữ"
     },
     {
         "stt": 408,
@@ -5709,7 +6523,9 @@
         "toan": 6.75,
         "anh": 7.5,
         "chuyen": 5.5,
-        "tong": 31.75
+        "tong": 31.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 409,
@@ -5723,7 +6539,9 @@
         "toan": 5,
         "anh": 5,
         "chuyen": 3.25,
-        "tong": 22.75
+        "tong": 22.75,
+        "district": "Mỏ Cày Nam",
+        "gender": "Nữ"
     },
     {
         "stt": 410,
@@ -5737,7 +6555,9 @@
         "toan": 7.5,
         "anh": 6.5,
         "chuyen": 7.5,
-        "tong": 34.25
+        "tong": 34.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 411,
@@ -5751,7 +6571,9 @@
         "toan": 8,
         "anh": 9,
         "chuyen": 6.5,
-        "tong": 36.5
+        "tong": 36.5,
+        "district": "Mỏ Cày Bắc",
+        "gender": "Nữ"
     },
     {
         "stt": 412,
@@ -5765,7 +6587,9 @@
         "toan": 6.25,
         "anh": 7.75,
         "chuyen": 7.75,
-        "tong": 34.5
+        "tong": 34.5,
+        "district": "Giồng Trôm",
+        "gender": "Nam"
     },
     {
         "stt": 413,
@@ -5779,7 +6603,9 @@
         "toan": 8.75,
         "anh": 7.25,
         "chuyen": 8.25,
-        "tong": 38
+        "tong": 38,
+        "district": "Giồng Trôm",
+        "gender": "Nam"
     },
     {
         "stt": 414,
@@ -5793,7 +6619,9 @@
         "toan": 6.25,
         "anh": 7,
         "chuyen": 5.75,
-        "tong": 30
+        "tong": 30,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 415,
@@ -5807,7 +6635,9 @@
         "toan": 5.75,
         "anh": 7.25,
         "chuyen": 8,
-        "tong": 33.75
+        "tong": 33.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 416,
@@ -5821,7 +6651,9 @@
         "toan": 4.25,
         "anh": 9.5,
         "chuyen": 3.25,
-        "tong": 25.5
+        "tong": 25.5,
+        "district": "Châu Thành",
+        "gender": "Nam"
     },
     {
         "stt": 417,
@@ -5835,7 +6667,9 @@
         "toan": 3.75,
         "anh": 5.5,
         "chuyen": 5.75,
-        "tong": 24.25
+        "tong": 24.25,
+        "district": "Châu Thành",
+        "gender": "Nam"
     },
     {
         "stt": 418,
@@ -5849,7 +6683,9 @@
         "toan": 9,
         "anh": 8.25,
         "chuyen": 7,
-        "tong": 34.42
+        "tong": 34.42,
+        "district": "Mỏ Cày Bắc",
+        "gender": "Nam"
     },
     {
         "stt": 419,
@@ -5863,7 +6699,9 @@
         "toan": 8.5,
         "anh": 7.25,
         "chuyen": 7.25,
-        "tong": 36.5
+        "tong": 36.5,
+        "district": "Châu Thành",
+        "gender": "Nam"
     },
     {
         "stt": 420,
@@ -5877,7 +6715,9 @@
         "toan": 5.25,
         "anh": 8.25,
         "chuyen": 5.75,
-        "tong": 31.5
+        "tong": 31.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 421,
@@ -5891,7 +6731,9 @@
         "toan": null,
         "anh": null,
         "chuyen": null,
-        "tong": null
+        "tong": null,
+        "district": "Mỏ Cày Nam",
+        "gender": "Nam"
     },
     {
         "stt": 422,
@@ -5905,7 +6747,9 @@
         "toan": 5,
         "anh": 8.75,
         "chuyen": 6,
-        "tong": 32.5
+        "tong": 32.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 423,
@@ -5919,7 +6763,9 @@
         "toan": 5,
         "anh": 6,
         "chuyen": 4.5,
-        "tong": 26.75
+        "tong": 26.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 424,
@@ -5933,7 +6779,9 @@
         "toan": 7.25,
         "anh": 7.75,
         "chuyen": 6.5,
-        "tong": 33
+        "tong": 33,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 425,
@@ -5947,7 +6795,9 @@
         "toan": 7.25,
         "anh": 9.75,
         "chuyen": 8.5,
-        "tong": 41
+        "tong": 41,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 426,
@@ -5961,7 +6811,9 @@
         "toan": 6,
         "anh": 3.75,
         "chuyen": 3.75,
-        "tong": 23.25
+        "tong": 23.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 427,
@@ -5975,7 +6827,9 @@
         "toan": 4.5,
         "anh": 5.25,
         "chuyen": 1.25,
-        "tong": 16.75
+        "tong": 16.75,
+        "district": "Giồng Trôm",
+        "gender": "Nữ"
     },
     {
         "stt": 428,
@@ -5989,7 +6843,9 @@
         "toan": 3.75,
         "anh": 7.75,
         "chuyen": 3.75,
-        "tong": 25
+        "tong": 25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 429,
@@ -6003,7 +6859,9 @@
         "toan": 6.75,
         "anh": 7.5,
         "chuyen": 6.5,
-        "tong": 32.5
+        "tong": 32.5,
+        "district": "Châu Thành",
+        "gender": "Nam"
     },
     {
         "stt": 430,
@@ -6017,7 +6875,9 @@
         "toan": 7.5,
         "anh": 9.25,
         "chuyen": 7.5,
-        "tong": 37.5
+        "tong": 37.5,
+        "district": "Giồng Trôm",
+        "gender": "Nam"
     },
     {
         "stt": 431,
@@ -6031,7 +6891,9 @@
         "toan": 3.25,
         "anh": 6,
         "chuyen": 1.5,
-        "tong": 18
+        "tong": 18,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 432,
@@ -6045,7 +6907,9 @@
         "toan": 6.25,
         "anh": 8,
         "chuyen": 5.5,
-        "tong": 32.25
+        "tong": 32.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 433,
@@ -6059,7 +6923,9 @@
         "toan": 4.75,
         "anh": 7,
         "chuyen": 6,
-        "tong": 29.75
+        "tong": 29.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 434,
@@ -6073,7 +6939,9 @@
         "toan": 6.75,
         "anh": 5,
         "chuyen": 5.25,
-        "tong": 28.75
+        "tong": 28.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 435,
@@ -6087,7 +6955,9 @@
         "toan": 5.5,
         "anh": 6.75,
         "chuyen": 7.25,
-        "tong": 33.5
+        "tong": 33.5,
+        "district": "Giồng Trôm",
+        "gender": "Nữ"
     },
     {
         "stt": 436,
@@ -6101,7 +6971,9 @@
         "toan": 6.5,
         "anh": 8.75,
         "chuyen": 3.75,
-        "tong": 28.5
+        "tong": 28.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 437,
@@ -6115,7 +6987,9 @@
         "toan": 6.75,
         "anh": 7.5,
         "chuyen": 5.25,
-        "tong": 30.5
+        "tong": 30.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 438,
@@ -6129,7 +7003,9 @@
         "toan": 4.25,
         "anh": 6,
         "chuyen": 5,
-        "tong": 25.5
+        "tong": 25.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 439,
@@ -6143,7 +7019,9 @@
         "toan": 4.5,
         "anh": 6.75,
         "chuyen": 3,
-        "tong": 23.5
+        "tong": 23.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 440,
@@ -6157,7 +7035,9 @@
         "toan": 2.25,
         "anh": 3,
         "chuyen": 2.75,
-        "tong": 14.5
+        "tong": 14.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 441,
@@ -6171,7 +7051,9 @@
         "toan": 4.25,
         "anh": 6,
         "chuyen": 7.25,
-        "tong": 31
+        "tong": 31,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 442,
@@ -6185,7 +7067,9 @@
         "toan": 2.75,
         "anh": 6.5,
         "chuyen": 3.75,
-        "tong": 22.25
+        "tong": 22.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 443,
@@ -6199,7 +7083,9 @@
         "toan": 1,
         "anh": 4.5,
         "chuyen": 1.5,
-        "tong": 13.25
+        "tong": 13.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 444,
@@ -6213,7 +7099,9 @@
         "toan": 1.25,
         "anh": 4.75,
         "chuyen": 2.25,
-        "tong": 14.5
+        "tong": 14.5,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 445,
@@ -6227,7 +7115,9 @@
         "toan": 6,
         "anh": 6.5,
         "chuyen": 7.5,
-        "tong": 34
+        "tong": 34,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 446,
@@ -6241,7 +7131,9 @@
         "toan": 5.5,
         "anh": 5,
         "chuyen": 8,
-        "tong": 33
+        "tong": 33,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 447,
@@ -6255,7 +7147,9 @@
         "toan": 3.75,
         "anh": 3.75,
         "chuyen": 5.25,
-        "tong": 22.5
+        "tong": 22.5,
+        "district": "Châu Thành",
+        "gender": "Nam"
     },
     {
         "stt": 448,
@@ -6269,7 +7163,9 @@
         "toan": 4.5,
         "anh": 6.75,
         "chuyen": 8,
-        "tong": 34.25
+        "tong": 34.25,
+        "district": "Thạnh Phú",
+        "gender": "Nữ"
     },
     {
         "stt": 449,
@@ -6283,7 +7179,9 @@
         "toan": 2,
         "anh": 4.5,
         "chuyen": 2.25,
-        "tong": 14.5
+        "tong": 14.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 450,
@@ -6297,7 +7195,9 @@
         "toan": 5,
         "anh": 9.75,
         "chuyen": 5.25,
-        "tong": 31
+        "tong": 31,
+        "district": "Chợ Lách",
+        "gender": "Nữ"
     },
     {
         "stt": 451,
@@ -6311,7 +7211,9 @@
         "toan": 7.25,
         "anh": 10,
         "chuyen": 8.5,
-        "tong": 40
+        "tong": 40,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 452,
@@ -6325,7 +7227,9 @@
         "toan": 5.75,
         "anh": 7.75,
         "chuyen": 9,
-        "tong": 37.75
+        "tong": 37.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 453,
@@ -6339,7 +7243,9 @@
         "toan": 6,
         "anh": 9,
         "chuyen": 8.75,
-        "tong": 38.75
+        "tong": 38.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 454,
@@ -6353,7 +7259,9 @@
         "toan": 5.75,
         "anh": 8,
         "chuyen": 5.25,
-        "tong": 29.5
+        "tong": 29.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 455,
@@ -6367,7 +7275,9 @@
         "toan": 5,
         "anh": 7.25,
         "chuyen": 4,
-        "tong": 23
+        "tong": 23,
+        "district": "Mỏ Cày Bắc",
+        "gender": "Nữ"
     },
     {
         "stt": 456,
@@ -6381,7 +7291,9 @@
         "toan": 6,
         "anh": 9.25,
         "chuyen": 9.25,
-        "tong": 40.25
+        "tong": 40.25,
+        "district": "Mỏ Cày Nam",
+        "gender": "Nữ"
     },
     {
         "stt": 457,
@@ -6395,7 +7307,9 @@
         "toan": 4,
         "anh": 4.5,
         "chuyen": 7.5,
-        "tong": 27.5
+        "tong": 27.5,
+        "district": "Chợ Lách",
+        "gender": "Nữ"
     },
     {
         "stt": 458,
@@ -6409,7 +7323,9 @@
         "toan": 5.75,
         "anh": 5,
         "chuyen": 7,
-        "tong": 32
+        "tong": 32,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 459,
@@ -6423,7 +7339,9 @@
         "toan": 4.75,
         "anh": 7.5,
         "chuyen": 7.5,
-        "tong": 33.25
+        "tong": 33.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 460,
@@ -6437,7 +7355,9 @@
         "toan": 3.25,
         "anh": 5,
         "chuyen": 2.75,
-        "tong": 17
+        "tong": 17,
+        "district": "Ba Tri",
+        "gender": "Nam"
     },
     {
         "stt": 461,
@@ -6451,7 +7371,9 @@
         "toan": 5.75,
         "anh": 8.25,
         "chuyen": 5,
-        "tong": 28.75
+        "tong": 28.75,
+        "district": "Thạnh Phú",
+        "gender": "Nam"
     },
     {
         "stt": 462,
@@ -6465,7 +7387,9 @@
         "toan": 3.25,
         "anh": 4.25,
         "chuyen": 4.5,
-        "tong": 20.5
+        "tong": 20.5,
+        "district": "Giồng Trôm",
+        "gender": "Nam"
     },
     {
         "stt": 463,
@@ -6479,7 +7403,9 @@
         "toan": 5.5,
         "anh": 6.75,
         "chuyen": 9.25,
-        "tong": 36.5
+        "tong": 36.5,
+        "district": "Mỏ Cày Nam",
+        "gender": "Nữ"
     },
     {
         "stt": 464,
@@ -6493,7 +7419,9 @@
         "toan": 6.75,
         "anh": 7.25,
         "chuyen": 7.5,
-        "tong": 36.25
+        "tong": 36.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 465,
@@ -6507,7 +7435,9 @@
         "toan": 7.25,
         "anh": 4,
         "chuyen": 8.5,
-        "tong": 34.75
+        "tong": 34.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 466,
@@ -6521,7 +7451,9 @@
         "toan": 6.5,
         "anh": 8.75,
         "chuyen": 8.75,
-        "tong": 39
+        "tong": 39,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 467,
@@ -6535,7 +7467,9 @@
         "toan": 6,
         "anh": 6.75,
         "chuyen": 9.25,
-        "tong": 37.75
+        "tong": 37.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 468,
@@ -6549,7 +7483,9 @@
         "toan": 5,
         "anh": 4.75,
         "chuyen": 5.75,
-        "tong": 26.5
+        "tong": 26.5,
+        "district": "Ba Tri",
+        "gender": "Nữ"
     },
     {
         "stt": 469,
@@ -6563,7 +7499,9 @@
         "toan": 3,
         "anh": 5.75,
         "chuyen": 3.75,
-        "tong": 21.75
+        "tong": 21.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 470,
@@ -6577,7 +7515,9 @@
         "toan": 3.75,
         "anh": 6,
         "chuyen": 4.5,
-        "tong": 24.25
+        "tong": 24.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 471,
@@ -6591,7 +7531,9 @@
         "toan": 5.75,
         "anh": 4.25,
         "chuyen": 8.25,
-        "tong": 31.5
+        "tong": 31.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 472,
@@ -6605,7 +7547,9 @@
         "toan": 6,
         "anh": 7,
         "chuyen": 9,
-        "tong": 37
+        "tong": 37,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 473,
@@ -6619,7 +7563,9 @@
         "toan": 6.75,
         "anh": 8.5,
         "chuyen": 8.5,
-        "tong": 38.33
+        "tong": 38.33,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 474,
@@ -6633,7 +7579,9 @@
         "toan": 6.25,
         "anh": 8,
         "chuyen": 7.75,
-        "tong": 34.5
+        "tong": 34.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 475,
@@ -6647,7 +7595,9 @@
         "toan": 1.5,
         "anh": 5.5,
         "chuyen": 0.75,
-        "tong": 13.25
+        "tong": 13.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 476,
@@ -6661,7 +7611,9 @@
         "toan": 7,
         "anh": 8.75,
         "chuyen": 9.75,
-        "tong": 40.5
+        "tong": 40.5,
+        "district": "Bình Đại",
+        "gender": "Nữ"
     },
     {
         "stt": 477,
@@ -6675,7 +7627,9 @@
         "toan": 4.25,
         "anh": 7.75,
         "chuyen": 7.5,
-        "tong": 31.5
+        "tong": 31.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 478,
@@ -6689,7 +7643,9 @@
         "toan": 6,
         "anh": 9.25,
         "chuyen": 9.5,
-        "tong": 39.75
+        "tong": 39.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 479,
@@ -6703,7 +7659,9 @@
         "toan": 4,
         "anh": 8,
         "chuyen": 4.75,
-        "tong": 26.75
+        "tong": 26.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 480,
@@ -6717,7 +7675,9 @@
         "toan": 6,
         "anh": 3.5,
         "chuyen": 1.75,
-        "tong": 17
+        "tong": 17,
+        "district": "Giồng Trôm",
+        "gender": "Nam"
     },
     {
         "stt": 481,
@@ -6731,7 +7691,9 @@
         "toan": 4.75,
         "anh": 9.5,
         "chuyen": 7.25,
-        "tong": 34.25
+        "tong": 34.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 482,
@@ -6745,7 +7707,9 @@
         "toan": 6.75,
         "anh": 8,
         "chuyen": 9.75,
-        "tong": 39.75
+        "tong": 39.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 483,
@@ -6759,7 +7723,9 @@
         "toan": 7.75,
         "anh": 7,
         "chuyen": 7.75,
-        "tong": 34.75
+        "tong": 34.75,
+        "district": "Thạnh Phú",
+        "gender": "Nam"
     },
     {
         "stt": 484,
@@ -6773,7 +7739,9 @@
         "toan": 0.5,
         "anh": 4,
         "chuyen": 2.25,
-        "tong": 12.75
+        "tong": 12.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 485,
@@ -6787,7 +7755,9 @@
         "toan": 6.25,
         "anh": 8.75,
         "chuyen": 9.75,
-        "tong": 41.75
+        "tong": 41.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 486,
@@ -6801,7 +7771,9 @@
         "toan": 3,
         "anh": 3,
         "chuyen": 1.25,
-        "tong": 12.75
+        "tong": 12.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 487,
@@ -6815,7 +7787,9 @@
         "toan": 4.5,
         "anh": 6.75,
         "chuyen": 6.25,
-        "tong": 29
+        "tong": 29,
+        "district": "Bình Đại",
+        "gender": "Nam"
     },
     {
         "stt": 488,
@@ -6829,7 +7803,9 @@
         "toan": 5.75,
         "anh": 5.75,
         "chuyen": 2.25,
-        "tong": 20.5
+        "tong": 20.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 489,
@@ -6843,7 +7819,9 @@
         "toan": 6.75,
         "anh": 8.75,
         "chuyen": 7.25,
-        "tong": 35.25
+        "tong": 35.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 490,
@@ -6857,7 +7835,9 @@
         "toan": 6,
         "anh": 9.25,
         "chuyen": 4.25,
-        "tong": 30.75
+        "tong": 30.75,
+        "district": "Châu Thành",
+        "gender": "Nam"
     },
     {
         "stt": 491,
@@ -6871,7 +7851,9 @@
         "toan": 6,
         "anh": 7.25,
         "chuyen": 6.25,
-        "tong": 31.25
+        "tong": 31.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 492,
@@ -6885,7 +7867,9 @@
         "toan": 4,
         "anh": 8.25,
         "chuyen": 5.25,
-        "tong": 27.75
+        "tong": 27.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 493,
@@ -6899,7 +7883,9 @@
         "toan": 7.75,
         "anh": 9.5,
         "chuyen": 5.75,
-        "tong": 33.5
+        "tong": 33.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 494,
@@ -6913,7 +7899,9 @@
         "toan": 6.75,
         "anh": 7,
         "chuyen": 5.75,
-        "tong": 32.5
+        "tong": 32.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 495,
@@ -6927,7 +7915,9 @@
         "toan": 4.25,
         "anh": 3.75,
         "chuyen": 1.5,
-        "tong": 17.75
+        "tong": 17.75,
+        "district": "Thạnh Phú",
+        "gender": "Nữ"
     },
     {
         "stt": 496,
@@ -6941,7 +7931,9 @@
         "toan": 4.5,
         "anh": 8.75,
         "chuyen": 6.5,
-        "tong": 33
+        "tong": 33,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 497,
@@ -6955,7 +7947,9 @@
         "toan": 6,
         "anh": 8.25,
         "chuyen": 7.75,
-        "tong": 35
+        "tong": 35,
+        "district": "Chợ Lách",
+        "gender": "Nam"
     },
     {
         "stt": 498,
@@ -6969,7 +7963,9 @@
         "toan": 3.75,
         "anh": 5.5,
         "chuyen": 4.25,
-        "tong": 21.75
+        "tong": 21.75,
+        "district": "Bình Đại",
+        "gender": "Nữ"
     },
     {
         "stt": 499,
@@ -6983,7 +7979,9 @@
         "toan": 4.5,
         "anh": 6.5,
         "chuyen": 3.25,
-        "tong": 21
+        "tong": 21,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 500,
@@ -6997,7 +7995,9 @@
         "toan": 5.5,
         "anh": 8.75,
         "chuyen": 6,
-        "tong": 33.25
+        "tong": 33.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 501,
@@ -7011,7 +8011,9 @@
         "toan": 5.25,
         "anh": 5.75,
         "chuyen": 5.75,
-        "tong": 27.5
+        "tong": 27.5,
+        "district": "Châu Thành",
+        "gender": "Nam"
     },
     {
         "stt": 502,
@@ -7025,7 +8027,9 @@
         "toan": 7.75,
         "anh": 3.75,
         "chuyen": 8,
-        "tong": 32.5
+        "tong": 32.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 503,
@@ -7039,7 +8043,9 @@
         "toan": 6.25,
         "anh": 8,
         "chuyen": 6.5,
-        "tong": 33.5
+        "tong": 33.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 504,
@@ -7053,7 +8059,9 @@
         "toan": 7.75,
         "anh": 7,
         "chuyen": 8,
-        "tong": 35
+        "tong": 35,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 505,
@@ -7067,7 +8075,9 @@
         "toan": 6.5,
         "anh": 7.25,
         "chuyen": 7.5,
-        "tong": 34.25
+        "tong": 34.25,
+        "district": "Châu Thành",
+        "gender": "Nam"
     },
     {
         "stt": 506,
@@ -7081,7 +8091,9 @@
         "toan": 8.25,
         "anh": 9,
         "chuyen": 4.75,
-        "tong": 31.75
+        "tong": 31.75,
+        "district": "Giồng Trôm",
+        "gender": "Nữ"
     },
     {
         "stt": 507,
@@ -7095,7 +8107,9 @@
         "toan": 4.5,
         "anh": 9.25,
         "chuyen": 4.25,
-        "tong": 26
+        "tong": 26,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 508,
@@ -7109,7 +8123,9 @@
         "toan": 5.75,
         "anh": 9.25,
         "chuyen": 7.25,
-        "tong": 33.25
+        "tong": 33.25,
+        "district": "Mỏ Cày Nam",
+        "gender": "Nữ"
     },
     {
         "stt": 509,
@@ -7123,7 +8139,9 @@
         "toan": 7.25,
         "anh": 7.75,
         "chuyen": 5.25,
-        "tong": 29.75
+        "tong": 29.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 510,
@@ -7137,7 +8155,9 @@
         "toan": 6.5,
         "anh": 5.25,
         "chuyen": 3.25,
-        "tong": 23.75
+        "tong": 23.75,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 511,
@@ -7151,7 +8171,9 @@
         "toan": 8,
         "anh": 9.25,
         "chuyen": 6,
-        "tong": 35
+        "tong": 35,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 512,
@@ -7165,7 +8187,9 @@
         "toan": 3.5,
         "anh": 6,
         "chuyen": 1.5,
-        "tong": 17
+        "tong": 17,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 513,
@@ -7179,7 +8203,9 @@
         "toan": 3.75,
         "anh": 6.5,
         "chuyen": 5,
-        "tong": 26.5
+        "tong": 26.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 514,
@@ -7193,7 +8219,9 @@
         "toan": 6.25,
         "anh": 8.75,
         "chuyen": 3.75,
-        "tong": 29
+        "tong": 29,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 515,
@@ -7207,7 +8235,9 @@
         "toan": 5.75,
         "anh": 7,
         "chuyen": 4.5,
-        "tong": 26.5
+        "tong": 26.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 516,
@@ -7221,7 +8251,9 @@
         "toan": null,
         "anh": null,
         "chuyen": null,
-        "tong": null
+        "tong": null,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 517,
@@ -7235,7 +8267,9 @@
         "toan": 7.25,
         "anh": 4.5,
         "chuyen": 6.75,
-        "tong": 31.25
+        "tong": 31.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 518,
@@ -7249,7 +8283,9 @@
         "toan": 8.5,
         "anh": 10,
         "chuyen": 7.25,
-        "tong": 38.75
+        "tong": 38.75,
+        "district": "Ba Tri",
+        "gender": "Nữ"
     },
     {
         "stt": 519,
@@ -7263,7 +8299,9 @@
         "toan": 6.5,
         "anh": 8.25,
         "chuyen": 3.5,
-        "tong": 27.75
+        "tong": 27.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 520,
@@ -7277,7 +8315,9 @@
         "toan": 5.75,
         "anh": 5,
         "chuyen": 5.25,
-        "tong": 26.25
+        "tong": 26.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 521,
@@ -7291,7 +8331,9 @@
         "toan": 7.25,
         "anh": 9.25,
         "chuyen": 8.25,
-        "tong": 40.5
+        "tong": 40.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 522,
@@ -7305,7 +8347,9 @@
         "toan": 4.75,
         "anh": 5,
         "chuyen": 2.25,
-        "tong": 19.75
+        "tong": 19.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 523,
@@ -7319,7 +8363,9 @@
         "toan": 7.75,
         "anh": 8.75,
         "chuyen": 7,
-        "tong": 36.25
+        "tong": 36.25,
+        "district": "Châu Thành",
+        "gender": "Nam"
     },
     {
         "stt": 524,
@@ -7333,7 +8379,9 @@
         "toan": 6,
         "anh": 5.25,
         "chuyen": 3.75,
-        "tong": 24.5
+        "tong": 24.5,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 525,
@@ -7347,7 +8395,9 @@
         "toan": 8,
         "anh": 9,
         "chuyen": 9,
-        "tong": 41.25
+        "tong": 41.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 526,
@@ -7361,7 +8411,9 @@
         "toan": 5,
         "anh": 4.75,
         "chuyen": 2.75,
-        "tong": 19.17
+        "tong": 19.17,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 527,
@@ -7375,7 +8427,9 @@
         "toan": 8,
         "anh": 8.5,
         "chuyen": 7.5,
-        "tong": 38
+        "tong": 38,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 528,
@@ -7389,7 +8443,9 @@
         "toan": 7.25,
         "anh": 8.5,
         "chuyen": 7,
-        "tong": 36.5
+        "tong": 36.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 529,
@@ -7403,7 +8459,9 @@
         "toan": 5.25,
         "anh": 7.75,
         "chuyen": 4.5,
-        "tong": 27.75
+        "tong": 27.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 530,
@@ -7417,7 +8475,9 @@
         "toan": 5.5,
         "anh": 6.25,
         "chuyen": 6,
-        "tong": 28.25
+        "tong": 28.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 531,
@@ -7431,7 +8491,9 @@
         "toan": 5,
         "anh": 7,
         "chuyen": 6.5,
-        "tong": 30.75
+        "tong": 30.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 532,
@@ -7445,7 +8507,9 @@
         "toan": 7.5,
         "anh": 7.5,
         "chuyen": 4,
-        "tong": 29.25
+        "tong": 29.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 533,
@@ -7459,7 +8523,9 @@
         "toan": 4.5,
         "anh": 5,
         "chuyen": 5.5,
-        "tong": 24.5
+        "tong": 24.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 534,
@@ -7473,7 +8539,9 @@
         "toan": 4.75,
         "anh": 4.25,
         "chuyen": 1.5,
-        "tong": 14.75
+        "tong": 14.75,
+        "district": "Mỏ Cày Bắc",
+        "gender": "Nữ"
     },
     {
         "stt": 535,
@@ -7487,7 +8555,9 @@
         "toan": 5.5,
         "anh": 8.25,
         "chuyen": 6.75,
-        "tong": 32.25
+        "tong": 32.25,
+        "district": "Giồng Trôm",
+        "gender": "Nam"
     },
     {
         "stt": 536,
@@ -7501,7 +8571,9 @@
         "toan": 2,
         "anh": 5.75,
         "chuyen": 3,
-        "tong": 19.25
+        "tong": 19.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 537,
@@ -7515,7 +8587,9 @@
         "toan": 5,
         "anh": 7,
         "chuyen": 4,
-        "tong": 25.75
+        "tong": 25.75,
+        "district": "Giồng Trôm",
+        "gender": "Nam"
     },
     {
         "stt": 538,
@@ -7529,7 +8603,9 @@
         "toan": 8.5,
         "anh": 8,
         "chuyen": 5.25,
-        "tong": 32.25
+        "tong": 32.25,
+        "district": "Châu Thành",
+        "gender": "Nam"
     },
     {
         "stt": 539,
@@ -7543,7 +8619,9 @@
         "toan": 3.25,
         "anh": 6,
         "chuyen": 3.75,
-        "tong": 22
+        "tong": 22,
+        "district": "Bình Đại",
+        "gender": "Nữ"
     },
     {
         "stt": 540,
@@ -7557,7 +8635,9 @@
         "toan": 7.5,
         "anh": 8,
         "chuyen": 8,
-        "tong": 36.5
+        "tong": 36.5,
+        "district": "Mỏ Cày Nam",
+        "gender": "Nam"
     },
     {
         "stt": 541,
@@ -7571,7 +8651,9 @@
         "toan": 4.75,
         "anh": 8.75,
         "chuyen": 4.5,
-        "tong": 29.5
+        "tong": 29.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 542,
@@ -7585,7 +8667,9 @@
         "toan": 5.25,
         "anh": 6.25,
         "chuyen": 4.25,
-        "tong": 25.25
+        "tong": 25.25,
+        "district": "Bình Đại",
+        "gender": "Nữ"
     },
     {
         "stt": 543,
@@ -7599,7 +8683,9 @@
         "toan": 7.5,
         "anh": 8.25,
         "chuyen": 6.5,
-        "tong": 34
+        "tong": 34,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 544,
@@ -7613,7 +8699,9 @@
         "toan": 4.25,
         "anh": 6.5,
         "chuyen": 4.5,
-        "tong": 24.25
+        "tong": 24.25,
+        "district": "Giồng Trôm",
+        "gender": "Nam"
     },
     {
         "stt": 545,
@@ -7627,7 +8715,9 @@
         "toan": 7.5,
         "anh": 9,
         "chuyen": 6.75,
-        "tong": 37
+        "tong": 37,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 546,
@@ -7641,7 +8731,9 @@
         "toan": 5,
         "anh": 8.5,
         "chuyen": 4.5,
-        "tong": 28.25
+        "tong": 28.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 547,
@@ -7655,7 +8747,9 @@
         "toan": 6,
         "anh": 6.25,
         "chuyen": 6,
-        "tong": 29.5
+        "tong": 29.5,
+        "district": "Ba Tri",
+        "gender": "Nữ"
     },
     {
         "stt": 548,
@@ -7669,7 +8763,9 @@
         "toan": 3,
         "anh": 4,
         "chuyen": 0.75,
-        "tong": 11.5
+        "tong": 11.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 549,
@@ -7683,7 +8779,9 @@
         "toan": 9.25,
         "anh": 9.75,
         "chuyen": 5.25,
-        "tong": 35
+        "tong": 35,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 550,
@@ -7697,7 +8795,9 @@
         "toan": 6.75,
         "anh": 8.25,
         "chuyen": 2.25,
-        "tong": 26.25
+        "tong": 26.25,
+        "district": "Chợ Lách",
+        "gender": "Nữ"
     },
     {
         "stt": 551,
@@ -7711,7 +8811,9 @@
         "toan": 6.5,
         "anh": 9,
         "chuyen": 4.5,
-        "tong": 30.25
+        "tong": 30.25,
+        "district": "Châu Thành",
+        "gender": "Nam"
     },
     {
         "stt": 552,
@@ -7725,7 +8827,9 @@
         "toan": 6.75,
         "anh": 8,
         "chuyen": 2,
-        "tong": 25
+        "tong": 25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 553,
@@ -7739,7 +8843,9 @@
         "toan": 8.5,
         "anh": 6.75,
         "chuyen": 5.75,
-        "tong": 31.5
+        "tong": 31.5,
+        "district": "Mỏ Cày Nam",
+        "gender": "Nữ"
     },
     {
         "stt": 554,
@@ -7753,7 +8859,9 @@
         "toan": 3.25,
         "anh": 6,
         "chuyen": 1.75,
-        "tong": 16
+        "tong": 16,
+        "district": "Bình Đại",
+        "gender": "Nam"
     },
     {
         "stt": 555,
@@ -7767,7 +8875,9 @@
         "toan": 8,
         "anh": 9.5,
         "chuyen": 7,
-        "tong": 38.5
+        "tong": 38.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 556,
@@ -7781,7 +8891,9 @@
         "toan": 5.75,
         "anh": 9.25,
         "chuyen": 1.5,
-        "tong": 25.25
+        "tong": 25.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 557,
@@ -7795,7 +8907,9 @@
         "toan": 2.5,
         "anh": 6.5,
         "chuyen": 0.25,
-        "tong": 15.5
+        "tong": 15.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 558,
@@ -7809,7 +8923,9 @@
         "toan": 6,
         "anh": 6,
         "chuyen": 2,
-        "tong": 22.25
+        "tong": 22.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 559,
@@ -7823,7 +8939,9 @@
         "toan": 7.75,
         "anh": 8.75,
         "chuyen": 7.25,
-        "tong": 35.75
+        "tong": 35.75,
+        "district": "Mỏ Cày Nam",
+        "gender": "Nữ"
     },
     {
         "stt": 560,
@@ -7837,7 +8955,9 @@
         "toan": 6.25,
         "anh": 6.5,
         "chuyen": 3.5,
-        "tong": 25.5
+        "tong": 25.5,
+        "district": "Ba Tri",
+        "gender": "Nam"
     },
     {
         "stt": 561,
@@ -7851,7 +8971,9 @@
         "toan": 7.5,
         "anh": 8.25,
         "chuyen": 6,
-        "tong": 34.25
+        "tong": 34.25,
+        "district": "Giồng Trôm",
+        "gender": "Nam"
     },
     {
         "stt": 562,
@@ -7865,7 +8987,9 @@
         "toan": 8.75,
         "anh": 9,
         "chuyen": 6.25,
-        "tong": 37
+        "tong": 37,
+        "district": "Mỏ Cày Bắc",
+        "gender": "Nam"
     },
     {
         "stt": 563,
@@ -7879,7 +9003,9 @@
         "toan": 6.75,
         "anh": 7.5,
         "chuyen": 4.25,
-        "tong": 28.25
+        "tong": 28.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 564,
@@ -7893,7 +9019,9 @@
         "toan": 6.5,
         "anh": 5,
         "chuyen": 6,
-        "tong": 25.5
+        "tong": 25.5,
+        "district": "Châu Thành",
+        "gender": "Nam"
     },
     {
         "stt": 565,
@@ -7907,7 +9035,9 @@
         "toan": 7,
         "anh": 7.75,
         "chuyen": 3.25,
-        "tong": 27.5
+        "tong": 27.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 566,
@@ -7921,7 +9051,9 @@
         "toan": 7,
         "anh": 7.5,
         "chuyen": 7.75,
-        "tong": 36
+        "tong": 36,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 567,
@@ -7935,7 +9067,9 @@
         "toan": 6.5,
         "anh": 7.25,
         "chuyen": 4,
-        "tong": 28
+        "tong": 28,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 568,
@@ -7949,7 +9083,9 @@
         "toan": 6.25,
         "anh": 5,
         "chuyen": 1,
-        "tong": 18.75
+        "tong": 18.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 569,
@@ -7963,7 +9099,9 @@
         "toan": 7,
         "anh": 8.5,
         "chuyen": 5.25,
-        "tong": 32.75
+        "tong": 32.75,
+        "district": "Ba Tri",
+        "gender": "Nữ"
     },
     {
         "stt": 570,
@@ -7977,7 +9115,9 @@
         "toan": 8,
         "anh": 7.5,
         "chuyen": 2.5,
-        "tong": 27.25
+        "tong": 27.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 571,
@@ -7991,7 +9131,9 @@
         "toan": 6.75,
         "anh": 6.75,
         "chuyen": 1.5,
-        "tong": 21.75
+        "tong": 21.75,
+        "district": "Mỏ Cày Nam",
+        "gender": "Nữ"
     },
     {
         "stt": 572,
@@ -8005,7 +9147,9 @@
         "toan": 6.75,
         "anh": 5.75,
         "chuyen": 3.75,
-        "tong": 25
+        "tong": 25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 573,
@@ -8019,7 +9163,9 @@
         "toan": 9.5,
         "anh": 9.75,
         "chuyen": 7.25,
-        "tong": 40
+        "tong": 40,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 574,
@@ -8033,7 +9179,9 @@
         "toan": 8,
         "anh": 5.5,
         "chuyen": 5,
-        "tong": 30
+        "tong": 30,
+        "district": "Thạnh Phú",
+        "gender": "Nữ"
     },
     {
         "stt": 575,
@@ -8047,7 +9195,9 @@
         "toan": 7,
         "anh": 10,
         "chuyen": 4.5,
-        "tong": 31.25
+        "tong": 31.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 576,
@@ -8061,7 +9211,9 @@
         "toan": 7.25,
         "anh": 9,
         "chuyen": 6.5,
-        "tong": 35
+        "tong": 35,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 577,
@@ -8075,7 +9227,9 @@
         "toan": 6.75,
         "anh": 9.5,
         "chuyen": 3.25,
-        "tong": 27.75
+        "tong": 27.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 578,
@@ -8089,7 +9243,9 @@
         "toan": 6.5,
         "anh": 5.5,
         "chuyen": 2.25,
-        "tong": 21.5
+        "tong": 21.5,
+        "district": "Bình Đại",
+        "gender": "Nữ"
     },
     {
         "stt": 579,
@@ -8103,7 +9259,9 @@
         "toan": 8.5,
         "anh": 7.5,
         "chuyen": 7,
-        "tong": 35.25
+        "tong": 35.25,
+        "district": "Bình Đại",
+        "gender": "Nữ"
     },
     {
         "stt": 580,
@@ -8117,7 +9275,9 @@
         "toan": 8.25,
         "anh": 6.75,
         "chuyen": 3.25,
-        "tong": 27
+        "tong": 27,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 581,
@@ -8131,7 +9291,9 @@
         "toan": 7.25,
         "anh": 4.75,
         "chuyen": 5,
-        "tong": 26.5
+        "tong": 26.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 582,
@@ -8145,7 +9307,9 @@
         "toan": 8,
         "anh": 8.75,
         "chuyen": 9,
-        "tong": 41.25
+        "tong": 41.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 583,
@@ -8159,7 +9323,9 @@
         "toan": 8.75,
         "anh": 9,
         "chuyen": 5.75,
-        "tong": 35.83
+        "tong": 35.83,
+        "district": "Châu Thành",
+        "gender": "Nam"
     },
     {
         "stt": 584,
@@ -8173,7 +9339,9 @@
         "toan": 7.58,
         "anh": 7.5,
         "chuyen": 5.25,
-        "tong": 32.58
+        "tong": 32.58,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 585,
@@ -8187,7 +9355,9 @@
         "toan": 6,
         "anh": 5.25,
         "chuyen": 4,
-        "tong": 23
+        "tong": 23,
+        "district": "Giồng Trôm",
+        "gender": "Nam"
     },
     {
         "stt": 586,
@@ -8201,7 +9371,9 @@
         "toan": 8.25,
         "anh": 7.75,
         "chuyen": 6.75,
-        "tong": 35
+        "tong": 35,
+        "district": "Mỏ Cày Nam",
+        "gender": "Nam"
     },
     {
         "stt": 587,
@@ -8215,7 +9387,9 @@
         "toan": 10,
         "anh": 9.75,
         "chuyen": 8,
-        "tong": 41.75
+        "tong": 41.75,
+        "district": "Ba Tri",
+        "gender": "Nữ"
     },
     {
         "stt": 588,
@@ -8229,7 +9403,9 @@
         "toan": 7.5,
         "anh": 8.75,
         "chuyen": 5,
-        "tong": 33.75
+        "tong": 33.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 589,
@@ -8243,7 +9419,9 @@
         "toan": 9.25,
         "anh": 9.75,
         "chuyen": 8,
-        "tong": 42
+        "tong": 42,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 590,
@@ -8257,7 +9435,9 @@
         "toan": 8,
         "anh": 9.25,
         "chuyen": 5.75,
-        "tong": 34.25
+        "tong": 34.25,
+        "district": "Giồng Trôm",
+        "gender": "Nữ"
     },
     {
         "stt": 591,
@@ -8271,7 +9451,9 @@
         "toan": 8.5,
         "anh": 7,
         "chuyen": 4.5,
-        "tong": 29.75
+        "tong": 29.75,
+        "district": "Ba Tri",
+        "gender": "Nam"
     },
     {
         "stt": 592,
@@ -8285,7 +9467,9 @@
         "toan": 9,
         "anh": 7.5,
         "chuyen": 7.75,
-        "tong": 38.75
+        "tong": 38.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 593,
@@ -8299,7 +9483,9 @@
         "toan": 8.5,
         "anh": 8.5,
         "chuyen": 4.75,
-        "tong": 32.25
+        "tong": 32.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 594,
@@ -8313,7 +9499,9 @@
         "toan": 8,
         "anh": 9.25,
         "chuyen": 4.5,
-        "tong": 33.25
+        "tong": 33.25,
+        "district": "Mỏ Cày Bắc",
+        "gender": "Nam"
     },
     {
         "stt": 595,
@@ -8327,7 +9515,9 @@
         "toan": 8.25,
         "anh": 7,
         "chuyen": 4.5,
-        "tong": 30.25
+        "tong": 30.25,
+        "district": "Giồng Trôm",
+        "gender": "Nam"
     },
     {
         "stt": 596,
@@ -8341,7 +9531,9 @@
         "toan": 6,
         "anh": 6.25,
         "chuyen": 1.75,
-        "tong": 20.5
+        "tong": 20.5,
+        "district": "Giồng Trôm",
+        "gender": "Nam"
     },
     {
         "stt": 597,
@@ -8355,7 +9547,9 @@
         "toan": 8.5,
         "anh": 10,
         "chuyen": 8.75,
-        "tong": 42
+        "tong": 42,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 598,
@@ -8369,7 +9563,9 @@
         "toan": 8.25,
         "anh": 9.25,
         "chuyen": 6,
-        "tong": 36
+        "tong": 36,
+        "district": "Châu Thành",
+        "gender": "Nam"
     },
     {
         "stt": 599,
@@ -8383,7 +9579,9 @@
         "toan": 8.5,
         "anh": 8.5,
         "chuyen": 6.75,
-        "tong": 35.5
+        "tong": 35.5,
+        "district": "Ba Tri",
+        "gender": "Nam"
     },
     {
         "stt": 600,
@@ -8397,7 +9595,9 @@
         "toan": 8.25,
         "anh": 8,
         "chuyen": 6.5,
-        "tong": 34.75
+        "tong": 34.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 601,
@@ -8411,7 +9611,9 @@
         "toan": 6.75,
         "anh": 7.5,
         "chuyen": 4.25,
-        "tong": 28.25
+        "tong": 28.25,
+        "district": "Châu Thành",
+        "gender": "Nam"
     },
     {
         "stt": 602,
@@ -8425,7 +9627,9 @@
         "toan": 7.25,
         "anh": 5.5,
         "chuyen": 2.75,
-        "tong": 23.25
+        "tong": 23.25,
+        "district": "Mỏ Cày Bắc",
+        "gender": "Nam"
     },
     {
         "stt": 603,
@@ -8439,7 +9643,9 @@
         "toan": 9.25,
         "anh": 10,
         "chuyen": 6.75,
-        "tong": 39.75
+        "tong": 39.75,
+        "district": "Giồng Trôm",
+        "gender": "Nam"
     },
     {
         "stt": 604,
@@ -8453,7 +9659,9 @@
         "toan": 8,
         "anh": 8,
         "chuyen": 3.25,
-        "tong": 28.25
+        "tong": 28.25,
+        "district": "Châu Thành",
+        "gender": "Nam"
     },
     {
         "stt": 605,
@@ -8467,7 +9675,9 @@
         "toan": 8.25,
         "anh": 8.25,
         "chuyen": 3.75,
-        "tong": 30.5
+        "tong": 30.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 606,
@@ -8481,7 +9691,9 @@
         "toan": 6.25,
         "anh": 7.25,
         "chuyen": 3.25,
-        "tong": 26.75
+        "tong": 26.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 607,
@@ -8495,7 +9707,9 @@
         "toan": 7.75,
         "anh": 7,
         "chuyen": 2,
-        "tong": 23.5
+        "tong": 23.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 608,
@@ -8509,7 +9723,9 @@
         "toan": 4.75,
         "anh": 4.25,
         "chuyen": 2,
-        "tong": 18
+        "tong": 18,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 609,
@@ -8523,7 +9739,9 @@
         "toan": 2.5,
         "anh": 3.5,
         "chuyen": 0,
-        "tong": 10.5
+        "tong": 10.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 610,
@@ -8537,7 +9755,9 @@
         "toan": 6.75,
         "anh": 8.5,
         "chuyen": 3.75,
-        "tong": 27
+        "tong": 27,
+        "district": "Châu Thành",
+        "gender": "Nam"
     },
     {
         "stt": 611,
@@ -8551,7 +9771,9 @@
         "toan": 7.25,
         "anh": 6.75,
         "chuyen": 5.75,
-        "tong": 31
+        "tong": 31,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 612,
@@ -8565,7 +9787,9 @@
         "toan": 7.75,
         "anh": 9.75,
         "chuyen": 4.5,
-        "tong": 34.5
+        "tong": 34.5,
+        "district": "Giồng Trôm",
+        "gender": "Nam"
     },
     {
         "stt": 613,
@@ -8579,7 +9803,9 @@
         "toan": 7.75,
         "anh": 7.25,
         "chuyen": 3.75,
-        "tong": 26.25
+        "tong": 26.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 614,
@@ -8593,7 +9819,9 @@
         "toan": 7,
         "anh": 8.75,
         "chuyen": 4.25,
-        "tong": 30.5
+        "tong": 30.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 615,
@@ -8607,7 +9835,9 @@
         "toan": 6.5,
         "anh": 6.5,
         "chuyen": 3,
-        "tong": 24.25
+        "tong": 24.25,
+        "district": "Giồng Trôm",
+        "gender": "Nữ"
     },
     {
         "stt": 616,
@@ -8621,7 +9851,9 @@
         "toan": 6,
         "anh": 7.5,
         "chuyen": 1.75,
-        "tong": 23.75
+        "tong": 23.75,
+        "district": "Chợ Lách",
+        "gender": "Nữ"
     },
     {
         "stt": 617,
@@ -8635,7 +9867,9 @@
         "toan": 6.25,
         "anh": 6.75,
         "chuyen": 2,
-        "tong": 23.75
+        "tong": 23.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 618,
@@ -8649,7 +9883,9 @@
         "toan": 7.75,
         "anh": 4.75,
         "chuyen": 5,
-        "tong": 27
+        "tong": 27,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 619,
@@ -8663,7 +9899,9 @@
         "toan": 6.25,
         "anh": 8.5,
         "chuyen": 2.25,
-        "tong": 26
+        "tong": 26,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 620,
@@ -8677,7 +9915,9 @@
         "toan": 7.25,
         "anh": 6.25,
         "chuyen": 5.75,
-        "tong": 31.25
+        "tong": 31.25,
+        "district": "Giồng Trôm",
+        "gender": "Nữ"
     },
     {
         "stt": 621,
@@ -8691,7 +9931,9 @@
         "toan": 7.75,
         "anh": 6.25,
         "chuyen": 6,
-        "tong": 33
+        "tong": 33,
+        "district": "Giồng Trôm",
+        "gender": "Nữ"
     },
     {
         "stt": 622,
@@ -8705,7 +9947,9 @@
         "toan": 7.75,
         "anh": 9,
         "chuyen": 3.75,
-        "tong": 30
+        "tong": 30,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 623,
@@ -8719,7 +9963,9 @@
         "toan": 7.25,
         "anh": 7.5,
         "chuyen": 5.25,
-        "tong": 32.25
+        "tong": 32.25,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 624,
@@ -8733,7 +9979,9 @@
         "toan": 6.25,
         "anh": 7.25,
         "chuyen": 0.5,
-        "tong": 20.25
+        "tong": 20.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 625,
@@ -8747,7 +9995,9 @@
         "toan": 8.75,
         "anh": 8.5,
         "chuyen": 8.25,
-        "tong": 41.25
+        "tong": 41.25,
+        "district": "Ba Tri",
+        "gender": "Nữ"
     },
     {
         "stt": 626,
@@ -8761,7 +10011,9 @@
         "toan": 9.25,
         "anh": 9.75,
         "chuyen": 7,
-        "tong": 39.75
+        "tong": 39.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 627,
@@ -8775,7 +10027,9 @@
         "toan": 7.5,
         "anh": 8.25,
         "chuyen": 5.25,
-        "tong": 32.25
+        "tong": 32.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 628,
@@ -8789,7 +10043,9 @@
         "toan": 6,
         "anh": 6,
         "chuyen": 1.75,
-        "tong": 22.25
+        "tong": 22.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 629,
@@ -8803,7 +10059,9 @@
         "toan": 6.25,
         "anh": 7,
         "chuyen": 1.75,
-        "tong": 21.25
+        "tong": 21.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 630,
@@ -8817,7 +10075,9 @@
         "toan": 8.75,
         "anh": 8.25,
         "chuyen": 5.5,
-        "tong": 35
+        "tong": 35,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 631,
@@ -8831,7 +10091,9 @@
         "toan": 8.25,
         "anh": 8,
         "chuyen": 7.5,
-        "tong": 37.5
+        "tong": 37.5,
+        "district": "Ba Tri",
+        "gender": "Nữ"
     },
     {
         "stt": 632,
@@ -8845,7 +10107,9 @@
         "toan": 4,
         "anh": 2.5,
         "chuyen": 0.25,
-        "tong": 11.75
+        "tong": 11.75,
+        "district": "Giồng Trôm",
+        "gender": "Nữ"
     },
     {
         "stt": 633,
@@ -8859,7 +10123,9 @@
         "toan": 8.75,
         "anh": 7.25,
         "chuyen": 4.75,
-        "tong": 31.25
+        "tong": 31.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 634,
@@ -8873,7 +10139,9 @@
         "toan": 8.25,
         "anh": 9.25,
         "chuyen": 4.25,
-        "tong": 34
+        "tong": 34,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 635,
@@ -8887,7 +10155,9 @@
         "toan": 6.25,
         "anh": 6.75,
         "chuyen": 2,
-        "tong": 22.75
+        "tong": 22.75,
+        "district": "Mỏ Cày Bắc",
+        "gender": "Nữ"
     },
     {
         "stt": 636,
@@ -8901,7 +10171,9 @@
         "toan": 8,
         "anh": 9.25,
         "chuyen": 4.5,
-        "tong": 32.5
+        "tong": 32.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 637,
@@ -8915,7 +10187,9 @@
         "toan": 9,
         "anh": 8.5,
         "chuyen": 8.25,
-        "tong": 39.5
+        "tong": 39.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 638,
@@ -8929,7 +10203,9 @@
         "toan": 8.25,
         "anh": 5.5,
         "chuyen": 3.25,
-        "tong": 25
+        "tong": 25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 639,
@@ -8943,7 +10219,9 @@
         "toan": 7.5,
         "anh": 7,
         "chuyen": 1.5,
-        "tong": 24.25
+        "tong": 24.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 640,
@@ -8957,7 +10235,9 @@
         "toan": 6.5,
         "anh": 7,
         "chuyen": 2,
-        "tong": 22.75
+        "tong": 22.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 641,
@@ -8971,7 +10251,9 @@
         "toan": 8.25,
         "anh": 8.5,
         "chuyen": 5.5,
-        "tong": 34.5
+        "tong": 34.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 642,
@@ -8985,7 +10267,9 @@
         "toan": 6,
         "anh": 6.25,
         "chuyen": 2,
-        "tong": 22
+        "tong": 22,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 643,
@@ -8999,7 +10283,9 @@
         "toan": 6.75,
         "anh": 5.25,
         "chuyen": 2.25,
-        "tong": 22.5
+        "tong": 22.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 644,
@@ -9013,7 +10299,9 @@
         "toan": 7.5,
         "anh": 9.25,
         "chuyen": 3.5,
-        "tong": 31.25
+        "tong": 31.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 645,
@@ -9027,7 +10315,9 @@
         "toan": 8,
         "anh": 8.25,
         "chuyen": 6,
-        "tong": 34.25
+        "tong": 34.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 646,
@@ -9041,7 +10331,9 @@
         "toan": 7.25,
         "anh": 8.75,
         "chuyen": 6.25,
-        "tong": 33.75
+        "tong": 33.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 647,
@@ -9055,7 +10347,9 @@
         "toan": 7.75,
         "anh": 9.25,
         "chuyen": 6.25,
-        "tong": 36
+        "tong": 36,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 648,
@@ -9069,7 +10363,9 @@
         "toan": 7.75,
         "anh": 8,
         "chuyen": 2,
-        "tong": 26.5
+        "tong": 26.5,
+        "district": "Châu Thành",
+        "gender": "Nam"
     },
     {
         "stt": 649,
@@ -9083,7 +10379,9 @@
         "toan": 6.25,
         "anh": 5,
         "chuyen": 3,
-        "tong": 23.25
+        "tong": 23.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 650,
@@ -9097,7 +10395,9 @@
         "toan": 4.5,
         "anh": 5.5,
         "chuyen": 0.75,
-        "tong": 16.5
+        "tong": 16.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 651,
@@ -9111,7 +10411,9 @@
         "toan": 10,
         "anh": 10,
         "chuyen": 9,
-        "tong": 45.25
+        "tong": 45.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 652,
@@ -9125,7 +10427,9 @@
         "toan": 8.25,
         "anh": 7.25,
         "chuyen": 5.25,
-        "tong": 30.5
+        "tong": 30.5,
+        "district": "Chợ Lách",
+        "gender": "Nam"
     },
     {
         "stt": 653,
@@ -9139,7 +10443,9 @@
         "toan": 7,
         "anh": 6.5,
         "chuyen": 3,
-        "tong": 25.25
+        "tong": 25.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 654,
@@ -9153,7 +10459,9 @@
         "toan": 8.5,
         "anh": 9,
         "chuyen": 2,
-        "tong": 26.25
+        "tong": 26.25,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 655,
@@ -9167,7 +10475,9 @@
         "toan": 6,
         "anh": 6.5,
         "chuyen": 2,
-        "tong": 22
+        "tong": 22,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 656,
@@ -9181,7 +10491,9 @@
         "toan": 7,
         "anh": 8.75,
         "chuyen": 7.75,
-        "tong": 38
+        "tong": 38,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 657,
@@ -9195,7 +10507,9 @@
         "toan": 6.75,
         "anh": 2.5,
         "chuyen": 3.25,
-        "tong": 21.75
+        "tong": 21.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 658,
@@ -9209,7 +10523,9 @@
         "toan": 8.25,
         "anh": 6.25,
         "chuyen": 5.25,
-        "tong": 30.5
+        "tong": 30.5,
+        "district": "Bình Đại",
+        "gender": "Nam"
     },
     {
         "stt": 659,
@@ -9223,7 +10539,9 @@
         "toan": 6.5,
         "anh": 6.5,
         "chuyen": 1,
-        "tong": 17.5
+        "tong": 17.5,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 660,
@@ -9237,7 +10555,9 @@
         "toan": 9,
         "anh": 9,
         "chuyen": 4.75,
-        "tong": 33.5
+        "tong": 33.5,
+        "district": "Châu Thành",
+        "gender": "Nam"
     },
     {
         "stt": 661,
@@ -9251,7 +10571,9 @@
         "toan": 8.25,
         "anh": 7,
         "chuyen": 5.25,
-        "tong": 29.75
+        "tong": 29.75,
+        "district": "Giồng Trôm",
+        "gender": "Nam"
     },
     {
         "stt": 662,
@@ -9265,7 +10587,9 @@
         "toan": 7.75,
         "anh": 9.5,
         "chuyen": 6.5,
-        "tong": 35.75
+        "tong": 35.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 663,
@@ -9279,7 +10603,9 @@
         "toan": 7,
         "anh": 7.25,
         "chuyen": 3,
-        "tong": 25.5
+        "tong": 25.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 664,
@@ -9293,7 +10619,9 @@
         "toan": 7,
         "anh": 7.75,
         "chuyen": 3.75,
-        "tong": 28
+        "tong": 28,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 665,
@@ -9307,7 +10635,9 @@
         "toan": 7.75,
         "anh": 9.5,
         "chuyen": 4.5,
-        "tong": 32
+        "tong": 32,
+        "district": "Mỏ Cày Nam",
+        "gender": "Nữ"
     },
     {
         "stt": 666,
@@ -9321,7 +10651,9 @@
         "toan": 7.5,
         "anh": 9,
         "chuyen": 3.25,
-        "tong": 28.5
+        "tong": 28.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 667,
@@ -9335,7 +10667,9 @@
         "toan": 7.5,
         "anh": 6.25,
         "chuyen": 3.25,
-        "tong": 25.5
+        "tong": 25.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 668,
@@ -9349,7 +10683,9 @@
         "toan": 5.5,
         "anh": 4,
         "chuyen": 0.5,
-        "tong": 14.75
+        "tong": 14.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 669,
@@ -9363,7 +10699,9 @@
         "toan": 7,
         "anh": 7.75,
         "chuyen": 1.75,
-        "tong": 23.75
+        "tong": 23.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 670,
@@ -9377,7 +10715,9 @@
         "toan": 6.5,
         "anh": 7.25,
         "chuyen": 3,
-        "tong": 25.5
+        "tong": 25.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 671,
@@ -9391,7 +10731,9 @@
         "toan": 3.75,
         "anh": 9.75,
         "chuyen": 2.25,
-        "tong": 23.5
+        "tong": 23.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 672,
@@ -9405,7 +10747,9 @@
         "toan": 7.5,
         "anh": 8,
         "chuyen": 4.5,
-        "tong": 30
+        "tong": 30,
+        "district": "Bình Đại",
+        "gender": "Nam"
     },
     {
         "stt": 673,
@@ -9419,7 +10763,9 @@
         "toan": 6.75,
         "anh": 5.75,
         "chuyen": 3.75,
-        "tong": 25.75
+        "tong": 25.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 674,
@@ -9433,7 +10779,9 @@
         "toan": 6.25,
         "anh": 9,
         "chuyen": 3.5,
-        "tong": 28
+        "tong": 28,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 675,
@@ -9447,7 +10795,9 @@
         "toan": 7,
         "anh": 9.5,
         "chuyen": 7.5,
-        "tong": 37.25
+        "tong": 37.25,
+        "district": "Giồng Trôm",
+        "gender": "Nam"
     },
     {
         "stt": 676,
@@ -9461,7 +10811,9 @@
         "toan": 8.25,
         "anh": 8,
         "chuyen": 3.25,
-        "tong": 28.5
+        "tong": 28.5,
+        "district": "Chợ Lách",
+        "gender": "Nữ"
     },
     {
         "stt": 677,
@@ -9475,7 +10827,9 @@
         "toan": 8,
         "anh": 8.5,
         "chuyen": 2.25,
-        "tong": 27
+        "tong": 27,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 678,
@@ -9489,7 +10843,9 @@
         "toan": 8.75,
         "anh": 9.5,
         "chuyen": 7,
-        "tong": 39.5
+        "tong": 39.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 679,
@@ -9503,7 +10859,9 @@
         "toan": 8.5,
         "anh": 8.75,
         "chuyen": 4.75,
-        "tong": 33.42
+        "tong": 33.42,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 680,
@@ -9517,7 +10875,9 @@
         "toan": 6,
         "anh": 6.5,
         "chuyen": 1.75,
-        "tong": 22.5
+        "tong": 22.5,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 681,
@@ -9531,7 +10891,9 @@
         "toan": 7.25,
         "anh": 7,
         "chuyen": 6.25,
-        "tong": 33.75
+        "tong": 33.75,
+        "district": "Mỏ Cày Nam",
+        "gender": "Nam"
     },
     {
         "stt": 682,
@@ -9545,7 +10907,9 @@
         "toan": 8.25,
         "anh": 8.75,
         "chuyen": 2,
-        "tong": 27
+        "tong": 27,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 683,
@@ -9559,7 +10923,9 @@
         "toan": 4.5,
         "anh": 6.75,
         "chuyen": 0.5,
-        "tong": 17.75
+        "tong": 17.75,
+        "district": "Bình Đại",
+        "gender": "Nữ"
     },
     {
         "stt": 684,
@@ -9573,7 +10939,9 @@
         "toan": 7,
         "anh": 7.5,
         "chuyen": 5.5,
-        "tong": 32
+        "tong": 32,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 685,
@@ -9587,7 +10955,9 @@
         "toan": 7.5,
         "anh": 7.75,
         "chuyen": 2.75,
-        "tong": 27.5
+        "tong": 27.5,
+        "district": "Châu Thành",
+        "gender": "Nữ"
     },
     {
         "stt": 686,
@@ -9601,7 +10971,9 @@
         "toan": 7.25,
         "anh": 9.25,
         "chuyen": 1.5,
-        "tong": 25.5
+        "tong": 25.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 687,
@@ -9615,7 +10987,9 @@
         "toan": 7,
         "anh": 6.75,
         "chuyen": 2.75,
-        "tong": 24.5
+        "tong": 24.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 688,
@@ -9629,7 +11003,9 @@
         "toan": 8.25,
         "anh": 9.25,
         "chuyen": 6,
-        "tong": 35.5
+        "tong": 35.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nam"
     },
     {
         "stt": 689,
@@ -9643,7 +11019,9 @@
         "toan": 8.5,
         "anh": 10,
         "chuyen": 6,
-        "tong": 36.5
+        "tong": 36.5,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     },
     {
         "stt": 690,
@@ -9657,6 +11035,8 @@
         "toan": 7,
         "anh": 7.5,
         "chuyen": 4,
-        "tong": 28.75
+        "tong": 28.75,
+        "district": "TP. Bến Tre",
+        "gender": "Nữ"
     }
 ]

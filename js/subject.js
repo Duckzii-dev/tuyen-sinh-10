@@ -208,7 +208,9 @@ export function initSubjectDetailPage(code) {
                                 <th>STT</th>
                                 <th>SBD</th>
                                 <th>Họ tên</th>
+                                <th>Giới tính</th>
                                 <th>Ngày sinh</th>
+                                <th>Huyện/TP</th>
                                 <th>Trường</th>
                                 <th>Phòng</th>
                                 <th>Văn</th>
@@ -248,7 +250,9 @@ export function initSubjectDetailPage(code) {
             { data: 'stt' },
             { data: 'sbd' },
             { data: 'name' },
+            { data: 'gender' },
             { data: 'birthday' },
+            { data: 'district' },
             { data: 'school' },
             { data: 'room' },
             {
@@ -349,6 +353,10 @@ function openStudentModal(student) {
             <span class="modal-detail-value">${student.name}</span>
         </div>
         <div class="modal-detail-row">
+            <span class="modal-detail-label">Giới tính</span>
+            <span class="modal-detail-value">${student.gender}</span>
+        </div>
+        <div class="modal-detail-row">
             <span class="modal-detail-label">Số báo danh</span>
             <span class="modal-detail-value"><strong>${student.sbd}</strong></span>
         </div>
@@ -399,9 +407,9 @@ function openStudentModal(student) {
 function exportDetailedData(students, type, code) {
     if (type === 'csv') {
         let csvContent = "data:text/csv;charset=utf-8,\uFEFF";
-        csvContent += "STT,Môn,SBD,Họ tên,Ngày sinh,Trường,Phòng\n";
+        csvContent += "STT,Môn,SBD,Họ tên,Giới tính,Ngày sinh,Huyện/TP,Trường,Phòng\n";
         students.forEach(s => {
-            const row = [s.stt, s.subject, s.sbd, s.name, s.birthday, s.school, s.room];
+            const row = [s.stt, s.subject, s.sbd, s.name, s.gender, s.birthday, s.district, s.school, s.room];
             csvContent += row.map(val => `"${val}"`).join(",") + "\n";
         });
         const encodedUri = encodeURI(csvContent);
@@ -420,13 +428,16 @@ function exportDetailedData(students, type, code) {
             <body>
             <table>
                 <tr>
-                    <th>STT</th><th>Môn</th><th>SBD</th><th>Họ tên</th><th>Ngày sinh</th><th>Trường</th><th>Phòng</th>
+                    <th>STT</th><th>Môn</th><th>SBD</th><th>Họ tên</th>
+                                <th>Giới tính</th>
+                                <th>Ngày sinh</th>
+                                <th>Huyện/TP</th><th>Trường</th><th>Phòng</th>
                 </tr>
         `;
         students.forEach(s => {
             excelContent += `
                 <tr>
-                    <td>${s.stt}</td><td>${s.subject}</td><td>${s.sbd}</td><td>${s.name}</td><td>${s.birthday}</td><td>${s.school}</td><td>${s.room}</td>
+                    <td>${s.stt}</td><td>${s.subject}</td><td>${s.sbd}</td><td>${s.name}</td><td>${s.gender}</td><td>${s.birthday}</td><td>${s.district}</td><td>${s.school}</td><td>${s.room}</td>
                 </tr>
             `;
         });
@@ -466,7 +477,9 @@ function printDetailedData(students, subjectName) {
                         <th>STT</th>
                         <th>SBD</th>
                         <th>Họ tên</th>
-                        <th>Ngày sinh</th>
+                                <th>Giới tính</th>
+                                <th>Ngày sinh</th>
+                                <th>Huyện/TP</th>
                         <th>Trường</th>
                         <th>Phòng</th>
                     </tr>
@@ -477,7 +490,9 @@ function printDetailedData(students, subjectName) {
                             <td>${s.stt}</td>
                             <td>${s.sbd}</td>
                             <td>${s.name}</td>
+                            <td>${s.gender}</td>
                             <td>${s.birthday}</td>
+                            <td>${s.district}</td>
                             <td>${s.school}</td>
                             <td>${s.room}</td>
                         </tr>

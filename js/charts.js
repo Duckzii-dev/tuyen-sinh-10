@@ -112,9 +112,9 @@ window.addEventListener('themechanged', () => {
                 dataset.borderColor = settings.tooltipBorder;
             });
         } else {
-            chart.data.datasets.forEach(dataset => {
-                dataset.borderColor = settings.palette[0];
-                dataset.backgroundColor = settings.palette[0] + '33'; // 20% opacity
+            chart.data.datasets.forEach((dataset, idx) => {
+                dataset.borderColor = settings.palette[idx % settings.palette.length];
+                dataset.backgroundColor = settings.palette[idx % settings.palette.length] + '40'; // 25% opacity
             });
         }
 
@@ -307,4 +307,47 @@ export function setupChartDownload(canvasId, downloadBtnId, filename = 'chart.pn
         link.click();
         document.body.removeChild(link);
     });
+}
+
+/**
+ * Render Grouped Bar Chart
+ */
+export function renderGroupedBarChart(canvasId, labels, datasetsDataList) {
+    const canvas = document.getElementById(canvasId);
+    if (!canvas) return;
+
+    const ctx = canvas.getContext('2d');
+    const settings = getChartThemeSettings();
+    const commonOpts = getCommonOptions(settings);
+
+    const datasets = datasetsDataList.map((dItem, idx) => {
+        return {
+            label: dItem.label,
+            data: dItem.data,
+            backgroundColor: settings.palette[idx % settings.palette.length] + '40',
+            borderColor: settings.palette[idx % settings.palette.length],
+            borderWidth: 1.5,
+            borderRadius: 4
+        };
+    });
+
+    const chartInstance = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: datasets
+        },
+        options: {
+            ...commonOpts,
+            plugins: {
+                ...commonOpts.plugins,
+                legend: {
+                    display: true,
+                    labels: { color: settings.text, font: { family: 'Inter', size: 11 } }
+                }
+            }
+        }
+    });
+
+    registerChart(canvasId, chartInstance);
 }
