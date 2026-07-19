@@ -8,7 +8,7 @@
         "school": "Trường THCS Bến Tre",
         "room": "P27",
         "van": 6.5,
-        "toan": 6.0,
+        "toan": 6,
         "anh": 9.5,
         "chuyen": 6.4,
         "tong": 34.8
@@ -23,7 +23,7 @@
         "room": "P27",
         "van": 6.5,
         "toan": 5.5,
-        "anh": 7.0,
+        "anh": 7,
         "chuyen": 1.8,
         "tong": 22.6
     },
@@ -50,7 +50,7 @@
         "school": "Trường THCS Phạm Viết Chánh",
         "room": "P27",
         "van": 4.75,
-        "toan": 4.0,
+        "toan": 4,
         "anh": 8.75,
         "chuyen": 6.4,
         "tong": 30.3
@@ -80,8 +80,8 @@
         "van": 5.25,
         "toan": 5.5,
         "anh": 7.25,
-        "chuyen": 3.0,
-        "tong": 24.0
+        "chuyen": 3,
+        "tong": 24
     },
     {
         "stt": 7,
@@ -120,10 +120,10 @@
         "school": "Trường THCS Bến Tre",
         "room": "P27",
         "van": 4.25,
-        "toan": 4.0,
+        "toan": 4,
         "anh": 8.75,
         "chuyen": 2.5,
-        "tong": 22.0
+        "tong": 22
     },
     {
         "stt": 10,
@@ -147,7 +147,7 @@
         "birthday": "22/05/2011",
         "school": "Trường THCS Tân Thạch",
         "room": "P27",
-        "van": 6.0,
+        "van": 6,
         "toan": 4.5,
         "anh": 9.75,
         "chuyen": 7.7,
@@ -164,14 +164,14 @@
         "van": 4.75,
         "toan": 3.75,
         "anh": 9.75,
-        "chuyen": 6.0,
+        "chuyen": 6,
         "tong": 30.25
     },
     {
         "stt": 13,
         "subject": "AV",
         "sbd": "010556",
-        "name": "Nguyễn Thiên Ấn",
+        "name": "Nguyễn Thiên Ân",
         "birthday": "05/10/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P27",
@@ -190,7 +190,7 @@
         "school": "Trường THCS Tân Thạch",
         "room": "P27",
         "van": 5.5,
-        "toan": 7.0,
+        "toan": 7,
         "anh": 9.75,
         "chuyen": 6.3,
         "tong": 34.85
@@ -220,7 +220,7 @@
         "van": 5.75,
         "toan": 2.25,
         "anh": 7.25,
-        "chuyen": 3.0,
+        "chuyen": 3,
         "tong": 21.25
     },
     {
@@ -245,7 +245,7 @@
         "birthday": "23/02/2011",
         "school": "Trường TH-THCS An Hiệp",
         "room": "P27",
-        "van": 6.0,
+        "van": 6,
         "toan": 7.25,
         "anh": 9.5,
         "chuyen": 6.9,
@@ -262,7 +262,7 @@
         "van": 5.25,
         "toan": 6.5,
         "anh": 9.5,
-        "chuyen": 7.0,
+        "chuyen": 7,
         "tong": 35.25
     },
     {
@@ -273,7 +273,7 @@
         "birthday": "20/11/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P27",
-        "van": 6.0,
+        "van": 6,
         "toan": 7.25,
         "anh": 9.5,
         "chuyen": 6.2,
@@ -301,8 +301,8 @@
         "birthday": "25/12/2011",
         "school": "Trường THCS Tân Thạch",
         "room": "P27",
-        "van": 4.0,
-        "toan": 6.0,
+        "van": 4,
+        "toan": 6,
         "anh": 9.5,
         "chuyen": 6.7,
         "tong": 32.9
@@ -329,10 +329,10 @@
         "birthday": "02/02/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P27",
-        "van": 6.0,
+        "van": 6,
         "toan": 6.25,
         "anh": 9.5,
-        "chuyen": 3.0,
+        "chuyen": 3,
         "tong": 27.75
     },
     {
@@ -344,9 +344,9 @@
         "school": "Trường THCS Vĩnh Phúc",
         "room": "P28",
         "van": 4.5,
-        "toan": 3.0,
+        "toan": 3,
         "anh": 8.75,
-        "chuyen": 4.0,
+        "chuyen": 4,
         "tong": 24.25
     },
     {
@@ -385,8 +385,8 @@
         "birthday": "17/08/2011",
         "school": "Trường THCS Vĩnh Phúc",
         "room": "P28",
-        "van": 4.0,
-        "toan": 5.0,
+        "van": 4,
+        "toan": 5,
         "anh": 7.75,
         "chuyen": 1.7,
         "tong": 20.15
@@ -395,7 +395,7 @@
         "stt": 29,
         "subject": "AV",
         "sbd": "010572",
-        "name": "Võ Thành Đạt",
+        "name": "Vũ Thành Đạt",
         "birthday": "07/12/2011",
         "school": "Trường Trung học cơ sở Tam Phước",
         "room": "P28",
@@ -413,7 +413,7 @@
         "birthday": "26/07/2011",
         "school": "Trường THCS Đỗ Nghĩa Trọng",
         "room": "P28",
-        "van": 5.0,
+        "van": 5,
         "toan": 4.5,
         "anh": 8.25,
         "chuyen": 4.1,
@@ -423,11 +423,11 @@
         "stt": 31,
         "subject": "AV",
         "sbd": "010574",
-        "name": "Trần Quang Đồng",
+        "name": "Trần Quang Đông",
         "birthday": "16/06/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P28",
-        "van": 5.0,
+        "van": 5,
         "toan": 7.5,
         "anh": 9.5,
         "chuyen": 7.4,
@@ -457,7 +457,7 @@
         "room": "P28",
         "van": 6.5,
         "toan": 4.75,
-        "anh": 9.0,
+        "anh": 9,
         "chuyen": 4.9,
         "tong": 30.05
     },
@@ -470,7 +470,7 @@
         "school": "Trường THCS Bến Tre",
         "room": "P28",
         "van": 6.25,
-        "toan": 5.0,
+        "toan": 5,
         "anh": 8.5,
         "chuyen": 2.7,
         "tong": 25.15
@@ -484,7 +484,7 @@
         "school": "Trường THCS Bến Tre",
         "room": "P28",
         "van": 6.75,
-        "toan": 8.0,
+        "toan": 8,
         "anh": 9.75,
         "chuyen": 6.5,
         "tong": 37.5
@@ -498,7 +498,7 @@
         "school": "Trường THCS Quới Sơn",
         "room": "P28",
         "van": 5.75,
-        "toan": 4.0,
+        "toan": 4,
         "anh": 8.5,
         "chuyen": 3.4,
         "tong": 25.05
@@ -511,9 +511,9 @@
         "birthday": "06/04/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P28",
-        "van": 5.0,
-        "toan": 5.0,
-        "anh": 9.0,
+        "van": 5,
+        "toan": 5,
+        "anh": 9,
         "chuyen": 3.7,
         "tong": 26.4
     },
@@ -539,7 +539,7 @@
         "birthday": "15/04/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P28",
-        "van": 7.0,
+        "van": 7,
         "toan": 4.75,
         "anh": 9.75,
         "chuyen": 6.2,
@@ -553,7 +553,7 @@
         "birthday": "17/06/2011",
         "school": "Trường THCS Vĩnh Phúc",
         "room": "P28",
-        "van": 7.0,
+        "van": 7,
         "toan": 6.75,
         "anh": 9.25,
         "chuyen": 4.1,
@@ -568,9 +568,9 @@
         "school": "Trường THCS Mỹ Hóa",
         "room": "P28",
         "van": 6.25,
-        "toan": 7.0,
+        "toan": 7,
         "anh": 9.25,
-        "chuyen": 6.0,
+        "chuyen": 6,
         "tong": 34.5
     },
     {
@@ -583,7 +583,7 @@
         "room": "P28",
         "van": 6.5,
         "toan": 5.5,
-        "anh": 8.0,
+        "anh": 8,
         "chuyen": 5.4,
         "tong": 30.8
     },
@@ -596,7 +596,7 @@
         "school": "Trường THCS Bến Tre",
         "room": "P28",
         "van": 6.25,
-        "toan": 5.0,
+        "toan": 5,
         "anh": 9.25,
         "chuyen": 5.4,
         "tong": 31.3
@@ -623,7 +623,7 @@
         "birthday": "17/04/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P28",
-        "van": 6.0,
+        "van": 6,
         "toan": 6.5,
         "anh": 9.75,
         "chuyen": 4.6,
@@ -639,8 +639,8 @@
         "room": "P28",
         "van": 6.25,
         "toan": 6.5,
-        "anh": 9.0,
-        "chuyen": 4.0,
+        "anh": 9,
+        "chuyen": 4,
         "tong": 29.75
     },
     {
@@ -666,7 +666,7 @@
         "school": "Trường THCS Bến Tre",
         "room": "P28",
         "van": 6.75,
-        "toan": 7.0,
+        "toan": 7,
         "anh": 9.75,
         "chuyen": 8.4,
         "tong": 40.3
@@ -679,8 +679,8 @@
         "birthday": "03/02/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P29",
-        "van": 6.0,
-        "toan": 7.0,
+        "van": 6,
+        "toan": 7,
         "anh": 9.5,
         "chuyen": 7.6,
         "tong": 37.7
@@ -721,7 +721,7 @@
         "birthday": "31/10/2011",
         "school": "Trường Trung học cơ sở Châu Thành",
         "room": "P29",
-        "van": 4.0,
+        "van": 4,
         "toan": 2.25,
         "anh": 4.5,
         "chuyen": 2.1,
@@ -735,8 +735,8 @@
         "birthday": "09/04/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P29",
-        "van": 6.0,
-        "toan": 7.0,
+        "van": 6,
+        "toan": 7,
         "anh": 9.5,
         "chuyen": 7.6,
         "tong": 37.7
@@ -751,7 +751,7 @@
         "room": "P29",
         "van": 6.5,
         "toan": 3.75,
-        "anh": 6.0,
+        "anh": 6,
         "chuyen": 2.7,
         "tong": 21.65
     },
@@ -763,7 +763,7 @@
         "birthday": "24/03/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P29",
-        "van": 6.0,
+        "van": 6,
         "toan": 5.75,
         "anh": 9.5,
         "chuyen": 5.8,
@@ -780,8 +780,8 @@
         "van": 4.75,
         "toan": 7.5,
         "anh": 8.75,
-        "chuyen": 9.0,
-        "tong": 39.0
+        "chuyen": 9,
+        "tong": 39
     },
     {
         "stt": 57,
@@ -792,8 +792,8 @@
         "school": "Trường THCS Bến Tre",
         "room": "P29",
         "van": 5.5,
-        "toan": 5.0,
-        "anh": 9.0,
+        "toan": 5,
+        "anh": 9,
         "chuyen": 3.9,
         "tong": 27.3
     },
@@ -820,7 +820,7 @@
         "school": "Trường THCS Tạ Minh Khâm",
         "room": "P29",
         "van": 6.5,
-        "toan": 6.0,
+        "toan": 6,
         "anh": 9.75,
         "chuyen": 6.5,
         "tong": 35.25
@@ -833,7 +833,7 @@
         "birthday": "01/04/2011",
         "school": "Trường THCS Bình Thành",
         "room": "P29",
-        "van": 7.0,
+        "van": 7,
         "toan": 5.75,
         "anh": 8.5,
         "chuyen": 3.7,
@@ -848,16 +848,16 @@
         "school": "Trường THCS Hoàng Lam",
         "room": "P29",
         "van": 6.75,
-        "toan": 7.0,
+        "toan": 7,
         "anh": 9.25,
         "chuyen": 6.5,
-        "tong": 36.0
+        "tong": 36
     },
     {
         "stt": 62,
         "subject": "AV",
         "sbd": "010605",
-        "name": "Nguyễn Bạch Lâm",
+        "name": "Nguyễn Bách Lâm",
         "birthday": "17/12/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P29",
@@ -871,12 +871,12 @@
         "stt": 63,
         "subject": "AV",
         "sbd": "010606",
-        "name": "Lâm Huệ Linh",
+        "name": "Lâm Huê Linh",
         "birthday": "09/01/2011",
         "school": "Trường THCS Tân Thạch",
         "room": "P29",
         "van": 5.5,
-        "toan": 6.0,
+        "toan": 6,
         "anh": 7.75,
         "chuyen": 4.3,
         "tong": 27.85
@@ -889,10 +889,10 @@
         "birthday": "03/03/2011",
         "school": "Trường THCS Tân Thạch",
         "room": "P29",
-        "van": 6.0,
-        "toan": 4.0,
+        "van": 6,
+        "toan": 4,
         "anh": 9.5,
-        "chuyen": 8.0,
+        "chuyen": 8,
         "tong": 35.5
     },
     {
@@ -918,7 +918,7 @@
         "school": "Trường THCS Vĩnh Phúc",
         "room": "P29",
         "van": 5.5,
-        "toan": 7.0,
+        "toan": 7,
         "anh": 8.25,
         "chuyen": 3.5,
         "tong": 27.75
@@ -931,9 +931,9 @@
         "birthday": "18/07/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P29",
-        "van": 6.0,
+        "van": 6,
         "toan": 7.5,
-        "anh": 10.0,
+        "anh": 10,
         "chuyen": 5.9,
         "tong": 35.3
     },
@@ -946,8 +946,8 @@
         "school": "Trường THCS Lê Hoàng Chiếu",
         "room": "P29",
         "van": 6.5,
-        "toan": 6.0,
-        "anh": 10.0,
+        "toan": 6,
+        "anh": 10,
         "chuyen": 7.6,
         "tong": 37.7
     },
@@ -959,8 +959,8 @@
         "birthday": "16/02/2011",
         "school": "Trường THCS Trần Thị Tiết",
         "room": "P29",
-        "van": 8.0,
-        "toan": 6.0,
+        "van": 8,
+        "toan": 6,
         "anh": 9.25,
         "chuyen": 6.7,
         "tong": 36.65
@@ -973,7 +973,7 @@
         "birthday": "13/12/2011",
         "school": "Trường PT Hermann Gmeiner Bến Tre",
         "room": "P29",
-        "van": 4.0,
+        "van": 4,
         "toan": 5.75,
         "anh": 7.25,
         "chuyen": 3.2,
@@ -1001,7 +1001,7 @@
         "birthday": "28/06/2011",
         "school": "Trường THCS Vĩnh Phúc",
         "room": "P29",
-        "van": 6.0,
+        "van": 6,
         "toan": 5.5,
         "anh": 8.75,
         "chuyen": 3.2,
@@ -1016,7 +1016,7 @@
         "school": "Trường THCS Tạ Minh Khâm",
         "room": "P30",
         "van": 6.5,
-        "toan": 6.0,
+        "toan": 6,
         "anh": 9.25,
         "chuyen": 5.2,
         "tong": 32.15
@@ -1029,7 +1029,7 @@
         "birthday": "24/10/2011",
         "school": "Trường THCS Nguyễn Thị Hai",
         "room": "P30",
-        "van": 5.0,
+        "van": 5,
         "toan": 4.5,
         "anh": 8.75,
         "chuyen": 2.9,
@@ -1053,11 +1053,11 @@
         "stt": 76,
         "subject": "AV",
         "sbd": "010619",
-        "name": "Nguyễn Vũ Kim Ngân",
+        "name": "Nguyễn Võ Kim Ngân",
         "birthday": "07/06/2011",
         "school": "Trường THCS Tân Thạch",
         "room": "P30",
-        "van": 7.0,
+        "van": 7,
         "toan": 5.5,
         "anh": 9.5,
         "chuyen": 5.4,
@@ -1072,9 +1072,9 @@
         "school": "Trường THCS Hồ Hảo Hớn",
         "room": "P30",
         "van": 4.5,
-        "toan": 4.0,
-        "anh": 6.0,
-        "chuyen": 1.0,
+        "toan": 4,
+        "anh": 6,
+        "chuyen": 1,
         "tong": 16.5
     },
     {
@@ -1086,7 +1086,7 @@
         "school": "Trường THCS Lê Hoàng Chiếu",
         "room": "P30",
         "van": 4.75,
-        "toan": 6.0,
+        "toan": 6,
         "anh": 9.5,
         "chuyen": 5.1,
         "tong": 30.45
@@ -1102,7 +1102,7 @@
         "van": 5.25,
         "toan": 2.25,
         "anh": 8.75,
-        "chuyen": 4.0,
+        "chuyen": 4,
         "tong": 24.25
     },
     {
@@ -1116,19 +1116,19 @@
         "van": 3.5,
         "toan": 2.75,
         "anh": 8.25,
-        "chuyen": 3.0,
+        "chuyen": 3,
         "tong": 20.5
     },
     {
         "stt": 81,
         "subject": "AV",
         "sbd": "010624",
-        "name": "Dương Hiểu Nghĩa",
+        "name": "Dương Hiếu Nghĩa",
         "birthday": "15/06/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P30",
-        "van": 5.0,
-        "toan": 6.0,
+        "van": 5,
+        "toan": 6,
         "anh": 9.75,
         "chuyen": 6.9,
         "tong": 34.55
@@ -1155,9 +1155,9 @@
         "birthday": "01/01/2011",
         "school": "Trường THCS Lê Hoàng Chiếu",
         "room": "P30",
-        "van": 6.0,
-        "toan": 4.0,
-        "anh": 8.0,
+        "van": 6,
+        "toan": 4,
+        "anh": 8,
         "chuyen": 3.6,
         "tong": 25.2
     },
@@ -1183,7 +1183,7 @@
         "birthday": "18/01/2011",
         "school": "Trường PT Hermann Gmeiner Bến Tre",
         "room": "P30",
-        "van": 8.0,
+        "van": 8,
         "toan": 7.75,
         "anh": 9.75,
         "chuyen": 3.5,
@@ -1199,7 +1199,7 @@
         "room": "P30",
         "van": 6.75,
         "toan": 5.75,
-        "anh": 8.0,
+        "anh": 8,
         "chuyen": 2.1,
         "tong": 24.7
     },
@@ -1212,7 +1212,7 @@
         "school": "Trường THCS Phạm Viết Chánh",
         "room": "P30",
         "van": 5.5,
-        "toan": 5.0,
+        "toan": 5,
         "anh": 8.25,
         "chuyen": 1.6,
         "tong": 21.95
@@ -1226,7 +1226,7 @@
         "school": "THCS LÊ THỊ TIẾN",
         "room": "P30",
         "van": 7.5,
-        "toan": 6.0,
+        "toan": 6,
         "anh": 8.5,
         "chuyen": 3.57,
         "tong": 29.14
@@ -1255,7 +1255,7 @@
         "room": "P30",
         "van": 4.5,
         "toan": 2.75,
-        "anh": 7.0,
+        "anh": 7,
         "chuyen": 2.1,
         "tong": 18.45
     },
@@ -1263,13 +1263,13 @@
         "stt": 91,
         "subject": "AV",
         "sbd": "010634",
-        "name": "Nguyễn Lâm Trúc Nguyễn",
+        "name": "Nguyễn Lâm Trúc Nguyên",
         "birthday": "22/02/2011",
         "school": "Trường THCS Vĩnh Phúc",
         "room": "P30",
         "van": 6.75,
         "toan": 5.5,
-        "anh": 7.0,
+        "anh": 7,
         "chuyen": 3.4,
         "tong": 26.05
     },
@@ -1295,11 +1295,11 @@
         "birthday": "06/11/2011",
         "school": "Trường THCS Ba Tri",
         "room": "P30",
-        "van": 5.0,
+        "van": 5,
         "toan": 5.75,
         "anh": 8.25,
         "chuyen": 4.5,
-        "tong": 28.0
+        "tong": 28
     },
     {
         "stt": 94,
@@ -1323,7 +1323,7 @@
         "birthday": "15/03/2011",
         "school": "Trường THCS Phú Hưng",
         "room": "P30",
-        "van": 6.0,
+        "van": 6,
         "toan": 6.75,
         "anh": 8.75,
         "chuyen": 3.5,
@@ -1337,11 +1337,11 @@
         "birthday": "04/11/2011",
         "school": "Trường Trung học cơ sở Châu Thành",
         "room": "P30",
-        "van": 7.0,
+        "van": 7,
         "toan": 5.25,
         "anh": 7.75,
-        "chuyen": 3.0,
-        "tong": 26.0
+        "chuyen": 3,
+        "tong": 26
     },
     {
         "stt": 97,
@@ -1366,7 +1366,7 @@
         "school": "Trường Trung học cơ sở Tam Phước",
         "room": "P31",
         "van": 5.5,
-        "toan": 7.0,
+        "toan": 7,
         "anh": 9.5,
         "chuyen": 2.6,
         "tong": 27.2
@@ -1379,11 +1379,11 @@
         "birthday": "27/09/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P31",
-        "van": 7.0,
+        "van": 7,
         "toan": 6.5,
         "anh": 9.5,
         "chuyen": 6.5,
-        "tong": 36.0
+        "tong": 36
     },
     {
         "stt": 100,
@@ -1393,10 +1393,10 @@
         "birthday": "14/01/2011",
         "school": "Trường PT Hermann Gmeiner Bến Tre",
         "room": "P31",
-        "van": 5.0,
-        "toan": 6.0,
+        "van": 5,
+        "toan": 6,
         "anh": 9.75,
-        "chuyen": 3.0,
+        "chuyen": 3,
         "tong": 26.75
     },
     {
@@ -1407,7 +1407,7 @@
         "birthday": "17/04/2011",
         "school": "Trường THCS Tân Thạch",
         "room": "P31",
-        "van": 5.0,
+        "van": 5,
         "toan": 5.25,
         "anh": 8.75,
         "chuyen": 4.3,
@@ -1438,21 +1438,21 @@
         "van": 5.5,
         "toan": 5.25,
         "anh": 9.25,
-        "chuyen": 4.0,
-        "tong": 28.0
+        "chuyen": 4,
+        "tong": 28
     },
     {
         "stt": 104,
         "subject": "AV",
         "sbd": "010647",
-        "name": "Nguyễn Châu Phù",
+        "name": "Nguyễn Châu Phú",
         "birthday": "20/08/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P31",
-        "van": 3.0,
+        "van": 3,
         "toan": 0.75,
         "anh": 6.75,
-        "chuyen": 2.0,
+        "chuyen": 2,
         "tong": 14.5
     },
     {
@@ -1491,7 +1491,7 @@
         "birthday": "14/06/2011",
         "school": "Trường THCS Tân Lợi Thạnh",
         "room": "P31",
-        "van": 6.0,
+        "van": 6,
         "toan": 8.25,
         "anh": 9.5,
         "chuyen": 8.1,
@@ -1507,8 +1507,8 @@
         "room": "P31",
         "van": 6.5,
         "toan": 5.25,
-        "anh": 10.0,
-        "chuyen": 7.0,
+        "anh": 10,
+        "chuyen": 7,
         "tong": 35.75
     },
     {
@@ -1517,7 +1517,7 @@
         "sbd": "010652",
         "name": "Đặng Lê Quỳnh Phương",
         "birthday": "22/12/2011",
-        "school": "Trường THCS Mỹ Hóa",
+        "school": "Trường THCS Tân Thạch",
         "room": "P31",
         "van": 7.25,
         "toan": 4.75,
@@ -1534,7 +1534,7 @@
         "school": "Trường THCS Tạ Minh Khâm",
         "room": "P31",
         "van": 6.25,
-        "toan": 5.0,
+        "toan": 5,
         "anh": 9.5,
         "chuyen": 5.2,
         "tong": 31.15
@@ -1563,7 +1563,7 @@
         "room": "P31",
         "van": 4.75,
         "toan": 5.5,
-        "anh": 9.0,
+        "anh": 9,
         "chuyen": 5.6,
         "tong": 30.45
     },
@@ -1578,7 +1578,7 @@
         "van": 5.75,
         "toan": 3.5,
         "anh": 6.25,
-        "chuyen": 2.0,
+        "chuyen": 2,
         "tong": 19.5
     },
     {
@@ -1603,7 +1603,7 @@
         "birthday": "21/10/2011",
         "school": "Trường THCS Võ Văn Mẫn",
         "room": "P31",
-        "van": 6.0,
+        "van": 6,
         "toan": 6.75,
         "anh": 9.25,
         "chuyen": 3.1,
@@ -1617,7 +1617,7 @@
         "birthday": "27/06/2011",
         "school": "Trường THCS Nguyễn Thị Hai",
         "room": "P31",
-        "van": 6.0,
+        "van": 6,
         "toan": 3.75,
         "anh": 5.5,
         "chuyen": 2.7,
@@ -1634,7 +1634,7 @@
         "van": 5.75,
         "toan": 8.75,
         "anh": 9.75,
-        "chuyen": 5.0,
+        "chuyen": 5,
         "tong": 34.25
     },
     {
@@ -1648,7 +1648,7 @@
         "van": 5.75,
         "toan": 2.5,
         "anh": 8.25,
-        "chuyen": 3.0,
+        "chuyen": 3,
         "tong": 22.5
     },
     {
@@ -1674,7 +1674,7 @@
         "school": "Trường THCS Bến Tre",
         "room": "P31",
         "van": 5.75,
-        "toan": 4.0,
+        "toan": 4,
         "anh": 8.75,
         "chuyen": 3.4,
         "tong": 25.3
@@ -1687,8 +1687,8 @@
         "birthday": "25/07/2011",
         "school": "Trường THCS Long Thới",
         "room": "P32",
-        "van": 5.0,
-        "toan": 4.0,
+        "van": 5,
+        "toan": 4,
         "anh": 6.25,
         "chuyen": 2.3,
         "tong": 19.85
@@ -1699,11 +1699,11 @@
         "sbd": "010665",
         "name": "Huỳnh Mai Thanh",
         "birthday": "06/11/2011",
-        "school": "Trường Trung học cơ sở Phú Lễ",
+        "school": "Trường trung học cơ sở Phú Lễ",
         "room": "P32",
-        "van": 5.0,
+        "van": 5,
         "toan": 5.5,
-        "anh": 6.0,
+        "anh": 6,
         "chuyen": 1.8,
         "tong": 20.1
     },
@@ -1715,9 +1715,9 @@
         "birthday": "24/09/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P32",
-        "van": 5.0,
+        "van": 5,
         "toan": 3.25,
-        "anh": 7.0,
+        "anh": 7,
         "chuyen": 2.3,
         "tong": 19.85
     },
@@ -1800,8 +1800,8 @@
         "school": "Trường THCS Bến Tre",
         "room": "P32",
         "van": 7.5,
-        "toan": 7.0,
-        "anh": 10.0,
+        "toan": 7,
+        "anh": 10,
         "chuyen": 8.4,
         "tong": 41.3
     },
@@ -1827,7 +1827,7 @@
         "birthday": "22/02/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P32",
-        "van": 7.0,
+        "van": 7,
         "toan": 6.75,
         "anh": 9.75,
         "chuyen": 6.8,
@@ -1856,7 +1856,7 @@
         "school": "Trường THCS Vĩnh Phúc",
         "room": "P32",
         "van": 5.75,
-        "toan": 4.0,
+        "toan": 4,
         "anh": 9.25,
         "chuyen": 5.1,
         "tong": 29.2
@@ -1899,7 +1899,7 @@
         "room": "P32",
         "van": 7.5,
         "toan": 7.25,
-        "anh": 10.0,
+        "anh": 10,
         "chuyen": 7.4,
         "tong": 39.55
     },
@@ -1913,7 +1913,7 @@
         "room": "P32",
         "van": 6.75,
         "toan": 8.5,
-        "anh": 10.0,
+        "anh": 10,
         "chuyen": 6.4,
         "tong": 38.05
     },
@@ -1926,7 +1926,7 @@
         "school": "Trường THCS Mỹ Hóa",
         "room": "P32",
         "van": 6.75,
-        "toan": 6.0,
+        "toan": 6,
         "anh": 9.75,
         "chuyen": 5.8,
         "tong": 34.1
@@ -1940,7 +1940,7 @@
         "school": "Trường THCS Bến Tre",
         "room": "P32",
         "van": 5.25,
-        "toan": 4.0,
+        "toan": 4,
         "anh": 8.25,
         "chuyen": 3.8,
         "tong": 25.1
@@ -1953,8 +1953,8 @@
         "birthday": "27/07/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P32",
-        "van": 7.0,
-        "toan": 6.0,
+        "van": 7,
+        "toan": 6,
         "anh": 9.75,
         "chuyen": 5.7,
         "tong": 34.15
@@ -1983,7 +1983,7 @@
         "room": "P32",
         "van": 4.25,
         "toan": 4.75,
-        "anh": 8.0,
+        "anh": 8,
         "chuyen": 3.1,
         "tong": 23.2
     },
@@ -1996,7 +1996,7 @@
         "school": "Trường THCS Hoàng Lam",
         "room": "P32",
         "van": 6.25,
-        "toan": 7.0,
+        "toan": 7,
         "anh": 9.5,
         "chuyen": 7.1,
         "tong": 36.95
@@ -2010,7 +2010,7 @@
         "school": "Trường THCS Bến Tre",
         "room": "P32",
         "van": 4.75,
-        "toan": 6.0,
+        "toan": 6,
         "anh": 8.25,
         "chuyen": 2.9,
         "tong": 24.8
@@ -2023,8 +2023,8 @@
         "birthday": "30/10/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P33",
-        "van": 7.0,
-        "toan": 5.0,
+        "van": 7,
+        "toan": 5,
         "anh": 9.25,
         "chuyen": 6.7,
         "tong": 34.65
@@ -2039,9 +2039,9 @@
         "room": "P33",
         "van": 6.75,
         "toan": 5.25,
-        "anh": 8.0,
+        "anh": 8,
         "chuyen": 2.5,
-        "tong": 25.0
+        "tong": 25
     },
     {
         "stt": 147,
@@ -2052,7 +2052,7 @@
         "school": "Trường THCS An Ngãi Trung",
         "room": "P33",
         "van": 6.5,
-        "toan": 6.0,
+        "toan": 6,
         "anh": 9.75,
         "chuyen": 3.8,
         "tong": 29.85
@@ -2066,8 +2066,8 @@
         "school": "Trường THCS Bến Tre",
         "room": "P23",
         "van": 5.25,
-        "toan": 6.0,
-        "anh": 6.0,
+        "toan": 6,
+        "anh": 6,
         "chuyen": 4.5,
         "tong": 26.25
     },
@@ -2079,9 +2079,9 @@
         "birthday": "29/01/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P23",
-        "van": 5.0,
+        "van": 5,
         "toan": 1.5,
-        "anh": 4.0,
+        "anh": 4,
         "chuyen": 2.5,
         "tong": 15.5
     },
@@ -2094,8 +2094,8 @@
         "school": "Trường THCS Huỳnh Tấn Phát",
         "room": "P23",
         "van": 6.25,
-        "toan": 5.0,
-        "anh": 7.0,
+        "toan": 5,
+        "anh": 7,
         "chuyen": 7.25,
         "tong": 32.75
     },
@@ -2110,7 +2110,7 @@
         "van": 4.25,
         "toan": 2.5,
         "anh": 5.75,
-        "chuyen": 2.0,
+        "chuyen": 2,
         "tong": 16.5
     },
     {
@@ -2164,10 +2164,10 @@
         "school": "Trường THCS Mỹ Hóa",
         "room": "P23",
         "van": 4.5,
-        "toan": 5.0,
-        "anh": 5.0,
+        "toan": 5,
+        "anh": 5,
         "chuyen": 4.75,
-        "tong": 24.0
+        "tong": 24
     },
     {
         "stt": 156,
@@ -2206,7 +2206,7 @@
         "school": "Trường THCS Bến Tre",
         "room": "P23",
         "van": 5.5,
-        "toan": 3.0,
+        "toan": 3,
         "anh": 5.75,
         "chuyen": 5.75,
         "tong": 25.75
@@ -2234,10 +2234,10 @@
         "school": "Trường THCS Vĩnh Phúc",
         "room": "P23",
         "van": 6.25,
-        "toan": 4.0,
+        "toan": 4,
         "anh": 6.75,
         "chuyen": 7.5,
-        "tong": 32.0
+        "tong": 32
     },
     {
         "stt": 161,
@@ -2247,10 +2247,10 @@
         "birthday": "17/05/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P23",
-        "van": 7.0,
+        "van": 7,
         "toan": 3.5,
-        "anh": 5.0,
-        "chuyen": 4.0,
+        "anh": 5,
+        "chuyen": 4,
         "tong": 23.5
     },
     {
@@ -2263,7 +2263,7 @@
         "room": "P23",
         "van": 5.75,
         "toan": 4.75,
-        "anh": 6.0,
+        "anh": 6,
         "chuyen": 4.5,
         "tong": 25.5
     },
@@ -2289,7 +2289,7 @@
         "birthday": "09/10/2011",
         "school": "Trường THCS Mỹ Hóa",
         "room": "P23",
-        "van": 6.0,
+        "van": 6,
         "toan": 3.25,
         "anh": 7.75,
         "chuyen": 5.25,
@@ -2321,7 +2321,7 @@
         "toan": 4.5,
         "anh": 6.25,
         "chuyen": 5.25,
-        "tong": 26.0
+        "tong": 26
     },
     {
         "stt": 167,
@@ -2331,7 +2331,7 @@
         "birthday": "25/08/2011",
         "school": "Trường PT Hermann Gmeiner Bến Tre",
         "room": "P23",
-        "van": 6.0,
+        "van": 6,
         "toan": 4.25,
         "anh": 4.75,
         "chuyen": 6.25,
@@ -2357,13 +2357,13 @@
         "sbd": "010501",
         "name": "Trương Thị Yến Nhi",
         "birthday": "20/08/2011",
-        "school": "Trường Trung học cơ sở Lương Quới",
+        "school": "Trường trung học cơ sở Lương Quới",
         "room": "P23",
         "van": 5.25,
-        "toan": 6.0,
+        "toan": 6,
         "anh": 7.25,
         "chuyen": 5.25,
-        "tong": 29.0
+        "tong": 29
     },
     {
         "stt": 170,
@@ -2373,7 +2373,7 @@
         "birthday": "05/12/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P23",
-        "van": 6.0,
+        "van": 6,
         "toan": 4.5,
         "anh": 8.75,
         "chuyen": 5.5,
@@ -2389,8 +2389,8 @@
         "room": "P23",
         "van": 5.75,
         "toan": 3.75,
-        "anh": 6.0,
-        "chuyen": 4.0,
+        "anh": 6,
+        "chuyen": 4,
         "tong": 23.5
     },
     {
@@ -2401,10 +2401,10 @@
         "birthday": "16/04/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P24",
-        "van": 5.0,
+        "van": 5,
         "toan": 3.25,
         "anh": 4.25,
-        "chuyen": 2.0,
+        "chuyen": 2,
         "tong": 16.5
     },
     {
@@ -2430,7 +2430,7 @@
         "school": "Trường THCS Phú Hưng",
         "room": "P24",
         "van": 4.25,
-        "toan": 4.0,
+        "toan": 4,
         "anh": 4.75,
         "chuyen": 1.25,
         "tong": 15.5
@@ -2446,7 +2446,7 @@
         "van": 5.5,
         "toan": 4.75,
         "anh": 7.25,
-        "chuyen": 2.0,
+        "chuyen": 2,
         "tong": 21.5
     },
     {
@@ -2458,8 +2458,8 @@
         "school": "Trường THCS Bến Tre",
         "room": "P24",
         "van": 6.25,
-        "toan": 6.0,
-        "anh": 8.0,
+        "toan": 6,
+        "anh": 8,
         "chuyen": 5.5,
         "tong": 31.25
     },
@@ -2473,7 +2473,7 @@
         "room": "P24",
         "van": 6.25,
         "toan": 5.25,
-        "anh": 7.0,
+        "anh": 7,
         "chuyen": 6.5,
         "tong": 31.5
     },
@@ -2489,7 +2489,7 @@
         "toan": 4.75,
         "anh": 6.25,
         "chuyen": 5.75,
-        "tong": 29.0
+        "tong": 29
     },
     {
         "stt": 179,
@@ -2499,9 +2499,9 @@
         "birthday": "17/03/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P24",
-        "van": 6.0,
-        "toan": 4.0,
-        "anh": 8.0,
+        "van": 6,
+        "toan": 4,
+        "anh": 8,
         "chuyen": 4.25,
         "tong": 26.5
     },
@@ -2515,7 +2515,7 @@
         "room": "P24",
         "van": 4.5,
         "toan": 4.25,
-        "anh": 7.0,
+        "anh": 7,
         "chuyen": 6.5,
         "tong": 28.75
     },
@@ -2541,11 +2541,11 @@
         "birthday": "03/10/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P24",
-        "van": 4.0,
+        "van": 4,
         "toan": 4.5,
-        "anh": 7.0,
+        "anh": 7,
         "chuyen": 2.75,
-        "tong": 21.0
+        "tong": 21
     },
     {
         "stt": 183,
@@ -2556,9 +2556,9 @@
         "school": "Trường THCS Bến Tre",
         "room": "P24",
         "van": 6.5,
-        "toan": 4.0,
+        "toan": 4,
         "anh": 4.25,
-        "chuyen": 3.0,
+        "chuyen": 3,
         "tong": 20.75
     },
     {
@@ -2586,8 +2586,8 @@
         "van": 6.75,
         "toan": 5.5,
         "anh": 8.75,
-        "chuyen": 4.0,
-        "tong": 29.0
+        "chuyen": 4,
+        "tong": 29
     },
     {
         "stt": 186,
@@ -2612,7 +2612,7 @@
         "school": "Trường THCS Hoàng Lam",
         "room": "P19",
         "van": 5.75,
-        "toan": 7.0,
+        "toan": 7,
         "anh": 7.75,
         "chuyen": 7.5,
         "tong": 35.5
@@ -2621,7 +2621,7 @@
         "stt": 188,
         "subject": "V",
         "sbd": "010399",
-        "name": "Diệp Phạm Quỳnh Anh",
+        "name": "Diếp Phạm Quỳnh Anh",
         "birthday": "13/12/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P19",
@@ -2639,7 +2639,7 @@
         "birthday": "04/09/2011",
         "school": "Trường THCS Vĩnh Thành",
         "room": "P19",
-        "van": 5.0,
+        "van": 5,
         "toan": 4.75,
         "anh": 5.5,
         "chuyen": 6.25,
@@ -2682,9 +2682,9 @@
         "school": "Trường THCS Vĩnh Phúc",
         "room": "P19",
         "van": 4.75,
-        "toan": 3.0,
+        "toan": 3,
         "anh": 5.5,
-        "chuyen": 6.0,
+        "chuyen": 6,
         "tong": 25.25
     },
     {
@@ -2711,7 +2711,7 @@
         "room": "P19",
         "van": 4.5,
         "toan": 5.25,
-        "anh": 8.0,
+        "anh": 8,
         "chuyen": 5.25,
         "tong": 28.25
     },
@@ -2724,7 +2724,7 @@
         "school": "Trường THCS Bến Tre",
         "room": "P19",
         "van": 5.5,
-        "toan": 3.0,
+        "toan": 3,
         "anh": 3.75,
         "chuyen": 6.25,
         "tong": 24.75
@@ -2751,7 +2751,7 @@
         "birthday": "29/04/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P19",
-        "van": 6.0,
+        "van": 6,
         "toan": 6.25,
         "anh": 7.75,
         "chuyen": 6.75,
@@ -2780,7 +2780,7 @@
         "school": "Trường THCS Bến Tre",
         "room": "P19",
         "van": 5.25,
-        "toan": 4.0,
+        "toan": 4,
         "anh": 7.5,
         "chuyen": 6.25,
         "tong": 29.25
@@ -2807,7 +2807,7 @@
         "birthday": "30/12/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P19",
-        "van": 5.0,
+        "van": 5,
         "toan": 2.5,
         "anh": 6.75,
         "chuyen": 6.5,
@@ -2824,8 +2824,8 @@
         "van": 6.25,
         "toan": 4.5,
         "anh": 5.25,
-        "chuyen": 6.0,
-        "tong": 28.0
+        "chuyen": 6,
+        "tong": 28
     },
     {
         "stt": 203,
@@ -2851,9 +2851,9 @@
         "room": "P19",
         "van": 6.75,
         "toan": 5.75,
-        "anh": 7.0,
+        "anh": 7,
         "chuyen": 5.75,
-        "tong": 31.0
+        "tong": 31
     },
     {
         "stt": 205,
@@ -2864,7 +2864,7 @@
         "school": "Trường THCS Bến Tre",
         "room": "P19",
         "van": 6.5,
-        "toan": 6.0,
+        "toan": 6,
         "anh": 7.25,
         "chuyen": 6.5,
         "tong": 32.75
@@ -2892,9 +2892,9 @@
         "school": "Trường THCS Bến Tre",
         "room": "P19",
         "van": 7.25,
-        "toan": 8.0,
-        "anh": 9.0,
-        "chuyen": 7.0,
+        "toan": 8,
+        "anh": 9,
+        "chuyen": 7,
         "tong": 38.25
     },
     {
@@ -2906,9 +2906,9 @@
         "school": "Trường THCS Tiên Thủy",
         "room": "P19",
         "van": 6.25,
-        "toan": 4.0,
+        "toan": 4,
         "anh": 6.25,
-        "chuyen": 5.0,
+        "chuyen": 5,
         "tong": 26.5
     },
     {
@@ -2933,10 +2933,10 @@
         "birthday": "20/05/2011",
         "school": "Trường THCS Hoàng Lam",
         "room": "P20",
-        "van": 7.0,
+        "van": 7,
         "toan": 6.25,
-        "anh": 7.0,
-        "chuyen": 6.0,
+        "anh": 7,
+        "chuyen": 6,
         "tong": 32.25
     },
     {
@@ -2976,8 +2976,8 @@
         "school": "Trường THCS Trần Thị Lự",
         "room": "P20",
         "van": 6.25,
-        "toan": 3.0,
-        "anh": 5.0,
+        "toan": 3,
+        "anh": 5,
         "chuyen": 7.25,
         "tong": 28.75
     },
@@ -3006,7 +3006,7 @@
         "van": 5.25,
         "toan": 4.25,
         "anh": 6.75,
-        "chuyen": 5.0,
+        "chuyen": 5,
         "tong": 26.25
     },
     {
@@ -3020,7 +3020,7 @@
         "van": 5.25,
         "toan": 3.25,
         "anh": 5.75,
-        "chuyen": 5.0,
+        "chuyen": 5,
         "tong": 24.25
     },
     {
@@ -3031,10 +3031,10 @@
         "birthday": "10/09/2011",
         "school": "Trường THCS Hoàng Lam",
         "room": "P20",
-        "van": 7.0,
-        "toan": 7.0,
+        "van": 7,
+        "toan": 7,
         "anh": 8.25,
-        "chuyen": 8.0,
+        "chuyen": 8,
         "tong": 38.25
     },
     {
@@ -3048,7 +3048,7 @@
         "van": 5.5,
         "toan": 4.75,
         "anh": 6.5,
-        "chuyen": 5.0,
+        "chuyen": 5,
         "tong": 26.75
     },
     {
@@ -3059,7 +3059,7 @@
         "birthday": "20/05/2011",
         "school": "Trường TH-THCS An Hiệp",
         "room": "P20",
-        "van": 6.0,
+        "van": 6,
         "toan": 6.5,
         "anh": 7.25,
         "chuyen": 5.5,
@@ -3087,10 +3087,10 @@
         "birthday": "29/04/2011",
         "school": "Trường TH-THCS An Hiệp",
         "room": "P20",
-        "van": 6.0,
+        "van": 6,
         "toan": 6.25,
-        "anh": 7.0,
-        "chuyen": 7.0,
+        "anh": 7,
+        "chuyen": 7,
         "tong": 33.25
     },
     {
@@ -3102,7 +3102,7 @@
         "school": "Trường THCS Phú Hưng",
         "room": "P20",
         "van": 6.25,
-        "toan": 7.0,
+        "toan": 7,
         "anh": 6.25,
         "chuyen": 7.5,
         "tong": 34.5
@@ -3115,9 +3115,9 @@
         "birthday": "25/08/2011",
         "school": "Trường THCS Phạm Viết Chánh",
         "room": "P20",
-        "van": 5.0,
+        "van": 5,
         "toan": 3.25,
-        "anh": 6.0,
+        "anh": 6,
         "chuyen": 5.25,
         "tong": 24.75
     },
@@ -3133,7 +3133,7 @@
         "toan": 2.75,
         "anh": 3.5,
         "chuyen": 4.25,
-        "tong": 19.0
+        "tong": 19
     },
     {
         "stt": 225,
@@ -3158,7 +3158,7 @@
         "school": "Trường Trung Học Cơ Sở Giồng Trôm",
         "room": "P20",
         "van": 6.75,
-        "toan": 6.0,
+        "toan": 6,
         "anh": 7.5,
         "chuyen": 5.75,
         "tong": 31.75
@@ -3185,7 +3185,7 @@
         "birthday": "29/08/2011",
         "school": "Trường THCS Phú Hưng",
         "room": "P20",
-        "van": 6.0,
+        "van": 6,
         "toan": 5.25,
         "anh": 6.25,
         "chuyen": 6.5,
@@ -3200,7 +3200,7 @@
         "school": "Trường PT Hermann Gmeiner Bến Tre",
         "room": "P20",
         "van": 4.25,
-        "toan": 5.0,
+        "toan": 5,
         "anh": 6.75,
         "chuyen": 6.25,
         "tong": 28.5
@@ -3230,7 +3230,7 @@
         "van": 5.25,
         "toan": 3.75,
         "anh": 3.75,
-        "chuyen": 6.0,
+        "chuyen": 6,
         "tong": 24.75
     },
     {
@@ -3242,8 +3242,8 @@
         "school": "Trường THCS Phú Hưng",
         "room": "P20",
         "van": 6.25,
-        "toan": 5.0,
-        "anh": 7.0,
+        "toan": 5,
+        "anh": 7,
         "chuyen": 5.5,
         "tong": 29.25
     },
@@ -3259,7 +3259,7 @@
         "toan": 4.25,
         "anh": 6.5,
         "chuyen": 6.5,
-        "tong": 30.0
+        "tong": 30
     },
     {
         "stt": 234,
@@ -3270,9 +3270,9 @@
         "school": "Trường THCS Bùi Sĩ Hùng",
         "room": "P21",
         "van": 5.25,
-        "toan": 3.0,
-        "anh": 6.0,
-        "chuyen": 7.0,
+        "toan": 3,
+        "anh": 6,
+        "chuyen": 7,
         "tong": 28.25
     },
     {
@@ -3284,10 +3284,10 @@
         "school": "Trường THCS Bến Tre",
         "room": "P21",
         "van": 5.25,
-        "toan": 6.0,
+        "toan": 6,
         "anh": 5.75,
         "chuyen": 6.5,
-        "tong": 30.0
+        "tong": 30
     },
     {
         "stt": 236,
@@ -3297,11 +3297,11 @@
         "birthday": "17/06/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P21",
-        "van": 6.0,
+        "van": 6,
         "toan": 5.75,
         "anh": 9.25,
         "chuyen": 6.5,
-        "tong": 34.0
+        "tong": 34
     },
     {
         "stt": 237,
@@ -3315,7 +3315,7 @@
         "toan": 5.25,
         "anh": 4.75,
         "chuyen": 6.25,
-        "tong": 27.0
+        "tong": 27
     },
     {
         "stt": 238,
@@ -3355,7 +3355,7 @@
         "room": "P21",
         "van": 6.25,
         "toan": 4.75,
-        "anh": 8.0,
+        "anh": 8,
         "chuyen": 7.25,
         "tong": 33.5
     },
@@ -3369,7 +3369,7 @@
         "room": "P21",
         "van": 6.5,
         "toan": 6.25,
-        "anh": 7.0,
+        "anh": 7,
         "chuyen": 5.75,
         "tong": 31.25
     },
@@ -3398,7 +3398,7 @@
         "van": 5.5,
         "toan": 5.75,
         "anh": 6.25,
-        "chuyen": 5.0,
+        "chuyen": 5,
         "tong": 27.5
     },
     {
@@ -3424,10 +3424,10 @@
         "school": "Trường THCS Bến Tre",
         "room": "P21",
         "van": 6.5,
-        "toan": 6.0,
+        "toan": 6,
         "anh": 8.5,
-        "chuyen": 5.0,
-        "tong": 31.0
+        "chuyen": 5,
+        "tong": 31
     },
     {
         "stt": 246,
@@ -3440,7 +3440,7 @@
         "van": 6.5,
         "toan": 5.75,
         "anh": 7.25,
-        "chuyen": 8.0,
+        "chuyen": 8,
         "tong": 35.5
     },
     {
@@ -3451,7 +3451,7 @@
         "birthday": "24/05/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P21",
-        "van": 5.0,
+        "van": 5,
         "toan": 5.25,
         "anh": 6.75,
         "chuyen": 5.75,
@@ -3466,7 +3466,7 @@
         "school": "Trường THCS Bến Tre",
         "room": "P21",
         "van": 6.25,
-        "toan": 5.0,
+        "toan": 5,
         "anh": 6.75,
         "chuyen": 6.25,
         "tong": 30.5
@@ -3480,7 +3480,7 @@
         "school": "Trường THCS Tân Thạch",
         "room": "P21",
         "van": 6.5,
-        "toan": 7.0,
+        "toan": 7,
         "anh": 7.75,
         "chuyen": 5.75,
         "tong": 32.75
@@ -3493,7 +3493,7 @@
         "birthday": "10/05/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P21",
-        "van": 6.0,
+        "van": 6,
         "toan": 4.75,
         "anh": 6.75,
         "chuyen": 4.5,
@@ -3505,13 +3505,13 @@
         "sbd": "010462",
         "name": "Trần Vĩnh Quỳnh Trâm",
         "birthday": "26/11/2011",
-        "school": "Trường Trung học cơ sở Lương Quới",
+        "school": "Trường trung học cơ sở Lương Quới",
         "room": "P21",
         "van": 5.5,
         "toan": 7.75,
         "anh": 7.25,
         "chuyen": 6.25,
-        "tong": 33.0
+        "tong": 33
     },
     {
         "stt": 252,
@@ -3522,8 +3522,8 @@
         "school": "Trường THCS Bến Tre",
         "room": "P21",
         "van": 5.75,
-        "toan": 4.0,
-        "anh": 7.0,
+        "toan": 4,
+        "anh": 7,
         "chuyen": 6.25,
         "tong": 29.25
     },
@@ -3549,9 +3549,9 @@
         "birthday": "30/01/2011",
         "school": "Trường THCS Nguyễn Văn Tư",
         "room": "P21",
-        "van": 8.0,
+        "van": 8,
         "toan": 4.25,
-        "anh": 7.0,
+        "anh": 7,
         "chuyen": 6.25,
         "tong": 31.75
     },
@@ -3563,9 +3563,9 @@
         "birthday": "25/12/2011",
         "school": "THCS LÊ THỊ TIẾN",
         "room": "P21",
-        "van": 6.0,
-        "toan": 3.0,
-        "anh": 6.0,
+        "van": 6,
+        "toan": 3,
+        "anh": 6,
         "chuyen": 6.25,
         "tong": 27.5
     },
@@ -3577,11 +3577,11 @@
         "birthday": "07/09/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P21",
-        "van": 8.0,
-        "toan": 5.0,
-        "anh": 8.0,
-        "chuyen": 7.0,
-        "tong": 35.0
+        "van": 8,
+        "toan": 5,
+        "anh": 8,
+        "chuyen": 7,
+        "tong": 35
     },
     {
         "stt": 257,
@@ -3593,9 +3593,9 @@
         "room": "P21",
         "van": 5.5,
         "toan": 4.5,
-        "anh": 7.0,
+        "anh": 7,
         "chuyen": 5.5,
-        "tong": 28.0
+        "tong": 28
     },
     {
         "stt": 258,
@@ -3605,7 +3605,7 @@
         "birthday": "01/08/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P22",
-        "van": 7.0,
+        "van": 7,
         "toan": 5.75,
         "anh": 8.25,
         "chuyen": 7.75,
@@ -3622,8 +3622,8 @@
         "van": 5.75,
         "toan": 5.75,
         "anh": 6.5,
-        "chuyen": 5.0,
-        "tong": 28.0
+        "chuyen": 5,
+        "tong": 28
     },
     {
         "stt": 260,
@@ -3648,9 +3648,9 @@
         "school": "Trường THCS Vĩnh Phúc",
         "room": "P22",
         "van": 4.5,
-        "toan": 3.0,
-        "anh": 4.0,
-        "chuyen": 6.0,
+        "toan": 3,
+        "anh": 4,
+        "chuyen": 6,
         "tong": 23.5
     },
     {
@@ -3664,7 +3664,7 @@
         "van": 5.75,
         "toan": 2.75,
         "anh": 6.75,
-        "chuyen": 5.0,
+        "chuyen": 5,
         "tong": 25.25
     },
     {
@@ -3676,7 +3676,7 @@
         "school": "Trường THCS Nguyễn Văn Tư",
         "room": "P22",
         "van": 5.75,
-        "toan": 4.0,
+        "toan": 4,
         "anh": 7.25,
         "chuyen": 5.25,
         "tong": 27.5
@@ -3689,7 +3689,7 @@
         "birthday": "16/10/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P22",
-        "van": 7.0,
+        "van": 7,
         "toan": 5.75,
         "anh": 7.5,
         "chuyen": 7.25,
@@ -3703,11 +3703,11 @@
         "birthday": "16/04/2011",
         "school": "Trường THCS Nguyễn Thị Hai",
         "room": "P22",
-        "van": 6.0,
-        "toan": 4.0,
-        "anh": 6.0,
+        "van": 6,
+        "toan": 4,
+        "anh": 6,
         "chuyen": 7.5,
-        "tong": 31.0
+        "tong": 31
     },
     {
         "stt": 266,
@@ -3719,8 +3719,8 @@
         "room": "P22",
         "van": 6.25,
         "toan": 6.25,
-        "anh": 7.0,
-        "chuyen": 7.0,
+        "anh": 7,
+        "chuyen": 7,
         "tong": 33.5
     },
     {
@@ -3731,11 +3731,11 @@
         "birthday": "23/07/2011",
         "school": "Trường THCS Tân Thạch",
         "room": "P22",
-        "van": 6.0,
+        "van": 6,
         "toan": 4.5,
-        "anh": 6.0,
+        "anh": 6,
         "chuyen": 6.25,
-        "tong": 29.0
+        "tong": 29
     },
     {
         "stt": 268,
@@ -3760,8 +3760,8 @@
         "school": "Trường THCS Phong Nẫm",
         "room": "P25",
         "van": 5.5,
-        "toan": 5.0,
-        "anh": 6.0,
+        "toan": 5,
+        "anh": 6,
         "chuyen": 7.5,
         "tong": 31.5
     },
@@ -3773,10 +3773,10 @@
         "birthday": "06/12/2011",
         "school": "Trường THCS Phú Hưng",
         "room": "P25",
-        "van": 8.0,
+        "van": 8,
         "toan": 7.5,
         "anh": 9.25,
-        "chuyen": 10.0,
+        "chuyen": 10,
         "tong": 44.75
     },
     {
@@ -3788,10 +3788,10 @@
         "school": "Trường THCS Tân Thạch",
         "room": "P25",
         "van": 6.5,
-        "toan": 6.0,
+        "toan": 6,
         "anh": 8.5,
-        "chuyen": 8.0,
-        "tong": 37.0
+        "chuyen": 8,
+        "tong": 37
     },
     {
         "stt": 272,
@@ -3816,7 +3816,7 @@
         "school": "Trường THCS Mỹ Hóa",
         "room": "P25",
         "van": 5.75,
-        "toan": 5.0,
+        "toan": 5,
         "anh": 7.5,
         "chuyen": 6.75,
         "tong": 31.75
@@ -3830,7 +3830,7 @@
         "school": "Trường THCS Vĩnh Phúc",
         "room": "P25",
         "van": 5.75,
-        "toan": 3.0,
+        "toan": 3,
         "anh": 5.5,
         "chuyen": 4.25,
         "tong": 22.75
@@ -3845,7 +3845,7 @@
         "room": "P25",
         "van": 5.75,
         "toan": 3.25,
-        "anh": 9.0,
+        "anh": 9,
         "chuyen": 4.75,
         "tong": 27.5
     },
@@ -3871,7 +3871,7 @@
         "birthday": "13/03/2011",
         "school": "Trường THCS Mỹ Hóa",
         "room": "P25",
-        "van": 5.0,
+        "van": 5,
         "toan": 2.75,
         "anh": 4.25,
         "chuyen": 2.25,
@@ -3889,20 +3889,20 @@
         "toan": 8.5,
         "anh": 9.25,
         "chuyen": 9.25,
-        "tong": 42.0
+        "tong": 42
     },
     {
         "stt": 279,
         "subject": "Đ",
         "sbd": "010528",
-        "name": "Lâm Vĩnh Nghi",
+        "name": "Lâm Vịnh Nghi",
         "birthday": "24/01/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P25",
         "van": 3.75,
         "toan": 3.25,
         "anh": 6.75,
-        "chuyen": 2.0,
+        "chuyen": 2,
         "tong": 17.75
     },
     {
@@ -3914,7 +3914,7 @@
         "school": "Trường THCS Vĩnh Phúc",
         "room": "P25",
         "van": 5.5,
-        "toan": 3.0,
+        "toan": 3,
         "anh": 7.25,
         "chuyen": 3.75,
         "tong": 23.25
@@ -3928,9 +3928,9 @@
         "school": "Trường THCS Bến Tre",
         "room": "P25",
         "van": 7.25,
-        "toan": 6.0,
+        "toan": 6,
         "anh": 7.25,
-        "chuyen": 7.0,
+        "chuyen": 7,
         "tong": 34.5
     },
     {
@@ -3942,10 +3942,10 @@
         "school": "Trường THCS Bến Tre",
         "room": "P25",
         "van": 6.25,
-        "toan": 5.0,
+        "toan": 5,
         "anh": 6.25,
         "chuyen": 4.25,
-        "tong": 26.0
+        "tong": 26
     },
     {
         "stt": 283,
@@ -3957,8 +3957,8 @@
         "room": "P25",
         "van": 6.75,
         "toan": 4.5,
-        "anh": 6.0,
-        "chuyen": 5.0,
+        "anh": 6,
+        "chuyen": 5,
         "tong": 27.25
     },
     {
@@ -3971,9 +3971,9 @@
         "room": "P25",
         "van": 5.25,
         "toan": 3.25,
-        "anh": 6.0,
+        "anh": 6,
         "chuyen": 5.25,
-        "tong": 25.0
+        "tong": 25
     },
     {
         "stt": 285,
@@ -3998,8 +3998,8 @@
         "school": "Trường THCS Mỹ Hóa",
         "room": "P25",
         "van": 5.25,
-        "toan": 6.0,
-        "anh": 7.0,
+        "toan": 6,
+        "anh": 7,
         "chuyen": 8.75,
         "tong": 35.75
     },
@@ -4012,7 +4012,7 @@
         "school": "Trường THCS Mỹ Hóa",
         "room": "P25",
         "van": 6.25,
-        "toan": 4.0,
+        "toan": 4,
         "anh": 4.5,
         "chuyen": 7.25,
         "tong": 29.25
@@ -4028,7 +4028,7 @@
         "van": 4.25,
         "toan": 2.75,
         "anh": 2.75,
-        "chuyen": 2.0,
+        "chuyen": 2,
         "tong": 13.75
     },
     {
@@ -4041,7 +4041,7 @@
         "room": "P25",
         "van": 6.5,
         "toan": 4.75,
-        "anh": 8.0,
+        "anh": 8,
         "chuyen": 5.25,
         "tong": 29.75
     },
@@ -4049,7 +4049,7 @@
         "stt": 290,
         "subject": "Đ",
         "sbd": "010539",
-        "name": "Nguyễn Vũ Minh Thư",
+        "name": "Nguyễn Võ Minh Thư",
         "birthday": "22/10/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P25",
@@ -4065,7 +4065,7 @@
         "sbd": "010540",
         "name": "Nguyễn Đức Trí",
         "birthday": "13/07/2011",
-        "school": "Trường THCS Hoàng Lam",
+        "school": "Trường THCS Bến Tre",
         "room": "P25",
         "van": 5.75,
         "toan": 4.25,
@@ -4082,7 +4082,7 @@
         "school": "Trường THCS Bến Tre",
         "room": "P25",
         "van": 6.5,
-        "toan": 4.0,
+        "toan": 4,
         "anh": 5.75,
         "chuyen": 3.5,
         "tong": 23.25
@@ -4097,7 +4097,7 @@
         "room": "P26",
         "van": 4.75,
         "toan": 2.25,
-        "anh": 4.0,
+        "anh": 4,
         "chuyen": 2.25,
         "tong": 15.5
     },
@@ -4109,8 +4109,8 @@
         "birthday": "24/09/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P26",
-        "van": 6.0,
-        "toan": 5.0,
+        "van": 6,
+        "toan": 5,
         "anh": 8.25,
         "chuyen": 3.5,
         "tong": 26.25
@@ -4137,10 +4137,10 @@
         "birthday": "08/11/2011",
         "school": "Trường THCS Nguyễn Thị Hai",
         "room": "P16",
-        "van": 6.0,
+        "van": 6,
         "toan": 4.5,
         "anh": 9.25,
-        "chuyen": 7.0,
+        "chuyen": 7,
         "tong": 33.75
     },
     {
@@ -4151,9 +4151,9 @@
         "birthday": "30/10/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P16",
-        "van": 7.0,
+        "van": 7,
         "toan": 5.5,
-        "anh": 7.0,
+        "anh": 7,
         "chuyen": 7.5,
         "tong": 34.5
     },
@@ -4181,9 +4181,9 @@
         "room": "P16",
         "van": 5.5,
         "toan": 3.5,
-        "anh": 8.0,
+        "anh": 8,
         "chuyen": 7.5,
-        "tong": 32.0
+        "tong": 32
     },
     {
         "stt": 300,
@@ -4195,9 +4195,9 @@
         "room": "P16",
         "van": 7.25,
         "toan": 7.25,
-        "anh": 9.0,
+        "anh": 9,
         "chuyen": 9.25,
-        "tong": 42.0
+        "tong": 42
     },
     {
         "stt": 301,
@@ -4208,9 +4208,9 @@
         "school": "Trường THCS Bến Tre",
         "room": "P16",
         "van": 7.75,
-        "toan": 8.0,
+        "toan": 8,
         "anh": 9.75,
-        "chuyen": 9.0,
+        "chuyen": 9,
         "tong": 43.5
     },
     {
@@ -4221,7 +4221,7 @@
         "birthday": "06/12/2011",
         "school": "Trường Trung Học Cơ Sở Giồng Trôm",
         "room": "P16",
-        "van": 6.0,
+        "van": 6,
         "toan": 7.25,
         "anh": 6.25,
         "chuyen": 7.5,
@@ -4249,7 +4249,7 @@
         "birthday": "23/08/2011",
         "school": "Trường THCS Vĩnh Phúc",
         "room": "P16",
-        "van": 5.0,
+        "van": 5,
         "toan": 3.5,
         "anh": 4.75,
         "chuyen": 1.75,
@@ -4266,7 +4266,7 @@
         "van": 6.25,
         "toan": 4.75,
         "anh": 7.25,
-        "chuyen": 7.0,
+        "chuyen": 7,
         "tong": 32.25
     },
     {
@@ -4280,7 +4280,7 @@
         "van": 6.75,
         "toan": 8.75,
         "anh": 8.25,
-        "chuyen": 10.0,
+        "chuyen": 10,
         "tong": 43.75
     },
     {
@@ -4291,10 +4291,10 @@
         "birthday": "23/02/2011",
         "school": "THCS LÊ THỊ TIẾN",
         "room": "P16",
-        "van": 7.0,
-        "toan": 6.0,
+        "van": 7,
+        "toan": 6,
         "anh": 7.5,
-        "chuyen": 8.0,
+        "chuyen": 8,
         "tong": 36.5
     },
     {
@@ -4305,7 +4305,7 @@
         "birthday": "03/03/2011",
         "school": "Trường THCS Vĩnh Phúc",
         "room": "P16",
-        "van": 7.0,
+        "van": 7,
         "toan": 3.25,
         "anh": 7.5,
         "chuyen": 6.5,
@@ -4321,9 +4321,9 @@
         "room": "P16",
         "van": 4.25,
         "toan": 5.75,
-        "anh": 5.0,
+        "anh": 5,
         "chuyen": 4.5,
-        "tong": 24.0
+        "tong": 24
     },
     {
         "stt": 310,
@@ -4335,9 +4335,9 @@
         "room": "P16",
         "van": 5.25,
         "toan": 6.75,
-        "anh": 8.0,
+        "anh": 8,
         "chuyen": 6.5,
-        "tong": 33.0
+        "tong": 33
     },
     {
         "stt": 311,
@@ -4351,7 +4351,7 @@
         "toan": 6.75,
         "anh": 7.25,
         "chuyen": 9.75,
-        "tong": 40.0
+        "tong": 40
     },
     {
         "stt": 312,
@@ -4361,11 +4361,11 @@
         "birthday": "03/12/2011",
         "school": "Trường THCS Quới Sơn",
         "room": "P16",
-        "van": 5.0,
+        "van": 5,
         "toan": 3.25,
         "anh": 4.75,
         "chuyen": 5.5,
-        "tong": 24.0
+        "tong": 24
     },
     {
         "stt": 313,
@@ -4375,9 +4375,9 @@
         "birthday": "04/01/2011",
         "school": "Trường THCS Vĩnh Phúc",
         "room": "P16",
-        "van": 5.0,
+        "van": 5,
         "toan": 2.75,
-        "anh": 7.0,
+        "anh": 7,
         "chuyen": 7.5,
         "tong": 29.75
     },
@@ -4390,8 +4390,8 @@
         "school": "Trường Trung học cơ sở Tam Phước",
         "room": "P16",
         "van": 4.75,
-        "toan": 4.0,
-        "anh": 8.0,
+        "toan": 4,
+        "anh": 8,
         "chuyen": 6.25,
         "tong": 29.25
     },
@@ -4405,7 +4405,7 @@
         "room": "P16",
         "van": 4.5,
         "toan": 3.75,
-        "anh": 4.0,
+        "anh": 4,
         "chuyen": 1.75,
         "tong": 15.75
     },
@@ -4417,8 +4417,8 @@
         "birthday": "09/04/2011",
         "school": "Trường THCS Lê Hoàng Chiếu",
         "room": "P16",
-        "van": 4.0,
-        "toan": 3.0,
+        "van": 4,
+        "toan": 3,
         "anh": 6.75,
         "chuyen": 6.25,
         "tong": 26.25
@@ -4432,7 +4432,7 @@
         "school": "Trường THCS Bến Tre",
         "room": "P17",
         "van": 3.75,
-        "toan": 7.0,
+        "toan": 7,
         "anh": 7.75,
         "chuyen": 9.15,
         "tong": 36.8
@@ -4459,8 +4459,8 @@
         "birthday": "04/12/2011",
         "school": "Trường THCS Tạ Minh Khâm",
         "room": "P17",
-        "van": 6.0,
-        "toan": 7.0,
+        "van": 6,
+        "toan": 7,
         "anh": 7.75,
         "chuyen": 8.25,
         "tong": 37.25
@@ -4469,11 +4469,11 @@
         "stt": 320,
         "subject": "Ti",
         "sbd": "010361",
-        "name": "Lư Hoàng Quế Châu",
+        "name": "Lữ Hoàng Quế Châu",
         "birthday": "22/09/2011",
         "school": "Trường Tiểu học - Trung học cơ sở Phước Hiệp",
         "room": "P17",
-        "van": 5.0,
+        "van": 5,
         "toan": 4.5,
         "anh": 4.25,
         "chuyen": 2.3,
@@ -4483,13 +4483,13 @@
         "stt": 321,
         "subject": "Ti",
         "sbd": "010362",
-        "name": "Nguyễn Hoàng Dư",
+        "name": "Nguyễn Hoàng Dự",
         "birthday": "25/04/2011",
         "school": "Trường THCS Nguyễn Thị Hai",
         "room": "P17",
         "van": 6.75,
-        "toan": 4.0,
-        "anh": 8.0,
+        "toan": 4,
+        "anh": 8,
         "chuyen": 7.25,
         "tong": 33.25
     },
@@ -4497,7 +4497,7 @@
         "stt": 322,
         "subject": "Ti",
         "sbd": "010363",
-        "name": "Lê Trường Thành Đạt",
+        "name": "Lê Trương Thành Đạt",
         "birthday": "18/10/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P17",
@@ -4516,7 +4516,7 @@
         "school": "Trường THCS Vĩnh Phúc",
         "room": "P17",
         "van": 5.42,
-        "toan": 5.0,
+        "toan": 5,
         "anh": 8.25,
         "chuyen": 9.25,
         "tong": 37.17
@@ -4531,7 +4531,7 @@
         "room": "P17",
         "van": 5.75,
         "toan": 5.75,
-        "anh": 8.0,
+        "anh": 8,
         "chuyen": 8.1,
         "tong": 35.7
     },
@@ -4541,12 +4541,12 @@
         "sbd": "010366",
         "name": "Nguyễn Hoài Đông",
         "birthday": "21/08/2011",
-        "school": "Trường Trung học cơ sở Lương Quới",
+        "school": "Trường trung học cơ sở Lương Quới",
         "room": "P17",
         "van": 6.5,
         "toan": 5.5,
         "anh": 8.75,
-        "chuyen": 7.0,
+        "chuyen": 7,
         "tong": 34.75
     },
     {
@@ -4558,7 +4558,7 @@
         "school": "Trường THCS Bến Tre",
         "room": "P17",
         "van": 5.75,
-        "toan": 6.0,
+        "toan": 6,
         "anh": 6.5,
         "chuyen": 1.7,
         "tong": 21.65
@@ -4573,7 +4573,7 @@
         "room": "P17",
         "van": 6.25,
         "toan": 5.5,
-        "anh": 6.0,
+        "anh": 6,
         "chuyen": 8.25,
         "tong": 34.25
     },
@@ -4581,7 +4581,7 @@
         "stt": 328,
         "subject": "Ti",
         "sbd": "010369",
-        "name": "Lê Quốc Hảo",
+        "name": "Lê Quốc Hào",
         "birthday": "29/11/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P17",
@@ -4601,7 +4601,7 @@
         "room": "P17",
         "van": 5.25,
         "toan": 5.5,
-        "anh": 9.0,
+        "anh": 9,
         "chuyen": 8.75,
         "tong": 37.25
     },
@@ -4630,7 +4630,7 @@
         "van": 7.5,
         "toan": 7.25,
         "anh": 9.5,
-        "chuyen": 8.0,
+        "chuyen": 8,
         "tong": 40.25
     },
     {
@@ -4641,7 +4641,7 @@
         "birthday": "04/05/2011",
         "school": "Trường THCS Ba Tri",
         "room": "P17",
-        "van": 4.0,
+        "van": 4,
         "toan": 5.25,
         "anh": 9.25,
         "chuyen": 4.95,
@@ -4655,9 +4655,9 @@
         "birthday": "05/05/2011",
         "school": "Trường THCS Tân Thạch",
         "room": "P17",
-        "van": 3.0,
+        "van": 3,
         "toan": 4.75,
-        "anh": 7.0,
+        "anh": 7,
         "chuyen": 2.9,
         "tong": 20.55
     },
@@ -4671,7 +4671,7 @@
         "room": "P17",
         "van": 5.08,
         "toan": 4.5,
-        "anh": 8.0,
+        "anh": 8,
         "chuyen": 4.4,
         "tong": 26.38
     },
@@ -4697,7 +4697,7 @@
         "birthday": "25/03/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P17",
-        "van": 5.0,
+        "van": 5,
         "toan": 5.75,
         "anh": 4.5,
         "chuyen": 1.9,
@@ -4711,7 +4711,7 @@
         "birthday": "14/06/2011",
         "school": "Trường THCS Mỹ Hóa",
         "room": "P17",
-        "van": 4.0,
+        "van": 4,
         "toan": 5.25,
         "anh": 6.5,
         "chuyen": 7.6,
@@ -4728,7 +4728,7 @@
         "van": 5.08,
         "toan": 5.5,
         "anh": 7.5,
-        "chuyen": 7.0,
+        "chuyen": 7,
         "tong": 32.08
     },
     {
@@ -4740,7 +4740,7 @@
         "school": "Trường THCS Bến Tre",
         "room": "P17",
         "van": 4.75,
-        "toan": 5.0,
+        "toan": 5,
         "anh": 4.25,
         "chuyen": 0.6,
         "tong": 15.2
@@ -4753,8 +4753,8 @@
         "birthday": "31/10/2011",
         "school": "Trường THCS Vĩnh Phúc",
         "room": "P17",
-        "van": 4.0,
-        "toan": 4.0,
+        "van": 4,
+        "toan": 4,
         "anh": 6.25,
         "chuyen": 8.5,
         "tong": 31.25
@@ -4825,8 +4825,8 @@
         "room": "P18",
         "van": 4.5,
         "toan": 3.75,
-        "anh": 6.0,
-        "chuyen": 7.0,
+        "anh": 6,
+        "chuyen": 7,
         "tong": 28.25
     },
     {
@@ -4838,8 +4838,8 @@
         "school": "Trường THCS Bến Tre",
         "room": "P18",
         "van": 6.75,
-        "toan": 8.0,
-        "anh": 9.0,
+        "toan": 8,
+        "anh": 9,
         "chuyen": 8.75,
         "tong": 41.25
     },
@@ -4853,8 +4853,8 @@
         "room": "P18",
         "van": 5.25,
         "toan": 6.5,
-        "anh": 5.0,
-        "chuyen": 3.0,
+        "anh": 5,
+        "chuyen": 3,
         "tong": 22.75
     },
     {
@@ -4868,7 +4868,7 @@
         "van": 5.25,
         "toan": 9.25,
         "anh": 9.25,
-        "chuyen": 5.0,
+        "chuyen": 5,
         "tong": 33.75
     },
     {
@@ -4894,7 +4894,7 @@
         "school": "Trường THCS Bến Tre",
         "room": "P18",
         "van": 5.5,
-        "toan": 8.0,
+        "toan": 8,
         "anh": 9.25,
         "chuyen": 9.45,
         "tong": 41.65
@@ -4947,9 +4947,9 @@
         "sbd": "010395",
         "name": "Trần Khiết Tường",
         "birthday": "22/08/2011",
-        "school": "Trường Trung học cơ sở Lương Quới",
+        "school": "Trường Trung học cơ sở Lương Phú",
         "room": "P18",
-        "van": 5.0,
+        "van": 5,
         "toan": 7.75,
         "anh": 7.5,
         "chuyen": 6.15,
@@ -4967,7 +4967,7 @@
         "toan": 7.5,
         "anh": 6.75,
         "chuyen": 4.75,
-        "tong": 28.0
+        "tong": 28
     },
     {
         "stt": 356,
@@ -4979,21 +4979,21 @@
         "room": "P10",
         "van": 5.75,
         "toan": 6.25,
-        "anh": 8.0,
+        "anh": 8,
         "chuyen": 6.5,
-        "tong": 33.0
+        "tong": 33
     },
     {
         "stt": 357,
         "subject": "H",
         "sbd": "010205",
-        "name": "Đoán Nguyễn Hoàng Anh",
+        "name": "Đoàn Nguyễn Hoàng Anh",
         "birthday": "26/10/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P10",
-        "van": 6.0,
+        "van": 6,
         "toan": 3.25,
-        "anh": 5.0,
+        "anh": 5,
         "chuyen": 1.5,
         "tong": 17.25
     },
@@ -5019,11 +5019,11 @@
         "birthday": "08/04/2011",
         "school": "Trường Trung học cơ sở Hưng Nhượng",
         "room": "P10",
-        "van": 6.0,
+        "van": 6,
         "toan": 4.75,
         "anh": 8.75,
         "chuyen": 7.25,
-        "tong": 34.0
+        "tong": 34
     },
     {
         "stt": 360,
@@ -5037,7 +5037,7 @@
         "toan": 5.25,
         "anh": 6.75,
         "chuyen": 7.75,
-        "tong": 32.0
+        "tong": 32
     },
     {
         "stt": 361,
@@ -5048,7 +5048,7 @@
         "school": "Trường THCS Đồng Khởi",
         "room": "P10",
         "van": 6.25,
-        "toan": 5.0,
+        "toan": 5,
         "anh": 5.25,
         "chuyen": 1.5,
         "tong": 19.5
@@ -5061,7 +5061,7 @@
         "birthday": "04/07/2011",
         "school": "Trường Trung Học Cơ Sở Giồng Trôm",
         "room": "P10",
-        "van": 6.0,
+        "van": 6,
         "toan": 5.75,
         "anh": 8.5,
         "chuyen": 8.5,
@@ -5075,10 +5075,10 @@
         "birthday": "25/09/2011",
         "school": "Trường THCS Bình Thành",
         "room": "P10",
-        "van": 6.0,
+        "van": 6,
         "toan": 8.25,
         "anh": 8.25,
-        "chuyen": 8.0,
+        "chuyen": 8,
         "tong": 38.5
     },
     {
@@ -5093,7 +5093,7 @@
         "toan": 8.25,
         "anh": 9.5,
         "chuyen": 7.5,
-        "tong": 39.0
+        "tong": 39
     },
     {
         "stt": 365,
@@ -5107,7 +5107,7 @@
         "toan": 7.25,
         "anh": 9.75,
         "chuyen": 8.75,
-        "tong": 42.0
+        "tong": 42
     },
     {
         "stt": 366,
@@ -5119,7 +5119,7 @@
         "room": "P10",
         "van": 3.5,
         "toan": 6.75,
-        "anh": 9.0,
+        "anh": 9,
         "chuyen": 8.5,
         "tong": 36.25
     },
@@ -5131,11 +5131,11 @@
         "birthday": "30/03/2011",
         "school": "Trường Trung học cơ sở Châu Hòa",
         "room": "P10",
-        "van": 5.0,
+        "van": 5,
         "toan": 5.25,
         "anh": 6.75,
         "chuyen": 2.5,
-        "tong": 22.0
+        "tong": 22
     },
     {
         "stt": 368,
@@ -5159,7 +5159,7 @@
         "birthday": "19/11/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P10",
-        "van": 5.0,
+        "van": 5,
         "toan": 6.5,
         "anh": 8.25,
         "chuyen": 8.25,
@@ -5175,7 +5175,7 @@
         "room": "P10",
         "van": 6.5,
         "toan": 8.25,
-        "anh": 9.0,
+        "anh": 9,
         "chuyen": 8.5,
         "tong": 40.75
     },
@@ -5191,7 +5191,7 @@
         "toan": 6.25,
         "anh": 6.5,
         "chuyen": 7.25,
-        "tong": 33.0
+        "tong": 33
     },
     {
         "stt": 372,
@@ -5204,7 +5204,7 @@
         "van": 6.5,
         "toan": 9.5,
         "anh": 8.5,
-        "chuyen": 9.0,
+        "chuyen": 9,
         "tong": 42.5
     },
     {
@@ -5233,7 +5233,7 @@
         "toan": 4.5,
         "anh": 4.75,
         "chuyen": 0.75,
-        "tong": 13.0
+        "tong": 13
     },
     {
         "stt": 375,
@@ -5259,9 +5259,9 @@
         "room": "P10",
         "van": 5.5,
         "toan": 3.5,
-        "anh": 7.0,
-        "chuyen": 5.0,
-        "tong": 26.0
+        "anh": 7,
+        "chuyen": 5,
+        "tong": 26
     },
     {
         "stt": 377,
@@ -5314,9 +5314,9 @@
         "school": "Trường THCS Bến Tre",
         "room": "P11",
         "van": 4.5,
-        "toan": 8.0,
+        "toan": 8,
         "anh": 8.75,
-        "chuyen": 8.0,
+        "chuyen": 8,
         "tong": 37.25
     },
     {
@@ -5328,8 +5328,8 @@
         "school": "Trường THCS Bến Tre",
         "room": "P11",
         "van": 5.25,
-        "toan": 8.0,
-        "anh": 9.0,
+        "toan": 8,
+        "anh": 9,
         "chuyen": 9.25,
         "tong": 40.75
     },
@@ -5343,9 +5343,9 @@
         "room": "P11",
         "van": 6.5,
         "toan": 8.5,
-        "anh": 9.0,
-        "chuyen": 9.0,
-        "tong": 42.0
+        "anh": 9,
+        "chuyen": 9,
+        "tong": 42
     },
     {
         "stt": 383,
@@ -5356,7 +5356,7 @@
         "school": "Trường THCS Ba Tri",
         "room": "P11",
         "van": 6.25,
-        "toan": 6.0,
+        "toan": 6,
         "anh": 8.25,
         "chuyen": 3.5,
         "tong": 27.5
@@ -5371,7 +5371,7 @@
         "room": "P11",
         "van": 4.25,
         "toan": 3.5,
-        "anh": 7.0,
+        "anh": 7,
         "chuyen": 1.75,
         "tong": 18.25
     },
@@ -5400,7 +5400,7 @@
         "van": 5.75,
         "toan": 4.25,
         "anh": 7.25,
-        "chuyen": 3.0,
+        "chuyen": 3,
         "tong": 23.25
     },
     {
@@ -5412,10 +5412,10 @@
         "school": "Trường THCS Thới Lai",
         "room": "P11",
         "van": 6.25,
-        "toan": 7.0,
+        "toan": 7,
         "anh": 7.25,
         "chuyen": 5.75,
-        "tong": 32.0
+        "tong": 32
     },
     {
         "stt": 388,
@@ -5426,10 +5426,10 @@
         "school": "Trường THCS Hoàng Lam",
         "room": "P11",
         "van": 3.75,
-        "toan": 5.0,
+        "toan": 5,
         "anh": 4.25,
         "chuyen": 1.5,
-        "tong": 16.0
+        "tong": 16
     },
     {
         "stt": 389,
@@ -5441,7 +5441,7 @@
         "room": "P11",
         "van": 4.5,
         "toan": 4.75,
-        "anh": 5.0,
+        "anh": 5,
         "chuyen": 5.25,
         "tong": 24.75
     },
@@ -5454,10 +5454,10 @@
         "school": "Trường THCS Bến Tre",
         "room": "P11",
         "van": 5.75,
-        "toan": 6.0,
+        "toan": 6,
         "anh": 7.25,
         "chuyen": 4.5,
-        "tong": 28.0
+        "tong": 28
     },
     {
         "stt": 391,
@@ -5469,9 +5469,9 @@
         "room": "P11",
         "van": 4.75,
         "toan": 4.75,
-        "anh": 6.0,
+        "anh": 6,
         "chuyen": 4.75,
-        "tong": 25.0
+        "tong": 25
     },
     {
         "stt": 392,
@@ -5523,11 +5523,11 @@
         "birthday": "26/11/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P11",
-        "van": 5.0,
+        "van": 5,
         "toan": 7.25,
         "anh": 7.75,
-        "chuyen": 8.0,
-        "tong": 36.0
+        "chuyen": 8,
+        "tong": 36
     },
     {
         "stt": 396,
@@ -5538,8 +5538,8 @@
         "school": "Trường THCS Bến Tre",
         "room": "P11",
         "van": 7.25,
-        "toan": 5.0,
-        "anh": 9.0,
+        "toan": 5,
+        "anh": 9,
         "chuyen": 4.5,
         "tong": 30.25
     },
@@ -5552,7 +5552,7 @@
         "school": "Trường THCS Vĩnh Phúc",
         "room": "P11",
         "van": 4.25,
-        "toan": 3.0,
+        "toan": 3,
         "anh": 5.75,
         "chuyen": 7.75,
         "tong": 28.5
@@ -5565,9 +5565,9 @@
         "birthday": "03/12/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P11",
-        "van": 7.0,
+        "van": 7,
         "toan": 8.25,
-        "anh": 9.0,
+        "anh": 9,
         "chuyen": 8.75,
         "tong": 41.75
     },
@@ -5580,10 +5580,10 @@
         "school": "Trường THCS Nguyễn Văn Bánh",
         "room": "P11",
         "van": 6.25,
-        "toan": 8.0,
+        "toan": 8,
         "anh": 7.75,
-        "chuyen": 8.0,
-        "tong": 38.0
+        "chuyen": 8,
+        "tong": 38
     },
     {
         "stt": 400,
@@ -5594,7 +5594,7 @@
         "school": "Trường THCS Bến Tre",
         "room": "P11",
         "van": 5.75,
-        "toan": 8.0,
+        "toan": 8,
         "anh": 8.5,
         "chuyen": 6.5,
         "tong": 35.25
@@ -5611,7 +5611,7 @@
         "toan": 6.75,
         "anh": 8.75,
         "chuyen": 6.5,
-        "tong": 33.0
+        "tong": 33
     },
     {
         "stt": 402,
@@ -5639,7 +5639,7 @@
         "toan": 4.5,
         "anh": 8.75,
         "chuyen": 6.5,
-        "tong": 33.0
+        "tong": 33
     },
     {
         "stt": 404,
@@ -5652,7 +5652,7 @@
         "van": 6.25,
         "toan": 5.25,
         "anh": 6.75,
-        "chuyen": 7.0,
+        "chuyen": 7,
         "tong": 32.25
     },
     {
@@ -5663,11 +5663,11 @@
         "birthday": "31/03/2011",
         "school": "Trường THCS Thạnh Phú",
         "room": "P12",
-        "van": 5.0,
+        "van": 5,
         "toan": 6.5,
         "anh": 8.5,
         "chuyen": 5.5,
-        "tong": 31.0
+        "tong": 31
     },
     {
         "stt": 406,
@@ -5694,7 +5694,7 @@
         "van": 4.75,
         "toan": 5.75,
         "anh": 7.75,
-        "chuyen": 4.0,
+        "chuyen": 4,
         "tong": 26.25
     },
     {
@@ -5720,8 +5720,8 @@
         "school": "Trường THCS Đỗ Hữu Phương",
         "room": "P12",
         "van": 6.25,
-        "toan": 5.0,
-        "anh": 5.0,
+        "toan": 5,
+        "anh": 5,
         "chuyen": 3.25,
         "tong": 22.75
     },
@@ -5748,8 +5748,8 @@
         "school": "Trường THCS Nguyễn Văn Bánh",
         "room": "P12",
         "van": 6.5,
-        "toan": 8.0,
-        "anh": 9.0,
+        "toan": 8,
+        "anh": 9,
         "chuyen": 6.5,
         "tong": 36.5
     },
@@ -5759,9 +5759,9 @@
         "sbd": "010260",
         "name": "Cao Thiên Phát",
         "birthday": "12/12/2011",
-        "school": "Trường Trung học cơ sở Lương Quới",
+        "school": "Trường trung học cơ sở Lương Quới",
         "room": "P12",
-        "van": 5.0,
+        "van": 5,
         "toan": 6.25,
         "anh": 7.75,
         "chuyen": 7.75,
@@ -5779,7 +5779,7 @@
         "toan": 8.75,
         "anh": 7.25,
         "chuyen": 8.25,
-        "tong": 38.0
+        "tong": 38
     },
     {
         "stt": 414,
@@ -5791,9 +5791,9 @@
         "room": "P12",
         "van": 5.25,
         "toan": 6.25,
-        "anh": 7.0,
+        "anh": 7,
         "chuyen": 5.75,
-        "tong": 30.0
+        "tong": 30
     },
     {
         "stt": 415,
@@ -5806,7 +5806,7 @@
         "van": 4.75,
         "toan": 5.75,
         "anh": 7.25,
-        "chuyen": 8.0,
+        "chuyen": 8,
         "tong": 33.75
     },
     {
@@ -5846,9 +5846,9 @@
         "school": "Trường THCS Nguyễn Văn Bánh",
         "room": "P12",
         "van": 3.17,
-        "toan": 9.0,
+        "toan": 9,
         "anh": 8.25,
-        "chuyen": 7.0,
+        "chuyen": 7,
         "tong": 34.42
     },
     {
@@ -5902,9 +5902,9 @@
         "school": "Trường THCS Bến Tre",
         "room": "P12",
         "van": 6.75,
-        "toan": 5.0,
+        "toan": 5,
         "anh": 8.75,
-        "chuyen": 6.0,
+        "chuyen": 6,
         "tong": 32.5
     },
     {
@@ -5916,8 +5916,8 @@
         "school": "Trường THCS Vĩnh Phúc",
         "room": "P12",
         "van": 6.75,
-        "toan": 5.0,
-        "anh": 6.0,
+        "toan": 5,
+        "anh": 6,
         "chuyen": 4.5,
         "tong": 26.75
     },
@@ -5929,25 +5929,25 @@
         "birthday": "22/12/2011",
         "school": "Trường THCS Hoàng Lam",
         "room": "P12",
-        "van": 5.0,
+        "van": 5,
         "toan": 7.25,
         "anh": 7.75,
         "chuyen": 6.5,
-        "tong": 33.0
+        "tong": 33
     },
     {
         "stt": 425,
         "subject": "H",
         "sbd": "010273",
-        "name": "Trần Thị Minh Thủy",
+        "name": "Trần Thị Minh Thùy",
         "birthday": "02/03/2011",
         "school": "Trường THCS Bùi Sĩ Hùng",
         "room": "P12",
-        "van": 7.0,
+        "van": 7,
         "toan": 7.25,
         "anh": 9.75,
         "chuyen": 8.5,
-        "tong": 41.0
+        "tong": 41
     },
     {
         "stt": 426,
@@ -5957,8 +5957,8 @@
         "birthday": "06/07/2011",
         "school": "Trường THCS Phú Hưng",
         "room": "P12",
-        "van": 6.0,
-        "toan": 6.0,
+        "van": 6,
+        "toan": 6,
         "anh": 3.75,
         "chuyen": 3.75,
         "tong": 23.25
@@ -5985,11 +5985,11 @@
         "birthday": "23/08/2011",
         "school": "Trường THCS Phạm Viết Chánh",
         "room": "P13",
-        "van": 6.0,
+        "van": 6,
         "toan": 3.75,
         "anh": 7.75,
         "chuyen": 3.75,
-        "tong": 25.0
+        "tong": 25
     },
     {
         "stt": 429,
@@ -6029,9 +6029,9 @@
         "room": "P13",
         "van": 5.75,
         "toan": 3.25,
-        "anh": 6.0,
+        "anh": 6,
         "chuyen": 1.5,
-        "tong": 18.0
+        "tong": 18
     },
     {
         "stt": 432,
@@ -6041,9 +6041,9 @@
         "birthday": "30/09/2011",
         "school": "Trường THCS Vĩnh Phúc",
         "room": "P13",
-        "van": 7.0,
+        "van": 7,
         "toan": 6.25,
-        "anh": 8.0,
+        "anh": 8,
         "chuyen": 5.5,
         "tong": 32.25
     },
@@ -6055,23 +6055,23 @@
         "birthday": "12/05/2011",
         "school": "Trường THCS Vĩnh Phúc",
         "room": "P13",
-        "van": 6.0,
+        "van": 6,
         "toan": 4.75,
-        "anh": 7.0,
-        "chuyen": 6.0,
+        "anh": 7,
+        "chuyen": 6,
         "tong": 29.75
     },
     {
         "stt": 434,
         "subject": "H",
         "sbd": "010282",
-        "name": "Lưu Tường Cao Trí",
+        "name": "Lưu Tưởng Cao Trí",
         "birthday": "11/05/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P13",
         "van": 6.5,
         "toan": 6.75,
-        "anh": 5.0,
+        "anh": 5,
         "chuyen": 5.25,
         "tong": 28.75
     },
@@ -6127,8 +6127,8 @@
         "room": "P13",
         "van": 5.25,
         "toan": 4.25,
-        "anh": 6.0,
-        "chuyen": 5.0,
+        "anh": 6,
+        "chuyen": 5,
         "tong": 25.5
     },
     {
@@ -6142,7 +6142,7 @@
         "van": 6.25,
         "toan": 4.5,
         "anh": 6.75,
-        "chuyen": 3.0,
+        "chuyen": 3,
         "tong": 23.5
     },
     {
@@ -6155,7 +6155,7 @@
         "room": "P14",
         "van": 3.75,
         "toan": 2.25,
-        "anh": 3.0,
+        "anh": 3,
         "chuyen": 2.75,
         "tong": 14.5
     },
@@ -6169,9 +6169,9 @@
         "room": "P14",
         "van": 6.25,
         "toan": 4.25,
-        "anh": 6.0,
+        "anh": 6,
         "chuyen": 7.25,
-        "tong": 31.0
+        "tong": 31
     },
     {
         "stt": 442,
@@ -6196,7 +6196,7 @@
         "school": "Trường THCS Vĩnh Phúc",
         "room": "P14",
         "van": 4.75,
-        "toan": 1.0,
+        "toan": 1,
         "anh": 4.5,
         "chuyen": 1.5,
         "tong": 13.25
@@ -6209,7 +6209,7 @@
         "birthday": "28/03/2011",
         "school": "Trường Trung học cơ sở Tam Phước",
         "room": "P14",
-        "van": 4.0,
+        "van": 4,
         "toan": 1.25,
         "anh": 4.75,
         "chuyen": 2.25,
@@ -6224,10 +6224,10 @@
         "school": "Trường THCS Bến Tre",
         "room": "P14",
         "van": 6.5,
-        "toan": 6.0,
+        "toan": 6,
         "anh": 6.5,
         "chuyen": 7.5,
-        "tong": 34.0
+        "tong": 34
     },
     {
         "stt": 446,
@@ -6239,9 +6239,9 @@
         "room": "P14",
         "van": 6.5,
         "toan": 5.5,
-        "anh": 5.0,
-        "chuyen": 8.0,
-        "tong": 33.0
+        "anh": 5,
+        "chuyen": 8,
+        "tong": 33
     },
     {
         "stt": 447,
@@ -6265,10 +6265,10 @@
         "birthday": "29/01/2011",
         "school": "Trường Trung Học Cơ Sở Phú Khánh",
         "room": "P14",
-        "van": 7.0,
+        "van": 7,
         "toan": 4.5,
         "anh": 6.75,
-        "chuyen": 8.0,
+        "chuyen": 8,
         "tong": 34.25
     },
     {
@@ -6280,7 +6280,7 @@
         "school": "Trường PT Hermann Gmeiner Bến Tre",
         "room": "P14",
         "van": 3.5,
-        "toan": 2.0,
+        "toan": 2,
         "anh": 4.5,
         "chuyen": 2.25,
         "tong": 14.5
@@ -6294,10 +6294,10 @@
         "school": "Trường THCS Vĩnh Thành",
         "room": "P14",
         "van": 5.75,
-        "toan": 5.0,
+        "toan": 5,
         "anh": 9.75,
         "chuyen": 5.25,
-        "tong": 31.0
+        "tong": 31
     },
     {
         "stt": 451,
@@ -6309,9 +6309,9 @@
         "room": "P14",
         "van": 5.75,
         "toan": 7.25,
-        "anh": 10.0,
+        "anh": 10,
         "chuyen": 8.5,
-        "tong": 40.0
+        "tong": 40
     },
     {
         "stt": 452,
@@ -6324,7 +6324,7 @@
         "van": 6.25,
         "toan": 5.75,
         "anh": 7.75,
-        "chuyen": 9.0,
+        "chuyen": 9,
         "tong": 37.75
     },
     {
@@ -6336,8 +6336,8 @@
         "school": "Trường THCS Hoàng Lam",
         "room": "P14",
         "van": 6.25,
-        "toan": 6.0,
-        "anh": 9.0,
+        "toan": 6,
+        "anh": 9,
         "chuyen": 8.75,
         "tong": 38.75
     },
@@ -6351,7 +6351,7 @@
         "room": "P14",
         "van": 5.25,
         "toan": 5.75,
-        "anh": 8.0,
+        "anh": 8,
         "chuyen": 5.25,
         "tong": 29.5
     },
@@ -6364,10 +6364,10 @@
         "school": "Trường THCS Nguyễn Văn Bánh",
         "room": "P14",
         "van": 2.75,
-        "toan": 5.0,
+        "toan": 5,
         "anh": 7.25,
-        "chuyen": 4.0,
-        "tong": 23.0
+        "chuyen": 4,
+        "tong": 23
     },
     {
         "stt": 456,
@@ -6378,7 +6378,7 @@
         "school": "Trường THCS Tạ Minh Khâm",
         "room": "P14",
         "van": 6.5,
-        "toan": 6.0,
+        "toan": 6,
         "anh": 9.25,
         "chuyen": 9.25,
         "tong": 40.25
@@ -6391,8 +6391,8 @@
         "birthday": "31/07/2011",
         "school": "Trường THCS Vĩnh Thành",
         "room": "P14",
-        "van": 4.0,
-        "toan": 4.0,
+        "van": 4,
+        "toan": 4,
         "anh": 4.5,
         "chuyen": 7.5,
         "tong": 27.5
@@ -6407,9 +6407,9 @@
         "room": "P14",
         "van": 7.25,
         "toan": 5.75,
-        "anh": 5.0,
-        "chuyen": 7.0,
-        "tong": 32.0
+        "anh": 5,
+        "chuyen": 7,
+        "tong": 32
     },
     {
         "stt": 459,
@@ -6419,7 +6419,7 @@
         "birthday": "12/06/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P14",
-        "van": 6.0,
+        "van": 6,
         "toan": 4.75,
         "anh": 7.5,
         "chuyen": 7.5,
@@ -6431,13 +6431,13 @@
         "sbd": "010308",
         "name": "Hồ Phạm Gia Huy",
         "birthday": "23/11/2011",
-        "school": "Trường Trung học cơ sở Tân Xuân",
+        "school": "Trường trung học cơ sở Tân Xuân",
         "room": "P14",
         "van": 3.25,
         "toan": 3.25,
-        "anh": 5.0,
+        "anh": 5,
         "chuyen": 2.75,
-        "tong": 17.0
+        "tong": 17
     },
     {
         "stt": 461,
@@ -6450,7 +6450,7 @@
         "van": 4.75,
         "toan": 5.75,
         "anh": 8.25,
-        "chuyen": 5.0,
+        "chuyen": 5,
         "tong": 28.75
     },
     {
@@ -6461,7 +6461,7 @@
         "birthday": "05/09/2011",
         "school": "Trường Trung Học Cơ Sở Giồng Trôm",
         "room": "P14",
-        "van": 4.0,
+        "van": 4,
         "toan": 3.25,
         "anh": 4.25,
         "chuyen": 4.5,
@@ -6505,7 +6505,7 @@
         "room": "P15",
         "van": 6.5,
         "toan": 7.25,
-        "anh": 4.0,
+        "anh": 4,
         "chuyen": 8.5,
         "tong": 34.75
     },
@@ -6521,7 +6521,7 @@
         "toan": 6.5,
         "anh": 8.75,
         "chuyen": 8.75,
-        "tong": 39.0
+        "tong": 39
     },
     {
         "stt": 467,
@@ -6532,7 +6532,7 @@
         "school": "Trường THCS Hoàng Lam",
         "room": "P15",
         "van": 6.5,
-        "toan": 6.0,
+        "toan": 6,
         "anh": 6.75,
         "chuyen": 9.25,
         "tong": 37.75
@@ -6546,7 +6546,7 @@
         "school": "Trường THCS Ba Tri",
         "room": "P15",
         "van": 5.25,
-        "toan": 5.0,
+        "toan": 5,
         "anh": 4.75,
         "chuyen": 5.75,
         "tong": 26.5
@@ -6560,7 +6560,7 @@
         "school": "Trường THCS Bến Tre",
         "room": "P15",
         "van": 5.5,
-        "toan": 3.0,
+        "toan": 3,
         "anh": 5.75,
         "chuyen": 3.75,
         "tong": 21.75
@@ -6575,7 +6575,7 @@
         "room": "P15",
         "van": 5.5,
         "toan": 3.75,
-        "anh": 6.0,
+        "anh": 6,
         "chuyen": 4.5,
         "tong": 24.25
     },
@@ -6587,7 +6587,7 @@
         "birthday": "05/10/2011",
         "school": "Trường THCS Mỹ Hóa",
         "room": "P15",
-        "van": 5.0,
+        "van": 5,
         "toan": 5.75,
         "anh": 4.25,
         "chuyen": 8.25,
@@ -6601,11 +6601,11 @@
         "birthday": "28/06/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P15",
-        "van": 6.0,
-        "toan": 6.0,
-        "anh": 7.0,
-        "chuyen": 9.0,
-        "tong": 37.0
+        "van": 6,
+        "toan": 6,
+        "anh": 7,
+        "chuyen": 9,
+        "tong": 37
     },
     {
         "stt": 473,
@@ -6631,7 +6631,7 @@
         "room": "P15",
         "van": 4.75,
         "toan": 6.25,
-        "anh": 8.0,
+        "anh": 8,
         "chuyen": 7.75,
         "tong": 34.5
     },
@@ -6658,7 +6658,7 @@
         "school": "Trường THCS Vang Quới",
         "room": "P15",
         "van": 5.25,
-        "toan": 7.0,
+        "toan": 7,
         "anh": 8.75,
         "chuyen": 9.75,
         "tong": 40.5
@@ -6686,7 +6686,7 @@
         "school": "Trường THCS Bến Tre",
         "room": "P15",
         "van": 5.5,
-        "toan": 6.0,
+        "toan": 6,
         "anh": 9.25,
         "chuyen": 9.5,
         "tong": 39.75
@@ -6700,8 +6700,8 @@
         "school": "Trường THCS Mỹ Hóa",
         "room": "P15",
         "van": 5.25,
-        "toan": 4.0,
-        "anh": 8.0,
+        "toan": 4,
+        "anh": 8,
         "chuyen": 4.75,
         "tong": 26.75
     },
@@ -6713,11 +6713,11 @@
         "birthday": "01/05/2011",
         "school": "Trường THCS Nguyễn Thị Hai",
         "room": "P15",
-        "van": 4.0,
-        "toan": 6.0,
+        "van": 4,
+        "toan": 6,
         "anh": 3.5,
         "chuyen": 1.75,
-        "tong": 17.0
+        "tong": 17
     },
     {
         "stt": 481,
@@ -6743,7 +6743,7 @@
         "room": "P15",
         "van": 5.5,
         "toan": 6.75,
-        "anh": 8.0,
+        "anh": 8,
         "chuyen": 9.75,
         "tong": 39.75
     },
@@ -6757,7 +6757,7 @@
         "room": "P15",
         "van": 4.5,
         "toan": 7.75,
-        "anh": 7.0,
+        "anh": 7,
         "chuyen": 7.75,
         "tong": 34.75
     },
@@ -6771,7 +6771,7 @@
         "room": "P15",
         "van": 3.75,
         "toan": 0.5,
-        "anh": 4.0,
+        "anh": 4,
         "chuyen": 2.25,
         "tong": 12.75
     },
@@ -6798,8 +6798,8 @@
         "school": "Trường THCS Mỹ Hóa",
         "room": "P15",
         "van": 4.25,
-        "toan": 3.0,
-        "anh": 3.0,
+        "toan": 3,
+        "anh": 3,
         "chuyen": 1.25,
         "tong": 12.75
     },
@@ -6815,7 +6815,7 @@
         "toan": 4.5,
         "anh": 6.75,
         "chuyen": 6.25,
-        "tong": 29.0
+        "tong": 29
     },
     {
         "stt": 488,
@@ -6853,8 +6853,8 @@
         "birthday": "17/06/2011",
         "school": "Trường Trung học cơ sở Tam Phước",
         "room": "P07",
-        "van": 7.0,
-        "toan": 6.0,
+        "van": 7,
+        "toan": 6,
         "anh": 9.25,
         "chuyen": 4.25,
         "tong": 30.75
@@ -6868,7 +6868,7 @@
         "school": "Trường THCS Bến Tre",
         "room": "P07",
         "van": 5.5,
-        "toan": 6.0,
+        "toan": 6,
         "anh": 7.25,
         "chuyen": 6.25,
         "tong": 31.25
@@ -6881,8 +6881,8 @@
         "birthday": "10/10/2011",
         "school": "Trường PT Hermann Gmeiner Bến Tre",
         "room": "P07",
-        "van": 5.0,
-        "toan": 4.0,
+        "van": 5,
+        "toan": 4,
         "anh": 8.25,
         "chuyen": 5.25,
         "tong": 27.75
@@ -6911,7 +6911,7 @@
         "room": "P07",
         "van": 7.25,
         "toan": 6.75,
-        "anh": 7.0,
+        "anh": 7,
         "chuyen": 5.75,
         "tong": 32.5
     },
@@ -6933,7 +6933,7 @@
         "stt": 496,
         "subject": "L",
         "sbd": "010251",
-        "name": "Nguyễn Tấn Hoàng",
+        "name": "Đoàn Quỳnh Ngọc",
         "birthday": "07/09/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P07",
@@ -6941,7 +6941,7 @@
         "toan": 4.5,
         "anh": 8.75,
         "chuyen": 6.5,
-        "tong": 33.0
+        "tong": 33
     },
     {
         "stt": 497,
@@ -6952,10 +6952,10 @@
         "school": "Trường THCS Vĩnh Thành",
         "room": "P07",
         "van": 5.25,
-        "toan": 6.0,
+        "toan": 6,
         "anh": 8.25,
         "chuyen": 7.75,
-        "tong": 35.0
+        "tong": 35
     },
     {
         "stt": 498,
@@ -6965,7 +6965,7 @@
         "birthday": "03/11/2011",
         "school": "Trường THCS Lê Hoàng Chiếu",
         "room": "P07",
-        "van": 4.0,
+        "van": 4,
         "toan": 3.75,
         "anh": 5.5,
         "chuyen": 4.25,
@@ -6983,20 +6983,20 @@
         "toan": 4.5,
         "anh": 6.5,
         "chuyen": 3.25,
-        "tong": 21.0
+        "tong": 21
     },
     {
         "stt": 500,
         "subject": "L",
         "sbd": "010155",
-        "name": "Nguyễn Anh Vĩnh Khang",
+        "name": "Nguyễn Ảnh Vĩnh Khang",
         "birthday": "11/08/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P07",
-        "van": 7.0,
+        "van": 7,
         "toan": 5.5,
         "anh": 8.75,
-        "chuyen": 6.0,
+        "chuyen": 6,
         "tong": 33.25
     },
     {
@@ -7007,7 +7007,7 @@
         "birthday": "26/11/2011",
         "school": "Trường THCS Tân Thạch",
         "room": "P07",
-        "van": 5.0,
+        "van": 5,
         "toan": 5.25,
         "anh": 5.75,
         "chuyen": 5.75,
@@ -7021,10 +7021,10 @@
         "birthday": "28/03/2011",
         "school": "Trường PT Hermann Gmeiner Bến Tre",
         "room": "P07",
-        "van": 5.0,
+        "van": 5,
         "toan": 7.75,
         "anh": 3.75,
-        "chuyen": 8.0,
+        "chuyen": 8,
         "tong": 32.5
     },
     {
@@ -7037,7 +7037,7 @@
         "room": "P07",
         "van": 6.25,
         "toan": 6.25,
-        "anh": 8.0,
+        "anh": 8,
         "chuyen": 6.5,
         "tong": 33.5
     },
@@ -7045,15 +7045,15 @@
         "stt": 504,
         "subject": "L",
         "sbd": "010159",
-        "name": "Trần Minh Khải",
+        "name": "Trần Minh Khôi",
         "birthday": "13/06/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P07",
         "van": 4.25,
         "toan": 7.75,
-        "anh": 7.0,
-        "chuyen": 8.0,
-        "tong": 35.0
+        "anh": 7,
+        "chuyen": 8,
+        "tong": 35
     },
     {
         "stt": 505,
@@ -7075,11 +7075,11 @@
         "sbd": "010161",
         "name": "Nguyễn Thiên Kim",
         "birthday": "29/06/2011",
-        "school": "Trường Trung học cơ sở Lương Quới",
+        "school": "Trường trung học cơ sở Lương Quới",
         "room": "P07",
-        "van": 5.0,
+        "van": 5,
         "toan": 8.25,
-        "anh": 9.0,
+        "anh": 9,
         "chuyen": 4.75,
         "tong": 31.75
     },
@@ -7095,7 +7095,7 @@
         "toan": 4.5,
         "anh": 9.25,
         "chuyen": 4.25,
-        "tong": 26.0
+        "tong": 26
     },
     {
         "stt": 508,
@@ -7115,7 +7115,7 @@
         "stt": 509,
         "subject": "L",
         "sbd": "010164",
-        "name": "Phan Vũ Gia Lộc",
+        "name": "Phan Võ Gia Lộc",
         "birthday": "22/09/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P07",
@@ -7148,10 +7148,10 @@
         "school": "Trường THCS Tiên Thủy",
         "room": "P07",
         "van": 5.75,
-        "toan": 8.0,
+        "toan": 8,
         "anh": 9.25,
-        "chuyen": 6.0,
-        "tong": 35.0
+        "chuyen": 6,
+        "tong": 35
     },
     {
         "stt": 512,
@@ -7163,9 +7163,9 @@
         "room": "P08",
         "van": 4.5,
         "toan": 3.5,
-        "anh": 6.0,
+        "anh": 6,
         "chuyen": 1.5,
-        "tong": 17.0
+        "tong": 17
     },
     {
         "stt": 513,
@@ -7178,7 +7178,7 @@
         "van": 6.25,
         "toan": 3.75,
         "anh": 6.5,
-        "chuyen": 5.0,
+        "chuyen": 5,
         "tong": 26.5
     },
     {
@@ -7193,7 +7193,7 @@
         "toan": 6.25,
         "anh": 8.75,
         "chuyen": 3.75,
-        "tong": 29.0
+        "tong": 29
     },
     {
         "stt": 515,
@@ -7205,7 +7205,7 @@
         "room": "P08",
         "van": 4.75,
         "toan": 5.75,
-        "anh": 7.0,
+        "anh": 7,
         "chuyen": 4.5,
         "tong": 26.5
     },
@@ -7231,7 +7231,7 @@
         "birthday": "01/09/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P08",
-        "van": 6.0,
+        "van": 6,
         "toan": 7.25,
         "anh": 4.5,
         "chuyen": 6.75,
@@ -7247,7 +7247,7 @@
         "room": "P08",
         "van": 5.75,
         "toan": 8.5,
-        "anh": 10.0,
+        "anh": 10,
         "chuyen": 7.25,
         "tong": 38.75
     },
@@ -7259,7 +7259,7 @@
         "birthday": "16/05/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P08",
-        "van": 6.0,
+        "van": 6,
         "toan": 6.5,
         "anh": 8.25,
         "chuyen": 3.5,
@@ -7273,9 +7273,9 @@
         "birthday": "06/09/2011",
         "school": "Trường THCS Vĩnh Phúc",
         "room": "P08",
-        "van": 5.0,
+        "van": 5,
         "toan": 5.75,
-        "anh": 5.0,
+        "anh": 5,
         "chuyen": 5.25,
         "tong": 26.25
     },
@@ -7303,7 +7303,7 @@
         "room": "P08",
         "van": 5.5,
         "toan": 4.75,
-        "anh": 5.0,
+        "anh": 5,
         "chuyen": 2.25,
         "tong": 19.75
     },
@@ -7318,7 +7318,7 @@
         "van": 5.75,
         "toan": 7.75,
         "anh": 8.75,
-        "chuyen": 7.0,
+        "chuyen": 7,
         "tong": 36.25
     },
     {
@@ -7330,7 +7330,7 @@
         "school": "Trường THCS Giao Long",
         "room": "P08",
         "van": 5.75,
-        "toan": 6.0,
+        "toan": 6,
         "anh": 5.25,
         "chuyen": 3.75,
         "tong": 24.5
@@ -7344,9 +7344,9 @@
         "school": "Trường THCS Bến Tre",
         "room": "P08",
         "van": 6.25,
-        "toan": 8.0,
-        "anh": 9.0,
-        "chuyen": 9.0,
+        "toan": 8,
+        "anh": 9,
+        "chuyen": 9,
         "tong": 41.25
     },
     {
@@ -7358,7 +7358,7 @@
         "school": "Trường THCS Phú Hưng",
         "room": "P08",
         "van": 3.92,
-        "toan": 5.0,
+        "toan": 5,
         "anh": 4.75,
         "chuyen": 2.75,
         "tong": 19.17
@@ -7372,10 +7372,10 @@
         "school": "Trường THCS Bến Tre",
         "room": "P08",
         "van": 6.5,
-        "toan": 8.0,
+        "toan": 8,
         "anh": 8.5,
         "chuyen": 7.5,
-        "tong": 38.0
+        "tong": 38
     },
     {
         "stt": 528,
@@ -7388,7 +7388,7 @@
         "van": 6.75,
         "toan": 7.25,
         "anh": 8.5,
-        "chuyen": 7.0,
+        "chuyen": 7,
         "tong": 36.5
     },
     {
@@ -7416,7 +7416,7 @@
         "van": 4.5,
         "toan": 5.5,
         "anh": 6.25,
-        "chuyen": 6.0,
+        "chuyen": 6,
         "tong": 28.25
     },
     {
@@ -7428,8 +7428,8 @@
         "school": "Trường THCS Bến Tre",
         "room": "P08",
         "van": 5.75,
-        "toan": 5.0,
-        "anh": 7.0,
+        "toan": 5,
+        "anh": 7,
         "chuyen": 6.5,
         "tong": 30.75
     },
@@ -7444,7 +7444,7 @@
         "van": 6.25,
         "toan": 7.5,
         "anh": 7.5,
-        "chuyen": 4.0,
+        "chuyen": 4,
         "tong": 29.25
     },
     {
@@ -7455,9 +7455,9 @@
         "birthday": "05/05/2011",
         "school": "Trường THCS Vĩnh Phúc",
         "room": "P08",
-        "van": 4.0,
+        "van": 4,
         "toan": 4.5,
-        "anh": 5.0,
+        "anh": 5,
         "chuyen": 5.5,
         "tong": 24.5
     },
@@ -7481,9 +7481,9 @@
         "sbd": "010190",
         "name": "Phạm Trần Huỳnh Thảo",
         "birthday": "14/12/2011",
-        "school": "Trường Trung học cơ sở Lương Quới",
+        "school": "Trường trung học cơ sở Lương Quới",
         "room": "P08",
-        "van": 5.0,
+        "van": 5,
         "toan": 5.5,
         "anh": 8.25,
         "chuyen": 6.75,
@@ -7498,9 +7498,9 @@
         "school": "Trường THCS Vĩnh Phúc",
         "room": "P09",
         "van": 5.5,
-        "toan": 2.0,
+        "toan": 2,
         "anh": 5.75,
-        "chuyen": 3.0,
+        "chuyen": 3,
         "tong": 19.25
     },
     {
@@ -7509,12 +7509,12 @@
         "sbd": "010192",
         "name": "Đinh Nguyễn Gia Thịnh",
         "birthday": "31/03/2011",
-        "school": "Trường Trung học cơ sở Lương Quới",
+        "school": "Trường trung học cơ sở Lương Quới",
         "room": "P09",
         "van": 5.75,
-        "toan": 5.0,
-        "anh": 7.0,
-        "chuyen": 4.0,
+        "toan": 5,
+        "anh": 7,
+        "chuyen": 4,
         "tong": 25.75
     },
     {
@@ -7527,7 +7527,7 @@
         "room": "P09",
         "van": 5.25,
         "toan": 8.5,
-        "anh": 8.0,
+        "anh": 8,
         "chuyen": 5.25,
         "tong": 32.25
     },
@@ -7541,9 +7541,9 @@
         "room": "P09",
         "van": 5.25,
         "toan": 3.25,
-        "anh": 6.0,
+        "anh": 6,
         "chuyen": 3.75,
-        "tong": 22.0
+        "tong": 22
     },
     {
         "stt": 540,
@@ -7553,10 +7553,10 @@
         "birthday": "11/07/2011",
         "school": "Trường THCS Tạ Minh Khâm",
         "room": "P09",
-        "van": 5.0,
+        "van": 5,
         "toan": 7.5,
-        "anh": 8.0,
-        "chuyen": 8.0,
+        "anh": 8,
+        "chuyen": 8,
         "tong": 36.5
     },
     {
@@ -7567,7 +7567,7 @@
         "birthday": "27/11/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P09",
-        "van": 7.0,
+        "van": 7,
         "toan": 4.75,
         "anh": 8.75,
         "chuyen": 4.5,
@@ -7577,7 +7577,7 @@
         "stt": 542,
         "subject": "L",
         "sbd": "010197",
-        "name": "Đinh Thị Xuân Trà",
+        "name": "Đinh Thị Xoan Trà",
         "birthday": "29/10/2011",
         "school": "Trường THCS Lê Hoàng Chiếu",
         "room": "P09",
@@ -7599,7 +7599,7 @@
         "toan": 7.5,
         "anh": 8.25,
         "chuyen": 6.5,
-        "tong": 34.0
+        "tong": 34
     },
     {
         "stt": 544,
@@ -7623,11 +7623,11 @@
         "birthday": "09/10/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P09",
-        "van": 7.0,
+        "van": 7,
         "toan": 7.5,
-        "anh": 9.0,
+        "anh": 9,
         "chuyen": 6.75,
-        "tong": 37.0
+        "tong": 37
     },
     {
         "stt": 546,
@@ -7638,7 +7638,7 @@
         "school": "Trường THCS Bến Tre",
         "room": "P09",
         "van": 5.75,
-        "toan": 5.0,
+        "toan": 5,
         "anh": 8.5,
         "chuyen": 4.5,
         "tong": 28.25
@@ -7652,9 +7652,9 @@
         "school": "Trường THCS Nguyễn Văn Xiếu",
         "room": "P09",
         "van": 5.25,
-        "toan": 6.0,
+        "toan": 6,
         "anh": 6.25,
-        "chuyen": 6.0,
+        "chuyen": 6,
         "tong": 29.5
     },
     {
@@ -7665,9 +7665,9 @@
         "birthday": "01/08/2011",
         "school": "Trường THCS Bùi Sĩ Hùng",
         "room": "P09",
-        "van": 3.0,
-        "toan": 3.0,
-        "anh": 4.0,
+        "van": 3,
+        "toan": 3,
+        "anh": 4,
         "chuyen": 0.75,
         "tong": 11.5
     },
@@ -7683,7 +7683,7 @@
         "toan": 9.25,
         "anh": 9.75,
         "chuyen": 5.25,
-        "tong": 35.0
+        "tong": 35
     },
     {
         "stt": 550,
@@ -7709,7 +7709,7 @@
         "room": "P01",
         "van": 5.75,
         "toan": 6.5,
-        "anh": 9.0,
+        "anh": 9,
         "chuyen": 4.5,
         "tong": 30.25
     },
@@ -7723,9 +7723,9 @@
         "room": "P01",
         "van": 6.25,
         "toan": 6.75,
-        "anh": 8.0,
-        "chuyen": 2.0,
-        "tong": 25.0
+        "anh": 8,
+        "chuyen": 2,
+        "tong": 25
     },
     {
         "stt": 553,
@@ -7751,9 +7751,9 @@
         "room": "P01",
         "van": 3.25,
         "toan": 3.25,
-        "anh": 6.0,
+        "anh": 6,
         "chuyen": 1.75,
-        "tong": 16.0
+        "tong": 16
     },
     {
         "stt": 555,
@@ -7763,10 +7763,10 @@
         "birthday": "29/09/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P01",
-        "van": 7.0,
-        "toan": 8.0,
+        "van": 7,
+        "toan": 8,
         "anh": 9.5,
-        "chuyen": 7.0,
+        "chuyen": 7,
         "tong": 38.5
     },
     {
@@ -7789,9 +7789,9 @@
         "sbd": "010009",
         "name": "Nguyễn Ngọc Duyên Anh",
         "birthday": "06/04/2011",
-        "school": "Trường TH-THCS Nguyễn Văn Ẩn",
+        "school": "Trường THCS Vĩnh Phúc",
         "room": "P01",
-        "van": 6.0,
+        "van": 6,
         "toan": 2.5,
         "anh": 6.5,
         "chuyen": 0.25,
@@ -7806,9 +7806,9 @@
         "school": "Trường PT Hermann Gmeiner Bến Tre",
         "room": "P01",
         "van": 6.25,
-        "toan": 6.0,
-        "anh": 6.0,
-        "chuyen": 2.0,
+        "toan": 6,
+        "anh": 6,
+        "chuyen": 2,
         "tong": 22.25
     },
     {
@@ -7817,7 +7817,7 @@
         "sbd": "010011",
         "name": "Võ Vân Anh",
         "birthday": "21/09/2011",
-        "school": "Trường THCS Vĩnh Phúc",
+        "school": "Trường TH-THCS Nguyễn Văn Đồn",
         "room": "P01",
         "van": 4.75,
         "toan": 7.75,
@@ -7850,7 +7850,7 @@
         "van": 6.5,
         "toan": 7.5,
         "anh": 8.25,
-        "chuyen": 6.0,
+        "chuyen": 6,
         "tong": 34.25
     },
     {
@@ -7863,9 +7863,9 @@
         "room": "P01",
         "van": 6.75,
         "toan": 8.75,
-        "anh": 9.0,
+        "anh": 9,
         "chuyen": 6.25,
-        "tong": 37.0
+        "tong": 37
     },
     {
         "stt": 563,
@@ -7889,10 +7889,10 @@
         "birthday": "03/08/2011",
         "school": "Trường Trung học cơ sở Tam Phước",
         "room": "P01",
-        "van": 2.0,
+        "van": 2,
         "toan": 6.5,
-        "anh": 5.0,
-        "chuyen": 6.0,
+        "anh": 5,
+        "chuyen": 6,
         "tong": 25.5
     },
     {
@@ -7904,7 +7904,7 @@
         "school": "Trường THCS Bến Tre",
         "room": "P01",
         "van": 6.25,
-        "toan": 7.0,
+        "toan": 7,
         "anh": 7.75,
         "chuyen": 3.25,
         "tong": 27.5
@@ -7917,11 +7917,11 @@
         "birthday": "05/10/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P01",
-        "van": 6.0,
-        "toan": 7.0,
+        "van": 6,
+        "toan": 7,
         "anh": 7.5,
         "chuyen": 7.75,
-        "tong": 36.0
+        "tong": 36
     },
     {
         "stt": 567,
@@ -7934,8 +7934,8 @@
         "van": 6.25,
         "toan": 6.5,
         "anh": 7.25,
-        "chuyen": 4.0,
-        "tong": 28.0
+        "chuyen": 4,
+        "tong": 28
     },
     {
         "stt": 568,
@@ -7947,8 +7947,8 @@
         "room": "P01",
         "van": 5.5,
         "toan": 6.25,
-        "anh": 5.0,
-        "chuyen": 1.0,
+        "anh": 5,
+        "chuyen": 1,
         "tong": 18.75
     },
     {
@@ -7957,10 +7957,10 @@
         "sbd": "010021",
         "name": "Hồ Ngọc Mỹ Duyên",
         "birthday": "09/03/2011",
-        "school": "Trường Trung học cơ sở Phước Ngãi",
+        "school": "Trường trung học cơ sở Phước Ngãi",
         "room": "P01",
         "van": 6.75,
-        "toan": 7.0,
+        "toan": 7,
         "anh": 8.5,
         "chuyen": 5.25,
         "tong": 32.75
@@ -7974,7 +7974,7 @@
         "school": "Trường THCS Vĩnh Phúc",
         "room": "P01",
         "van": 6.75,
-        "toan": 8.0,
+        "toan": 8,
         "anh": 7.5,
         "chuyen": 2.5,
         "tong": 27.25
@@ -8001,11 +8001,11 @@
         "birthday": "14/07/2011",
         "school": "Trường Tiểu học-Trung học cơ sở Nhơn Thạnh",
         "room": "P01",
-        "van": 5.0,
+        "van": 5,
         "toan": 6.75,
         "anh": 5.75,
         "chuyen": 3.75,
-        "tong": 25.0
+        "tong": 25
     },
     {
         "stt": 573,
@@ -8019,7 +8019,7 @@
         "toan": 9.5,
         "anh": 9.75,
         "chuyen": 7.25,
-        "tong": 40.0
+        "tong": 40
     },
     {
         "stt": 574,
@@ -8030,22 +8030,22 @@
         "school": "Trường Trung học cơ sở Thạnh Phú Đông",
         "room": "P02",
         "van": 6.5,
-        "toan": 8.0,
+        "toan": 8,
         "anh": 5.5,
-        "chuyen": 5.0,
-        "tong": 30.0
+        "chuyen": 5,
+        "tong": 30
     },
     {
         "stt": 575,
         "subject": "T",
         "sbd": "010027",
-        "name": "Nguyễn Thủy Dương",
+        "name": "Nguyễn Thùy Dương",
         "birthday": "22/07/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P02",
         "van": 5.25,
-        "toan": 7.0,
-        "anh": 10.0,
+        "toan": 7,
+        "anh": 10,
         "chuyen": 4.5,
         "tong": 31.25
     },
@@ -8059,9 +8059,9 @@
         "room": "P02",
         "van": 5.75,
         "toan": 7.25,
-        "anh": 9.0,
+        "anh": 9,
         "chuyen": 6.5,
-        "tong": 35.0
+        "tong": 35
     },
     {
         "stt": 577,
@@ -8071,7 +8071,7 @@
         "birthday": "20/01/2011",
         "school": "Trường THCS Vĩnh Phúc",
         "room": "P02",
-        "van": 5.0,
+        "van": 5,
         "toan": 6.75,
         "anh": 9.5,
         "chuyen": 3.25,
@@ -8085,7 +8085,7 @@
         "birthday": "14/05/2011",
         "school": "Trường THCS Lê Hoàng Chiếu",
         "room": "P02",
-        "van": 5.0,
+        "van": 5,
         "toan": 6.5,
         "anh": 5.5,
         "chuyen": 2.25,
@@ -8102,7 +8102,7 @@
         "van": 5.25,
         "toan": 8.5,
         "anh": 7.5,
-        "chuyen": 7.0,
+        "chuyen": 7,
         "tong": 35.25
     },
     {
@@ -8117,7 +8117,7 @@
         "toan": 8.25,
         "anh": 6.75,
         "chuyen": 3.25,
-        "tong": 27.0
+        "tong": 27
     },
     {
         "stt": 581,
@@ -8130,7 +8130,7 @@
         "van": 4.5,
         "toan": 7.25,
         "anh": 4.75,
-        "chuyen": 5.0,
+        "chuyen": 5,
         "tong": 26.5
     },
     {
@@ -8142,9 +8142,9 @@
         "school": "Trường THCS Bến Tre",
         "room": "P02",
         "van": 6.5,
-        "toan": 8.0,
+        "toan": 8,
         "anh": 8.75,
-        "chuyen": 9.0,
+        "chuyen": 9,
         "tong": 41.25
     },
     {
@@ -8157,7 +8157,7 @@
         "room": "P02",
         "van": 6.58,
         "toan": 8.75,
-        "anh": 9.0,
+        "anh": 9,
         "chuyen": 5.75,
         "tong": 35.83
     },
@@ -8169,7 +8169,7 @@
         "birthday": "24/12/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P02",
-        "van": 7.0,
+        "van": 7,
         "toan": 7.58,
         "anh": 7.5,
         "chuyen": 5.25,
@@ -8184,10 +8184,10 @@
         "school": "Trường THCS Tân Lợi Thạnh",
         "room": "P02",
         "van": 3.75,
-        "toan": 6.0,
+        "toan": 6,
         "anh": 5.25,
-        "chuyen": 4.0,
-        "tong": 23.0
+        "chuyen": 4,
+        "tong": 23
     },
     {
         "stt": 586,
@@ -8201,7 +8201,7 @@
         "toan": 8.25,
         "anh": 7.75,
         "chuyen": 6.75,
-        "tong": 35.0
+        "tong": 35
     },
     {
         "stt": 587,
@@ -8211,10 +8211,10 @@
         "birthday": "13/07/2011",
         "school": "Trường THCS Ba Tri",
         "room": "P02",
-        "van": 6.0,
-        "toan": 10.0,
+        "van": 6,
+        "toan": 10,
         "anh": 9.75,
-        "chuyen": 8.0,
+        "chuyen": 8,
         "tong": 41.75
     },
     {
@@ -8228,7 +8228,7 @@
         "van": 7.5,
         "toan": 7.5,
         "anh": 8.75,
-        "chuyen": 5.0,
+        "chuyen": 5,
         "tong": 33.75
     },
     {
@@ -8239,11 +8239,11 @@
         "birthday": "14/11/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P02",
-        "van": 7.0,
+        "van": 7,
         "toan": 9.25,
         "anh": 9.75,
-        "chuyen": 8.0,
-        "tong": 42.0
+        "chuyen": 8,
+        "tong": 42
     },
     {
         "stt": 590,
@@ -8254,7 +8254,7 @@
         "school": "Trường THCS Nguyễn Văn Tư",
         "room": "P02",
         "van": 5.5,
-        "toan": 8.0,
+        "toan": 8,
         "anh": 9.25,
         "chuyen": 5.75,
         "tong": 34.25
@@ -8269,7 +8269,7 @@
         "room": "P02",
         "van": 5.25,
         "toan": 8.5,
-        "anh": 7.0,
+        "anh": 7,
         "chuyen": 4.5,
         "tong": 29.75
     },
@@ -8282,7 +8282,7 @@
         "school": "Trường THCS Bến Tre",
         "room": "P02",
         "van": 6.75,
-        "toan": 9.0,
+        "toan": 9,
         "anh": 7.5,
         "chuyen": 7.75,
         "tong": 38.75
@@ -8309,8 +8309,8 @@
         "birthday": "02/06/2011",
         "school": "Trường THCS Ngô Văn Cấn",
         "room": "P02",
-        "van": 7.0,
-        "toan": 8.0,
+        "van": 7,
+        "toan": 8,
         "anh": 9.25,
         "chuyen": 4.5,
         "tong": 33.25
@@ -8323,9 +8323,9 @@
         "birthday": "29/07/2011",
         "school": "Trường THCS Nguyễn Văn Tư",
         "room": "P02",
-        "van": 6.0,
+        "van": 6,
         "toan": 8.25,
-        "anh": 7.0,
+        "anh": 7,
         "chuyen": 4.5,
         "tong": 30.25
     },
@@ -8338,7 +8338,7 @@
         "school": "Trường THCS Phong Nẫm",
         "room": "P02",
         "van": 4.75,
-        "toan": 6.0,
+        "toan": 6,
         "anh": 6.25,
         "chuyen": 1.75,
         "tong": 20.5
@@ -8351,11 +8351,11 @@
         "birthday": "02/11/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P03",
-        "van": 6.0,
+        "van": 6,
         "toan": 8.5,
-        "anh": 10.0,
+        "anh": 10,
         "chuyen": 8.75,
-        "tong": 42.0
+        "tong": 42
     },
     {
         "stt": 598,
@@ -8368,8 +8368,8 @@
         "van": 6.5,
         "toan": 8.25,
         "anh": 9.25,
-        "chuyen": 6.0,
-        "tong": 36.0
+        "chuyen": 6,
+        "tong": 36
     },
     {
         "stt": 599,
@@ -8379,7 +8379,7 @@
         "birthday": "12/02/2011",
         "school": "Trường THCS An Ngãi Tây",
         "room": "P03",
-        "van": 5.0,
+        "van": 5,
         "toan": 8.5,
         "anh": 8.5,
         "chuyen": 6.75,
@@ -8395,7 +8395,7 @@
         "room": "P03",
         "van": 5.5,
         "toan": 8.25,
-        "anh": 8.0,
+        "anh": 8,
         "chuyen": 6.5,
         "tong": 34.75
     },
@@ -8421,7 +8421,7 @@
         "birthday": "27/09/2011",
         "school": "Trường THCS Nguyễn Văn Bánh",
         "room": "P03",
-        "van": 5.0,
+        "van": 5,
         "toan": 7.25,
         "anh": 5.5,
         "chuyen": 2.75,
@@ -8435,9 +8435,9 @@
         "birthday": "01/01/2011",
         "school": "Trường Trung Học Cơ Sở Giồng Trôm",
         "room": "P03",
-        "van": 7.0,
+        "van": 7,
         "toan": 9.25,
-        "anh": 10.0,
+        "anh": 10,
         "chuyen": 6.75,
         "tong": 39.75
     },
@@ -8450,8 +8450,8 @@
         "school": "Trường THCS Tân Thạch",
         "room": "P03",
         "van": 5.75,
-        "toan": 8.0,
-        "anh": 8.0,
+        "toan": 8,
+        "anh": 8,
         "chuyen": 3.25,
         "tong": 28.25
     },
@@ -8493,8 +8493,8 @@
         "room": "P03",
         "van": 4.75,
         "toan": 7.75,
-        "anh": 7.0,
-        "chuyen": 2.0,
+        "anh": 7,
+        "chuyen": 2,
         "tong": 23.5
     },
     {
@@ -8505,11 +8505,11 @@
         "birthday": "07/08/2011",
         "school": "Trường THCS Vĩnh Phúc",
         "room": "P03",
-        "van": 5.0,
+        "van": 5,
         "toan": 4.75,
         "anh": 4.25,
-        "chuyen": 2.0,
-        "tong": 18.0
+        "chuyen": 2,
+        "tong": 18
     },
     {
         "stt": 609,
@@ -8522,7 +8522,7 @@
         "van": 4.5,
         "toan": 2.5,
         "anh": 3.5,
-        "chuyen": 0.0,
+        "chuyen": 0,
         "tong": 10.5
     },
     {
@@ -8537,7 +8537,7 @@
         "toan": 6.75,
         "anh": 8.5,
         "chuyen": 3.75,
-        "tong": 27.0
+        "tong": 27
     },
     {
         "stt": 611,
@@ -8551,7 +8551,7 @@
         "toan": 7.25,
         "anh": 6.75,
         "chuyen": 5.75,
-        "tong": 31.0
+        "tong": 31
     },
     {
         "stt": 612,
@@ -8561,7 +8561,7 @@
         "birthday": "13/06/2011",
         "school": "Trường Trung học cơ sở Châu Bình",
         "room": "P03",
-        "van": 8.0,
+        "van": 8,
         "toan": 7.75,
         "anh": 9.75,
         "chuyen": 4.5,
@@ -8590,7 +8590,7 @@
         "school": "Trường THCS Bến Tre",
         "room": "P03",
         "van": 6.25,
-        "toan": 7.0,
+        "toan": 7,
         "anh": 8.75,
         "chuyen": 4.25,
         "tong": 30.5
@@ -8606,7 +8606,7 @@
         "van": 5.25,
         "toan": 6.5,
         "anh": 6.5,
-        "chuyen": 3.0,
+        "chuyen": 3,
         "tong": 24.25
     },
     {
@@ -8618,7 +8618,7 @@
         "school": "TRƯỜNG TRUNG HỌC CƠ SỞ CHỢ LÁCH",
         "room": "P03",
         "van": 6.75,
-        "toan": 6.0,
+        "toan": 6,
         "anh": 7.5,
         "chuyen": 1.75,
         "tong": 23.75
@@ -8634,7 +8634,7 @@
         "van": 6.75,
         "toan": 6.25,
         "anh": 6.75,
-        "chuyen": 2.0,
+        "chuyen": 2,
         "tong": 23.75
     },
     {
@@ -8648,8 +8648,8 @@
         "van": 4.5,
         "toan": 7.75,
         "anh": 4.75,
-        "chuyen": 5.0,
-        "tong": 27.0
+        "chuyen": 5,
+        "tong": 27
     },
     {
         "stt": 619,
@@ -8663,7 +8663,7 @@
         "toan": 6.25,
         "anh": 8.5,
         "chuyen": 2.25,
-        "tong": 26.0
+        "tong": 26
     },
     {
         "stt": 620,
@@ -8687,11 +8687,11 @@
         "birthday": "14/05/2011",
         "school": "Trường THCS Tân Lợi Thạnh",
         "room": "P04",
-        "van": 7.0,
+        "van": 7,
         "toan": 7.75,
         "anh": 6.25,
-        "chuyen": 6.0,
-        "tong": 33.0
+        "chuyen": 6,
+        "tong": 33
     },
     {
         "stt": 622,
@@ -8703,9 +8703,9 @@
         "room": "P04",
         "van": 5.75,
         "toan": 7.75,
-        "anh": 9.0,
+        "anh": 9,
         "chuyen": 3.75,
-        "tong": 30.0
+        "tong": 30
     },
     {
         "stt": 623,
@@ -8715,7 +8715,7 @@
         "birthday": "08/11/2011",
         "school": "Trường THCS Tân Thạch",
         "room": "P04",
-        "van": 7.0,
+        "van": 7,
         "toan": 7.25,
         "anh": 7.5,
         "chuyen": 5.25,
@@ -8760,7 +8760,7 @@
         "van": 6.75,
         "toan": 9.25,
         "anh": 9.75,
-        "chuyen": 7.0,
+        "chuyen": 7,
         "tong": 39.75
     },
     {
@@ -8771,7 +8771,7 @@
         "birthday": "29/04/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P04",
-        "van": 6.0,
+        "van": 6,
         "toan": 7.5,
         "anh": 8.25,
         "chuyen": 5.25,
@@ -8781,13 +8781,13 @@
         "stt": 628,
         "subject": "T",
         "sbd": "010080",
-        "name": "Trương Hiểu Nghĩa",
+        "name": "Trương Hiếu Nghĩa",
         "birthday": "05/07/2011",
         "school": "Trường THCS Mỹ Hóa",
         "room": "P04",
         "van": 6.75,
-        "toan": 6.0,
-        "anh": 6.0,
+        "toan": 6,
+        "anh": 6,
         "chuyen": 1.75,
         "tong": 22.25
     },
@@ -8801,7 +8801,7 @@
         "room": "P04",
         "van": 4.5,
         "toan": 6.25,
-        "anh": 7.0,
+        "anh": 7,
         "chuyen": 1.75,
         "tong": 21.25
     },
@@ -8813,11 +8813,11 @@
         "birthday": "01/11/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P04",
-        "van": 7.0,
+        "van": 7,
         "toan": 8.75,
         "anh": 8.25,
         "chuyen": 5.5,
-        "tong": 35.0
+        "tong": 35
     },
     {
         "stt": 631,
@@ -8825,11 +8825,11 @@
         "sbd": "010083",
         "name": "Tống Lê Hoàng Ngọc",
         "birthday": "12/02/2011",
-        "school": "Trường Trung học cơ sở Tân Xuân",
+        "school": "Trường trung học cơ sở Tân Xuân",
         "room": "P04",
         "van": 6.25,
         "toan": 8.25,
-        "anh": 8.0,
+        "anh": 8,
         "chuyen": 7.5,
         "tong": 37.5
     },
@@ -8842,7 +8842,7 @@
         "school": "Trường THCS Nguyễn Thị Hai",
         "room": "P04",
         "van": 4.75,
-        "toan": 4.0,
+        "toan": 4,
         "anh": 2.5,
         "chuyen": 0.25,
         "tong": 11.75
@@ -8869,11 +8869,11 @@
         "birthday": "16/04/2011",
         "school": "Trường Trung học cơ sở Trần Thị Nho",
         "room": "P04",
-        "van": 8.0,
+        "van": 8,
         "toan": 8.25,
         "anh": 9.25,
         "chuyen": 4.25,
-        "tong": 34.0
+        "tong": 34
     },
     {
         "stt": 635,
@@ -8886,7 +8886,7 @@
         "van": 5.75,
         "toan": 6.25,
         "anh": 6.75,
-        "chuyen": 2.0,
+        "chuyen": 2,
         "tong": 22.75
     },
     {
@@ -8898,7 +8898,7 @@
         "school": "Trường THCS Sơn Đông",
         "room": "P04",
         "van": 6.25,
-        "toan": 8.0,
+        "toan": 8,
         "anh": 9.25,
         "chuyen": 4.5,
         "tong": 32.5
@@ -8912,7 +8912,7 @@
         "school": "Trường THCS Bến Tre",
         "room": "P04",
         "van": 5.5,
-        "toan": 9.0,
+        "toan": 9,
         "anh": 8.5,
         "chuyen": 8.25,
         "tong": 39.5
@@ -8929,7 +8929,7 @@
         "toan": 8.25,
         "anh": 5.5,
         "chuyen": 3.25,
-        "tong": 25.0
+        "tong": 25
     },
     {
         "stt": 639,
@@ -8941,7 +8941,7 @@
         "room": "P04",
         "van": 6.75,
         "toan": 7.5,
-        "anh": 7.0,
+        "anh": 7,
         "chuyen": 1.5,
         "tong": 24.25
     },
@@ -8955,8 +8955,8 @@
         "room": "P04",
         "van": 5.25,
         "toan": 6.5,
-        "anh": 7.0,
-        "chuyen": 2.0,
+        "anh": 7,
+        "chuyen": 2,
         "tong": 22.75
     },
     {
@@ -8982,10 +8982,10 @@
         "school": "Trường TH-THCS An Hiệp",
         "room": "P04",
         "van": 5.75,
-        "toan": 6.0,
+        "toan": 6,
         "anh": 6.25,
-        "chuyen": 2.0,
-        "tong": 22.0
+        "chuyen": 2,
+        "tong": 22
     },
     {
         "stt": 643,
@@ -8995,7 +8995,7 @@
         "birthday": "06/09/2011",
         "school": "Trường THCS Mỹ Hóa",
         "room": "P04",
-        "van": 6.0,
+        "van": 6,
         "toan": 6.75,
         "anh": 5.25,
         "chuyen": 2.25,
@@ -9023,10 +9023,10 @@
         "birthday": "04/09/2011",
         "school": "Trường PT Hermann Gmeiner Bến Tre",
         "room": "P05",
-        "van": 6.0,
-        "toan": 8.0,
+        "van": 6,
+        "toan": 8,
         "anh": 8.25,
-        "chuyen": 6.0,
+        "chuyen": 6,
         "tong": 34.25
     },
     {
@@ -9055,7 +9055,7 @@
         "toan": 7.75,
         "anh": 9.25,
         "chuyen": 6.25,
-        "tong": 36.0
+        "tong": 36
     },
     {
         "stt": 648,
@@ -9067,8 +9067,8 @@
         "room": "P05",
         "van": 6.75,
         "toan": 7.75,
-        "anh": 8.0,
-        "chuyen": 2.0,
+        "anh": 8,
+        "chuyen": 2,
         "tong": 26.5
     },
     {
@@ -9079,10 +9079,10 @@
         "birthday": "15/06/2011",
         "school": "Trường THCS Vĩnh Phúc",
         "room": "P05",
-        "van": 6.0,
+        "van": 6,
         "toan": 6.25,
-        "anh": 5.0,
-        "chuyen": 3.0,
+        "anh": 5,
+        "chuyen": 3,
         "tong": 23.25
     },
     {
@@ -9093,7 +9093,7 @@
         "birthday": "08/09/2011",
         "school": "Trường THCS Vĩnh Phúc",
         "room": "P05",
-        "van": 5.0,
+        "van": 5,
         "toan": 4.5,
         "anh": 5.5,
         "chuyen": 0.75,
@@ -9108,9 +9108,9 @@
         "school": "Trường THCS Bến Tre",
         "room": "P05",
         "van": 7.25,
-        "toan": 10.0,
-        "anh": 10.0,
-        "chuyen": 9.0,
+        "toan": 10,
+        "anh": 10,
+        "chuyen": 9,
         "tong": 45.25
     },
     {
@@ -9136,9 +9136,9 @@
         "school": "Trường THCS Phú Hưng",
         "room": "P05",
         "van": 5.75,
-        "toan": 7.0,
+        "toan": 7,
         "anh": 6.5,
-        "chuyen": 3.0,
+        "chuyen": 3,
         "tong": 25.25
     },
     {
@@ -9151,8 +9151,8 @@
         "room": "P05",
         "van": 4.75,
         "toan": 8.5,
-        "anh": 9.0,
-        "chuyen": 2.0,
+        "anh": 9,
+        "chuyen": 2,
         "tong": 26.25
     },
     {
@@ -9164,10 +9164,10 @@
         "school": "Trường THCS Mỹ Hóa",
         "room": "P05",
         "van": 5.5,
-        "toan": 6.0,
+        "toan": 6,
         "anh": 6.5,
-        "chuyen": 2.0,
-        "tong": 22.0
+        "chuyen": 2,
+        "tong": 22
     },
     {
         "stt": 656,
@@ -9178,10 +9178,10 @@
         "school": "Trường THCS Bến Tre",
         "room": "P05",
         "van": 6.75,
-        "toan": 7.0,
+        "toan": 7,
         "anh": 8.75,
         "chuyen": 7.75,
-        "tong": 38.0
+        "tong": 38
     },
     {
         "stt": 657,
@@ -9191,7 +9191,7 @@
         "birthday": "03/07/2011",
         "school": "Trường THCS Mỹ Hóa",
         "room": "P05",
-        "van": 6.0,
+        "van": 6,
         "toan": 6.75,
         "anh": 2.5,
         "chuyen": 3.25,
@@ -9222,7 +9222,7 @@
         "van": 2.5,
         "toan": 6.5,
         "anh": 6.5,
-        "chuyen": 1.0,
+        "chuyen": 1,
         "tong": 17.5
     },
     {
@@ -9233,9 +9233,9 @@
         "birthday": "05/08/2011",
         "school": "Trường THCS Tân Thạch",
         "room": "P05",
-        "van": 6.0,
-        "toan": 9.0,
-        "anh": 9.0,
+        "van": 6,
+        "toan": 9,
+        "anh": 9,
         "chuyen": 4.75,
         "tong": 33.5
     },
@@ -9247,9 +9247,9 @@
         "birthday": "02/10/2011",
         "school": "THCS Đặng Thị Hai",
         "room": "P05",
-        "van": 4.0,
+        "van": 4,
         "toan": 8.25,
-        "anh": 7.0,
+        "anh": 7,
         "chuyen": 5.25,
         "tong": 29.75
     },
@@ -9276,9 +9276,9 @@
         "school": "Trường THCS Mỹ Hóa",
         "room": "P05",
         "van": 5.25,
-        "toan": 7.0,
+        "toan": 7,
         "anh": 7.25,
-        "chuyen": 3.0,
+        "chuyen": 3,
         "tong": 25.5
     },
     {
@@ -9290,10 +9290,10 @@
         "school": "Trường THCS Vĩnh Phúc",
         "room": "P05",
         "van": 5.75,
-        "toan": 7.0,
+        "toan": 7,
         "anh": 7.75,
         "chuyen": 3.75,
-        "tong": 28.0
+        "tong": 28
     },
     {
         "stt": 665,
@@ -9307,7 +9307,7 @@
         "toan": 7.75,
         "anh": 9.5,
         "chuyen": 4.5,
-        "tong": 32.0
+        "tong": 32
     },
     {
         "stt": 666,
@@ -9319,7 +9319,7 @@
         "room": "P05",
         "van": 5.5,
         "toan": 7.5,
-        "anh": 9.0,
+        "anh": 9,
         "chuyen": 3.25,
         "tong": 28.5
     },
@@ -9347,7 +9347,7 @@
         "room": "P05",
         "van": 4.25,
         "toan": 5.5,
-        "anh": 4.0,
+        "anh": 4,
         "chuyen": 0.5,
         "tong": 14.75
     },
@@ -9360,7 +9360,7 @@
         "school": "Trường THCS Vĩnh Phúc",
         "room": "P06",
         "van": 5.5,
-        "toan": 7.0,
+        "toan": 7,
         "anh": 7.75,
         "chuyen": 1.75,
         "tong": 23.75
@@ -9376,7 +9376,7 @@
         "van": 5.75,
         "toan": 6.5,
         "anh": 7.25,
-        "chuyen": 3.0,
+        "chuyen": 3,
         "tong": 25.5
     },
     {
@@ -9403,9 +9403,9 @@
         "room": "P06",
         "van": 5.5,
         "toan": 7.5,
-        "anh": 8.0,
+        "anh": 8,
         "chuyen": 4.5,
-        "tong": 30.0
+        "tong": 30
     },
     {
         "stt": 673,
@@ -9425,15 +9425,15 @@
         "stt": 674,
         "subject": "T",
         "sbd": "010126",
-        "name": "Nguyễn Thuận Trí",
+        "name": "Nguyễn Thuận Trị",
         "birthday": "23/06/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P06",
         "van": 5.75,
         "toan": 6.25,
-        "anh": 9.0,
+        "anh": 9,
         "chuyen": 3.5,
-        "tong": 28.0
+        "tong": 28
     },
     {
         "stt": 675,
@@ -9441,10 +9441,10 @@
         "sbd": "010127",
         "name": "Nguyễn Thành Trọng",
         "birthday": "24/11/2011",
-        "school": "Trường Trung học cơ sở Lương Quới",
+        "school": "Trường trung học cơ sở Lương Quới",
         "room": "P06",
         "van": 5.75,
-        "toan": 7.0,
+        "toan": 7,
         "anh": 9.5,
         "chuyen": 7.5,
         "tong": 37.25
@@ -9459,7 +9459,7 @@
         "room": "P06",
         "van": 5.75,
         "toan": 8.25,
-        "anh": 8.0,
+        "anh": 8,
         "chuyen": 3.25,
         "tong": 28.5
     },
@@ -9471,11 +9471,11 @@
         "birthday": "16/11/2011",
         "school": "Trường THCS Phú Hưng",
         "room": "P06",
-        "van": 6.0,
-        "toan": 8.0,
+        "van": 6,
+        "toan": 8,
         "anh": 8.5,
         "chuyen": 2.25,
-        "tong": 27.0
+        "tong": 27
     },
     {
         "stt": 678,
@@ -9488,14 +9488,14 @@
         "van": 7.25,
         "toan": 8.75,
         "anh": 9.5,
-        "chuyen": 7.0,
+        "chuyen": 7,
         "tong": 39.5
     },
     {
         "stt": 679,
         "subject": "T",
         "sbd": "010131",
-        "name": "Phan Nguyễn Bạch Tùng",
+        "name": "Phan Nguyễn Bách Tùng",
         "birthday": "07/12/2011",
         "school": "Trường THCS Vĩnh Phúc",
         "room": "P06",
@@ -9514,7 +9514,7 @@
         "school": "Trường Trung học cơ sở Tam Phước",
         "room": "P06",
         "van": 6.5,
-        "toan": 6.0,
+        "toan": 6,
         "anh": 6.5,
         "chuyen": 1.75,
         "tong": 22.5
@@ -9527,9 +9527,9 @@
         "birthday": "06/04/2011",
         "school": "Trường THCS Tân Trung",
         "room": "P06",
-        "van": 7.0,
+        "van": 7,
         "toan": 7.25,
-        "anh": 7.0,
+        "anh": 7,
         "chuyen": 6.25,
         "tong": 33.75
     },
@@ -9541,11 +9541,11 @@
         "birthday": "17/12/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P06",
-        "van": 6.0,
+        "van": 6,
         "toan": 8.25,
         "anh": 8.75,
-        "chuyen": 2.0,
-        "tong": 27.0
+        "chuyen": 2,
+        "tong": 27
     },
     {
         "stt": 683,
@@ -9570,10 +9570,10 @@
         "school": "Trường THCS Vĩnh Phúc",
         "room": "P06",
         "van": 6.5,
-        "toan": 7.0,
+        "toan": 7,
         "anh": 7.5,
         "chuyen": 5.5,
-        "tong": 32.0
+        "tong": 32
     },
     {
         "stt": 685,
@@ -9597,7 +9597,7 @@
         "birthday": "14/03/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P06",
-        "van": 6.0,
+        "van": 6,
         "toan": 7.25,
         "anh": 9.25,
         "chuyen": 1.5,
@@ -9612,7 +9612,7 @@
         "school": "Trường THCS Mỹ Hóa",
         "room": "P06",
         "van": 5.25,
-        "toan": 7.0,
+        "toan": 7,
         "anh": 6.75,
         "chuyen": 2.75,
         "tong": 24.5
@@ -9625,10 +9625,10 @@
         "birthday": "09/12/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P06",
-        "van": 6.0,
+        "van": 6,
         "toan": 8.25,
         "anh": 9.25,
-        "chuyen": 6.0,
+        "chuyen": 6,
         "tong": 35.5
     },
     {
@@ -9639,10 +9639,10 @@
         "birthday": "13/12/2011",
         "school": "Trường THCS Bến Tre",
         "room": "P06",
-        "van": 6.0,
+        "van": 6,
         "toan": 8.5,
-        "anh": 10.0,
-        "chuyen": 6.0,
+        "anh": 10,
+        "chuyen": 6,
         "tong": 36.5
     },
     {
@@ -9654,9 +9654,9 @@
         "school": "Trường THCS Bến Tre",
         "room": "P06",
         "van": 6.25,
-        "toan": 7.0,
+        "toan": 7,
         "anh": 7.5,
-        "chuyen": 4.0,
+        "chuyen": 4,
         "tong": 28.75
     }
 ]
