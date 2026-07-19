@@ -59,6 +59,7 @@ export function getChartThemeSettings() {
 function registerChart(id, chart) {
     if (activeCharts.has(id)) {
         activeCharts.get(id).destroy();
+        activeCharts.delete(id);
     }
     activeCharts.set(id, chart);
 }
@@ -168,7 +169,8 @@ function getCommonOptions(settings, isHorizontal = false) {
 export function renderBarChart(canvasId, labels, data, datasetLabel) {
     const canvas = document.getElementById(canvasId);
     if (!canvas) return;
-
+    const existing = Chart.getChart(canvas);
+    if (existing) existing.destroy();
     const ctx = canvas.getContext('2d');
     const settings = getChartThemeSettings();
     const commonOpts = getCommonOptions(settings);
@@ -204,7 +206,8 @@ export function renderBarChart(canvasId, labels, data, datasetLabel) {
 export function renderHorizontalBarChart(canvasId, labels, data, datasetLabel) {
     const canvas = document.getElementById(canvasId);
     if (!canvas) return;
-
+    const existing = Chart.getChart(canvas);
+    if (existing) existing.destroy();
     const ctx = canvas.getContext('2d');
     const settings = getChartThemeSettings();
     const commonOpts = getCommonOptions(settings, true);
@@ -241,7 +244,8 @@ export function renderHorizontalBarChart(canvasId, labels, data, datasetLabel) {
 export function renderPieChart(canvasId, labels, data) {
     const canvas = document.getElementById(canvasId);
     if (!canvas) return;
-
+    const existing = Chart.getChart(canvas);
+    if (existing) existing.destroy();
     const ctx = canvas.getContext('2d');
     const settings = getChartThemeSettings();
 
@@ -315,6 +319,8 @@ export function setupChartDownload(canvasId, downloadBtnId, filename = 'chart.pn
 export function renderGroupedBarChart(canvasId, labels, datasetsDataList) {
     const canvas = document.getElementById(canvasId);
     if (!canvas) return;
+    const existing = Chart.getChart(canvas);
+    if (existing) existing.destroy();
 
     const ctx = canvas.getContext('2d');
     const settings = getChartThemeSettings();
