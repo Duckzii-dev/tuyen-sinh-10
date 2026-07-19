@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             <button onclick="document.getElementById('modal-close-btn').click()" style="margin-top: 25px; background: #3b82f6; color: white; border: none; padding: 10px 30px; border-radius: 6px; font-weight: 600; cursor: pointer; transition: 0.2s;">Đã hiểu</button>
         </div>
     `;
-    
+
     if (!sessionStorage.getItem('notified_disclaimer')) {
         showModal('Thông báo', alertHtml);
         sessionStorage.setItem('notified_disclaimer', 'true');
@@ -83,6 +83,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         registerPageInitializer('subjects', (param) => initSubjectListPage());
         registerPageInitializer('subject-detail', (code) => initSubjectDetailPage(code));
         registerPageInitializer('ranking', initRankingPage);
+        registerPageInitializer('k36', initK36Page);
 
         // Start Router
         await initRouter();
@@ -1221,4 +1222,145 @@ function initRankingPage() {
             printWindow.document.close();
         };
     }
+}
+// ── K36 Class List Page ──
+function initK36Page() {
+    destroyAllCharts();
+    const students = getStudents();
+    const subjects = getSubjects();
+
+    const selectEl = document.getElementById('k36-subject-select');
+    if (!selectEl) return;
+
+    selectEl.innerHTML = subjects.map(s => `<option value="${s}">${getSubjectName(s)} (${s})</option>`).join('');
+
+    const checkDisqualified = (s) => (
+        s.van === null || s.van === undefined || s.van <= 1.0 ||
+        s.toan === null || s.toan === undefined || s.toan <= 1.0 ||
+        s.anh === null || s.anh === undefined || s.anh <= 1.0 ||
+        s.chuyen === null || s.chuyen === undefined || s.chuyen <= 2.0
+    );
+    const roundScore = (n) => Math.round((n ?? 0) * 100) / 100;
+
+    const renderK36 = () => {
+        const subjectCode = selectEl.value;
+        const subjectName = getSubjectName(subjectCode);
+        const quota = getSubjectQuota(subjectCode);
+
+        // Sort & determine passed students
+        const grouped = students.filter(s => s.subject === subjectCode);
+        grouped.sort((a, b) => {
+            const td = roundScore(b.tong) - roundScore(a.tong);
+            if (td !== 0) return td;
+            const cd = roundScore(b.chuyen) - roundScore(a.chuyen);
+            if (cd !== 0) return cd;
+            return a.sbd.localeCompare(b.sbd);
+        });
+
+        const qualified = grouped.filter(s => !checkDisqualified(s));
+        const cutoffIdx = Math.min(quota, qualified.length) - 1;
+        const cutoffScore = cutoffIdx >= 0 ? roundScore(qualified[cutoffIdx].tong) : null;
+        const admitted = cutoffScore !== null ? qualified.filter(s => roundScore(s.tong) >= cutoffScore) : [];
+
+        // Stats
+        const total = admitted.length;
+        const female = admitted.filter(s => s.gender === 'Nữ').length;
+        const male = admitted.filter(s => s.gender === 'Nam').length;
+        const pct = (n) => total > 0 ? `${((n / total) * 100).toFixed(1)}%` : '—';
+
+        document.getElementById('k36-stat-total').textContent = total;
+        document.getElementById('k36-stat-quota-sub').textContent = `Chỉ tiêu: ${quota} học sinh`;
+        document.getElementById('k36-stat-female').textContent = female;
+        document.getElementById('k36-stat-female-pct').textContent = `${pct(female)} tổng số`;
+        document.getElementById('k36-stat-male').textContent = male;
+        document.getElementById('k36-stat-male-pct').textContent = `${pct(male)} tổng số`;
+        document.getElementById('k36-stat-cutoff').textContent = cutoffScore !== null ? cutoffScore.toFixed(2) : '—';
+        document.getElementById('k36-stat-cutoff-sub').textContent = cutoffScore !== null ? `Người thứ ${Math.min(quota, qualified.length)} đậu` : 'Chưa xác định';
+
+        // District breakdown
+        const districtMap = {};
+        admitted.forEach(s => {
+            const d = s.district || 'Chưa rõ';
+            if (!districtMap[d]) districtMap[d] = { count: 0, male: 0, female: 0 };
+            districtMap[d].count++;
+            if (s.gender === 'Nam') districtMap[d].male++;
+            if (s.gender === 'Nữ') districtMap[d].female++;
+        });
+        const distEntries = Object.entries(districtMap).sort((a, b) => b[1].count - a[1].count);
+
+        const distTbody = document.getElementById('k36-district-tbody');
+        if (distTbody) {
+            distTbody.innerHTML = distEntries.map(([d, v]) => `
+                <tr>
+                    <td><strong>${d}</strong></td>
+                    <td>${v.count}</td>
+                    <td>${pct(v.count)}</td>
+                    <td>${v.male}</td>
+                    <td>${v.female}</td>
+                </tr>
+            `).join('');
+        }
+
+        renderPieChart('k36-district-pie', distEntries.map(([d]) => d), distEntries.map(([, v]) => v.count));
+        setupChartDownload('k36-district-pie', 'k36-dist-dl', 'phan_bo_huyen_k36.png');
+
+        const makeRow = (s, rank) => `
+            <tr>
+                <td><strong>${rank}</strong></td>
+                <td>${s.sbd}</td>
+                <td>${s.name}</td>
+                <td>${s.gender}</td>
+                <td>${s.birthday}</td>
+                <td>${s.district}</td>
+                <td>${s.school}</td>
+                <td>${s.room}</td>
+                <td>${s.van ?? '—'}</td>
+                <td>${s.toan ?? '—'}</td>
+                <td>${s.anh ?? '—'}</td>
+                <td>${s.chuyen ?? '—'}</td>
+                <td><strong>${s.tong ?? '—'}</strong></td>
+            </tr>`;
+
+        const makeShortRow = (s, rank) => `
+            <tr>
+                <td><strong>${rank}</strong></td>
+                <td>${s.sbd}</td>
+                <td>${s.name}</td>
+                <td>${s.gender}</td>
+                <td>${s.district}</td>
+                <td>${s.school}</td>
+                <td><strong>${s.tong ?? '—'}</strong></td>
+            </tr>`;
+
+        const splitPanel = document.getElementById('k36-class-split-panel');
+        const singlePanel = document.getElementById('k36-single-class-panel');
+
+        // Toán & Anh = 2 classes of 35
+        if (quota === 70) {
+            if (splitPanel) splitPanel.style.display = '';
+            if (singlePanel) singlePanel.style.display = 'none';
+
+            const classA = admitted.slice(0, 35);
+            const classB = admitted.slice(35);
+
+            document.getElementById('k36-class-a-title').textContent = `Chuyên ${subjectName} 1 — K36`;
+            document.getElementById('k36-class-a-sub').textContent = `${classA.length} học sinh • Hạng 1–35`;
+            document.getElementById('k36-class-b-title').textContent = `Chuyên ${subjectName} 2 — K36`;
+            document.getElementById('k36-class-b-sub').textContent = `${classB.length} học sinh • Hạng 36–70`;
+
+            document.getElementById('k36-class-a-tbody').innerHTML = classA.map((s, i) => makeShortRow(s, i + 1)).join('');
+            document.getElementById('k36-class-b-tbody').innerHTML = classB.map((s, i) => makeShortRow(s, i + 36)).join('');
+        } else {
+            if (splitPanel) splitPanel.style.display = 'none';
+            if (singlePanel) singlePanel.style.display = '';
+
+            document.getElementById('k36-single-title').textContent = `Chuyên ${subjectName} — K36`;
+            document.getElementById('k36-single-count').textContent = `${total} học sinh`;
+
+            document.getElementById('k36-single-tbody').innerHTML = admitted.map((s, i) => makeRow(s, i + 1)).join('');
+        }
+    };
+
+    renderK36();
+    selectEl.addEventListener('change', renderK36);
 }

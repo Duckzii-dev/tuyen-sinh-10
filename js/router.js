@@ -30,6 +30,7 @@ const ROUTE_MAP = {
     '/competition': 'competition',
     '/subjects': 'subjects',
     '/ranking': 'ranking',
+    '/k36': 'k36',
 };
 
 export function registerPageInitializer(page, initFn) {
@@ -125,6 +126,9 @@ function setPageMeta(routeInfo) {
     } else if (route === 'ranking') {
         updateBreadcrumb([{ label: 'Xếp hạng tuyển sinh', link: '/ranking' }]);
         updateActiveNavItem('/ranking');
+    } else if (route === 'k36') {
+        updateBreadcrumb([{ label: 'Danh sách lớp K36', link: '/k36' }]);
+        updateActiveNavItem('/k36');
     } else if (route === 'subject-detail') {
         updateBreadcrumb([
             { label: 'Danh sách môn', link: '/subjects' },
@@ -244,6 +248,7 @@ async function handleRoute() {
         else if (route === 'charts') templatePath = '/chartss.html';
         else if (route === 'competition') templatePath = '/competitionn.html';
         else if (route === 'ranking') templatePath = '/rankingg.html';
+        else if (route === 'k36') templatePath = '/k36.html';
         else if (route === 'subject-detail' || route === 'subjects') templatePath = '/subjectt.html';
 
         if (templatePath) {
